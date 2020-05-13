@@ -1,0 +1,3210 @@
+[
+ {
+   "Name": "Admiral",
+   "Personality": "M Cranky",
+   "Species": "Bi",
+   "Birthday": "January 27",
+   "Cathphrase": "aye aye",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/52/NH-Admiral_poster.png/revision/latest?cb=20200328165653"
+ },
+ {
+   "Name": "Agent S",
+   "Personality": "F Peppy",
+   "Species": "Squirrel",
+   "Birthday": "July 2",
+   "Cathphrase": "sidekick",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/NH-Agent_S_poster.png/revision/latest?cb=20200410184209"
+ },
+ {
+   "Name": "Agnes",
+   "Personality": "F Sisterly",
+   "Species": "Pig",
+   "Birthday": "April 21",
+   "Cathphrase": "snuffle",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e8/NH-Agnes_poster.png/revision/latest?cb=20200410185748"
+ },
+ {
+   "Name": "Al",
+   "Personality": "M Lazy",
+   "Species": "Gorilla",
+   "Birthday": "October 18",
+   "Cathphrase": "Ayyeeee",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/90/NH-Al_poster.png/revision/latest?cb=20200328180328"
+ },
+ {
+   "Name": "Alfonso",
+   "Personality": "M Lazy",
+   "Species": "Alligator",
+   "Birthday": "June 9",
+   "Cathphrase": "it'sa me",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0d/NH-Alfonso_poster.png/revision/latest?cb=20200328180336"
+ },
+ {
+   "Name": "Alice",
+   "Personality": "F Normal",
+   "Species": "Koala",
+   "Birthday": "August 19",
+   "Cathphrase": "guvnor",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/96/NH-Alice_poster.png/revision/latest?cb=20200328180343"
+ },
+ {
+   "Name": "Alli",
+   "Personality": "F Snooty",
+   "Species": "Alligator",
+   "Birthday": "November 8",
+   "Cathphrase": "graaagh",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e8/NH-Alli_poster.png/revision/latest?cb=20200328180350"
+ },
+ {
+   "Name": "Amelia",
+   "Personality": "F Snooty",
+   "Species": "Eagle",
+   "Birthday": "November 19",
+   "Cathphrase": "cuz",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9d/NH-Amelia_poster.png/revision/latest?cb=20200410191249"
+ },
+ {
+   "Name": "Anabelle",
+   "Personality": "F Peppy",
+   "Species": "Anteater",
+   "Birthday": "February 16",
+   "Cathphrase": "snorty",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bd/NH-Anabelle_poster.png/revision/latest?cb=20200328180403"
+ },
+ {
+   "Name": "Anchovy",
+   "Personality": "M Lazy",
+   "Species": "Bi",
+   "Birthday": "March 4",
+   "Cathphrase": "chuurp",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fc/NH-Anchovy_poster.png/revision/latest?cb=20200328180410"
+ },
+ {
+   "Name": "Ankha",
+   "Personality": "F Snooty",
+   "Species": "Cat",
+   "Birthday": "September 22",
+   "Cathphrase": "me meow",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9a/NH-Ankha_poster.png/revision/latest?cb=20200410182618"
+ },
+ {
+   "Name": "Angus",
+   "Personality": "M Cranky",
+   "Species": "Bull",
+   "Birthday": "April 30",
+   "Cathphrase": "macmoo",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e9/NH-Angus_poster.png/revision/latest?cb=20200328180416"
+ },
+ {
+   "Name": "Anicotti",
+   "Personality": "F Peppy",
+   "Species": "Mouse",
+   "Birthday": "February 24",
+   "Cathphrase": "cannoli",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e1/NH-Anicotti_poster.png/revision/latest?cb=20200410192311"
+ },
+ {
+   "Name": "Annalisa",
+   "Personality": "F Normal",
+   "Species": "Anteater",
+   "Birthday": "February 6",
+   "Cathphrase": "gumdrop",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/NH-Annalisa_poster.png/revision/latest?cb=20200328180436"
+ },
+ {
+   "Name": "Annalise",
+   "Personality": "F Snooty",
+   "Species": "Horse",
+   "Birthday": "December 2",
+   "Cathphrase": "nipper",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/26/NH-Annalise_poster.png/revision/latest?cb=20200328180443"
+ },
+ {
+   "Name": "Antonio",
+   "Personality": "M Jock",
+   "Species": "Anteater",
+   "Birthday": "October 20",
+   "Cathphrase": "honk",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d0/NH-Antonio_poster.png/revision/latest?cb=20200328180450"
+ },
+ {
+   "Name": "Apollo",
+   "Personality": "M Cranky",
+   "Species": "Eagle",
+   "Birthday": "July 4",
+   "Cathphrase": "pah",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/78/NH-Apollo_poster.png/revision/latest?cb=20200410191419"
+ },
+ {
+   "Name": "Apple",
+   "Personality": "F Peppy",
+   "Species": "Hamster",
+   "Birthday": "September 24",
+   "Cathphrase": "cheekers",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/37/NH-Apple_poster.png/revision/latest?cb=20200328180516"
+ },
+ {
+   "Name": "Astrid",
+   "Personality": "F Snooty",
+   "Species": "Kangaroo",
+   "Birthday": "September 8",
+   "Cathphrase": "my pet",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3f/NH-Astrid_poster.png/revision/latest?cb=20200328180524"
+ },
+ {
+   "Name": "Audie",
+   "Personality": "F Peppy",
+   "Species": "Wolf",
+   "Birthday": "August 31",
+   "Cathphrase": "Foxtrot",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ac/NH-Audie_poster.png/revision/latest?cb=20200410183255"
+ },
+ {
+   "Name": "Aurora",
+   "Personality": "F Normal",
+   "Species": "Penguin",
+   "Birthday": "January 27",
+   "Cathphrase": "b-b-baby",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/33/NH-Aurora_poster.png/revision/latest?cb=20200410190924"
+ },
+ {
+   "Name": "Ava",
+   "Personality": "F Normal",
+   "Species": "Chicken",
+   "Birthday": "April 28",
+   "Cathphrase": "beaker",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/25/NH-Ava_poster.png/revision/latest?cb=20200328180547"
+ },
+ {
+   "Name": "Avery",
+   "Personality": "M Cranky",
+   "Species": "Eagle",
+   "Birthday": "February 22",
+   "Cathphrase": "skree-haw",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/95/NH-Avery_poster.png/revision/latest?cb=20200410191139"
+ },
+ {
+   "Name": "Axel",
+   "Personality": "M Jock",
+   "Species": "Elephant",
+   "Birthday": "March 23",
+   "Cathphrase": "WHONK",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c5/NH-Axel_poster.png/revision/latest?cb=20200328180603"
+ },
+ {
+   "Name": "Baabara",
+   "Personality": "F Snooty",
+   "Species": "Sheep",
+   "Birthday": "March 28",
+   "Cathphrase": "daahling",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d0/NH-Baabara_poster.png/revision/latest?cb=20200410184807"
+ },
+ {
+   "Name": "Bam",
+   "Personality": "M Jock",
+   "Species": "Deer",
+   "Birthday": "November 7",
+   "Cathphrase": "kablang",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b2/NH-Bam_poster.png/revision/latest?cb=20200328183904"
+ },
+ {
+   "Name": "Bangle",
+   "Personality": "F Peppy",
+   "Species": "Tiger",
+   "Birthday": "August 27",
+   "Cathphrase": "growf",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Bangle_poster.png/revision/latest?cb=20200410183706"
+ },
+ {
+   "Name": "Barold",
+   "Personality": "M Lazy",
+   "Species": "Cub",
+   "Birthday": "March 2",
+   "Cathphrase": "cubby",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/99/NH-Barold_poster.png/revision/latest?cb=20200328183917"
+ },
+ {
+   "Name": "Beau",
+   "Personality": "M Lazy",
+   "Species": "Deer",
+   "Birthday": "April 5",
+   "Cathphrase": "saltlick",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2a/NH-Beau_poster.png/revision/latest?cb=20200328183936"
+ },
+ {
+   "Name": "Bea",
+   "Personality": "F Normal",
+   "Species": "Dog",
+   "Birthday": "October 15",
+   "Cathphrase": "bingo",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/ca/NH-Bea_poster.png/revision/latest?cb=20200328183923"
+ },
+ {
+   "Name": "Beardo",
+   "Personality": "M Smug",
+   "Species": "Bear",
+   "Birthday": "September 27",
+   "Cathphrase": "whiskers",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Beardo_poster.png/revision/latest?cb=20200328183930"
+ },
+ {
+   "Name": "Becky",
+   "Personality": "F Snooty",
+   "Species": "Chicken",
+   "Birthday": "December 9",
+   "Cathphrase": "chicklet",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ec/NH-Becky_poster.png/revision/latest?cb=20200328183943"
+ },
+ {
+   "Name": "Bella",
+   "Personality": "F Peppy",
+   "Species": "Mouse",
+   "Birthday": "December 28",
+   "Cathphrase": "eeks",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1e/NH-Bella_poster.png/revision/latest?cb=20200410192458"
+ },
+ {
+   "Name": "Benedict",
+   "Personality": "M Lazy",
+   "Species": "Chicken",
+   "Birthday": "October 10",
+   "Cathphrase": "uh-hoo",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0e/NH-Benedict_poster.png/revision/latest?cb=20200328183955"
+ },
+ {
+   "Name": "Benjamin",
+   "Personality": "M Lazy",
+   "Species": "Dog",
+   "Birthday": "August 3",
+   "Cathphrase": "alrighty",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5f/NH-Benjamin_poster.png/revision/latest?cb=20200328184001"
+ },
+ {
+   "Name": "Bertha",
+   "Personality": "F Normal",
+   "Species": "Hippo",
+   "Birthday": "April 25",
+   "Cathphrase": "bloop",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3f/NH-Bertha_poster.png/revision/latest?cb=20200328184009"
+ },
+ {
+   "Name": "Bettina",
+   "Personality": "F Normal",
+   "Species": "Mouse",
+   "Birthday": "June 12",
+   "Cathphrase": "eekers",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a9/NH-Bettina_poster.png/revision/latest?cb=20200410192221"
+ },
+ {
+   "Name": "Bianca",
+   "Personality": "F Peppy",
+   "Species": "Tiger",
+   "Birthday": "December 13",
+   "Cathphrase": "glimmer",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e2/NH-Bianca_poster.png/revision/latest?cb=20200410183555"
+ },
+ {
+   "Name": "Biff",
+   "Personality": "M Jock",
+   "Species": "Hippo",
+   "Birthday": "March 29",
+   "Cathphrase": "squirt",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Biff_poster.png/revision/latest?cb=20200328184029"
+ },
+ {
+   "Name": "Big Top",
+   "Personality": "M Lazy",
+   "Species": "Elephant",
+   "Birthday": "October 3",
+   "Cathphrase": "villain",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/ca/NH-Big_Top_poster.png/revision/latest?cb=20200328184036"
+ },
+ {
+   "Name": "Bill",
+   "Personality": "M Jock",
+   "Species": "Duck",
+   "Birthday": "February 1",
+   "Cathphrase": "quacko",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4c/NH-Bill_poster.png/revision/latest?cb=20200328184045"
+ },
+ {
+   "Name": "Billy",
+   "Personality": "M Jock",
+   "Species": "Goat",
+   "Birthday": "March 25",
+   "Cathphrase": "dagnaabit",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d3/NH-Billy_poster.png/revision/latest?cb=20200328184052"
+ },
+ {
+   "Name": "Biskit",
+   "Personality": "M Lazy",
+   "Species": "Dog",
+   "Birthday": "May 13",
+   "Cathphrase": "dog",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c8/NH-Biskit_poster.png/revision/latest?cb=20200328184058"
+ },
+ {
+   "Name": "Bitty",
+   "Personality": "F Snooty",
+   "Species": "Hippo",
+   "Birthday": "October 6",
+   "Cathphrase": "my dear",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Bitty_poster.png/revision/latest?cb=20200328184106"
+ },
+ {
+   "Name": "Blaire",
+   "Personality": "F Snooty",
+   "Species": "Squirrel",
+   "Birthday": "July 3",
+   "Cathphrase": "nutlet",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f3/NH-Blaire_poster.png/revision/latest?cb=20200410184330"
+ },
+ {
+   "Name": "Blanche",
+   "Personality": "F Snooty",
+   "Species": "Ostrich",
+   "Birthday": "December 21",
+   "Cathphrase": "quite so",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/18/NH-Blanche_poster.png/revision/latest?cb=20200410191641"
+ },
+ {
+   "Name": "Bluebear",
+   "Personality": "F Peppy",
+   "Species": "Cub",
+   "Birthday": "June 24",
+   "Cathphrase": "peach",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/50/NH-Bluebear_poster.png/revision/latest?cb=20200328184132"
+ },
+ {
+   "Name": "Bob",
+   "Personality": "M Lazy",
+   "Species": "Cat",
+   "Birthday": "January 1",
+   "Cathphrase": "pthhhp",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/14/NH-Bob_poster.png/revision/latest?cb=20200410181927"
+ },
+ {
+   "Name": "Bonbon",
+   "Personality": "F Peppy",
+   "Species": "Rabbit",
+   "Birthday": "March 3",
+   "Cathphrase": "deelish",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/75/NH-Bonbon_poster.png/revision/latest?cb=20200410185137"
+ },
+ {
+   "Name": "Bones",
+   "Personality": "M Lazy",
+   "Species": "Dog",
+   "Birthday": "August 4",
+   "Cathphrase": "yip yip",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/91/NH-Bones_poster.png/revision/latest?cb=20200328184154"
+ },
+ {
+   "Name": "Boomer",
+   "Personality": "M Lazy",
+   "Species": "Penguin",
+   "Birthday": "February 7",
+   "Cathphrase": "human",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/NH-Boomer_poster.png/revision/latest?cb=20200410190457"
+ },
+ {
+   "Name": "Boone",
+   "Personality": "M Jock",
+   "Species": "Gorilla",
+   "Birthday": "September 12",
+   "Cathphrase": "baboom",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9c/NH-Boone_poster.png/revision/latest?cb=20200328184208"
+ },
+ {
+   "Name": "Boots",
+   "Personality": "M Jock",
+   "Species": "Alligator",
+   "Birthday": "August 7",
+   "Cathphrase": "munchie",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f3/NH-Boots_poster.png/revision/latest?cb=20200328184215"
+ },
+ {
+   "Name": "Boris",
+   "Personality": "M Cranky",
+   "Species": "Pig",
+   "Birthday": "November 6",
+   "Cathphrase": "schnort",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/54/NH-Boris_poster.png/revision/latest?cb=20200410190014"
+ },
+ {
+   "Name": "Boyd",
+   "Personality": "M Cranky",
+   "Species": "Gorilla",
+   "Birthday": "October 1",
+   "Cathphrase": "uh-oh",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9d/NH-Boyd_poster.png/revision/latest?cb=20200328184228"
+ },
+ {
+   "Name": "Bree",
+   "Personality": "F Snooty",
+   "Species": "Mouse",
+   "Birthday": "July 7",
+   "Cathphrase": "cheeseball",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/42/NH-Bree_poster.png/revision/latest?cb=20200410192442"
+ },
+ {
+   "Name": "Broccolo",
+   "Personality": "M Lazy",
+   "Species": "Mouse",
+   "Birthday": "June 30",
+   "Cathphrase": "eat it",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/10/NH-Broccolo_poster.png/revision/latest?cb=20200410192254"
+ },
+ {
+   "Name": "Bruce",
+   "Personality": "M Cranky",
+   "Species": "Deer",
+   "Birthday": "May 26",
+   "Cathphrase": "gruff",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6d/NH-Bruce_poster.png/revision/latest?cb=20200328184302"
+ },
+ {
+   "Name": "Broffina",
+   "Personality": "F Snooty",
+   "Species": "Chicken",
+   "Birthday": "October 24",
+   "Cathphrase": "cluckadoo",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c9/NH-Broffina_poster.png/revision/latest?cb=20200328184255"
+ },
+ {
+   "Name": "Bubbles",
+   "Personality": "F Peppy",
+   "Species": "Hippo",
+   "Birthday": "September 18",
+   "Cathphrase": "hipster",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8d/NH-Bubbles_poster.png/revision/latest?cb=20200328184338"
+ },
+ {
+   "Name": "Buck",
+   "Personality": "M Jock",
+   "Species": "Horse",
+   "Birthday": "April 4",
+   "Cathphrase": "pardner",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/65/NH-Jacob_poster.png/revision/latest?cb=20200328230143"
+ },
+ {
+   "Name": "Bud",
+   "Personality": "M Jock",
+   "Species": "Lion",
+   "Birthday": "August 8",
+   "Cathphrase": "shredded",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b2/NH-Buck_poster.png/revision/latest?cb=20200328184346"
+ },
+ {
+   "Name": "Bunnie",
+   "Personality": "F Peppy",
+   "Species": "Rabbit",
+   "Birthday": "May 9",
+   "Cathphrase": "tee-hee",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bf/NH-Jacques_poster.png/revision/latest?cb=20200328210027"
+ },
+ {
+   "Name": "Butch",
+   "Personality": "M Cranky",
+   "Species": "Dog",
+   "Birthday": "November 1",
+   "Cathphrase": "ROOOOOWF",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ab/NH-Jambette_poster.png/revision/latest?cb=20200328210041"
+ },
+ {
+   "Name": "Buzz",
+   "Personality": "M Cranky",
+   "Species": "Eagle",
+   "Birthday": "December 7",
+   "Cathphrase": "captain",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e6/NH-Jay_poster.png/revision/latest?cb=20200328210056"
+ },
+ {
+   "Name": "Cally",
+   "Personality": "F Normal",
+   "Species": "Squirrel",
+   "Birthday": "September 4",
+   "Cathphrase": "WHEE",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cd/NH-Jeremiah_poster.png/revision/latest?cb=20200328210103"
+ },
+ {
+   "Name": "Camofrog",
+   "Personality": "M Cranky",
+   "Species": "Frog",
+   "Birthday": "June 5",
+   "Cathphrase": "ten-hut",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f2/NH-Buzz_poster.png/revision/latest?cb=20200410191156"
+ },
+ {
+   "Name": "Canberra",
+   "Personality": "F Sisterly",
+   "Species": "Koala",
+   "Birthday": "May 14",
+   "Cathphrase": "nuh uh",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/de/NH-Jitters_poster.png/revision/latest?cb=20200328210109"
+ },
+ {
+   "Name": "Candi",
+   "Personality": "F Peppy",
+   "Species": "Mouse",
+   "Birthday": "April 13",
+   "Cathphrase": "sweetie",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/01/NH-Cally_poster.png/revision/latest?cb=20200410184015"
+ },
+ {
+   "Name": "Carmen",
+   "Personality": "F Peppy",
+   "Species": "Rabbit",
+   "Birthday": "January 6",
+   "Cathphrase": "nougat",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e4/NH-Joey_poster.png/revision/latest?cb=20200328210116"
+ },
+ {
+   "Name": "Caroline",
+   "Personality": "F Normal",
+   "Species": "Squirrel",
+   "Birthday": "July 15",
+   "Cathphrase": "hulaaaa",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/91/NH-Camofrog_poster.png/revision/latest?cb=20200328192559"
+ },
+ {
+   "Name": "Carrie",
+   "Personality": "F Normal",
+   "Species": "Kangaroo",
+   "Birthday": "December 5",
+   "Cathphrase": "little one",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/50/NH-Judy_poster.png/revision/latest?cb=20200328210124"
+ },
+ {
+   "Name": "Cashmere",
+   "Personality": "F Snooty",
+   "Species": "Sheep",
+   "Birthday": "April 2",
+   "Cathphrase": "baaaby",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fd/NH-Canberra_poster.png/revision/latest?cb=20200328192607"
+ },
+ {
+   "Name": "Celia",
+   "Personality": "F Normal",
+   "Species": "Eagle",
+   "Birthday": "March 25",
+   "Cathphrase": "feathers",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fc/NH-Julia_poster.png/revision/latest?cb=20200410191747"
+ },
+ {
+   "Name": "Cesar",
+   "Personality": "M Cranky",
+   "Species": "Gorilla",
+   "Birthday": "September 6",
+   "Cathphrase": "highness",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/ce/NH-Candi_poster.png/revision/latest?cb=20200410192349"
+ },
+ {
+   "Name": "Chadder",
+   "Personality": "M Smug",
+   "Species": "Mouse",
+   "Birthday": "December 15",
+   "Cathphrase": "fromage",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f4/NH-Julian_poster.png/revision/latest?cb=20200410192747"
+ },
+ {
+   "Name": "Charlise",
+   "Personality": "F Sisterly",
+   "Species": "Bear",
+   "Birthday": "April 17",
+   "Cathphrase": "urgh",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1b/NH-Carmen_poster.png/revision/latest?cb=20200410185152"
+ },
+ {
+   "Name": "Cheri",
+   "Personality": "F Peppy",
+   "Species": "Cub",
+   "Birthday": "March 17",
+   "Cathphrase": "tralala",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/90/NH-June_poster.png/revision/latest?cb=20200328210201"
+ },
+ {
+   "Name": "Cherry",
+   "Personality": "F Sisterly",
+   "Species": "Dog",
+   "Birthday": "May 11",
+   "Cathphrase": "what what",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a5/NH-Caroline_poster.png/revision/latest?cb=20200410184152"
+ },
+ {
+   "Name": "Chester",
+   "Personality": "M Lazy",
+   "Species": "Cub",
+   "Birthday": "August 6",
+   "Cathphrase": "rookie",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f1/NH-Kabuki_poster.png/revision/latest?cb=20200410182309"
+ },
+ {
+   "Name": "Chevre",
+   "Personality": "F Normal",
+   "Species": "Goat",
+   "Birthday": "March 6",
+   "Cathphrase": "la baa",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0d/NH-Carrie_poster.png/revision/latest?cb=20200328192649"
+ },
+ {
+   "Name": "Chief",
+   "Personality": "M Cranky",
+   "Species": "Wolf",
+   "Birthday": "December 19",
+   "Cathphrase": "harrumph",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ee/NH-Katt_poster.png/revision/latest?cb=20200410182946"
+ },
+ {
+   "Name": "Chops",
+   "Personality": "M Smug",
+   "Species": "Pig",
+   "Birthday": "October 13",
+   "Cathphrase": "zoink",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8a/NH-Cashmere_poster.png/revision/latest?cb=20200410184707"
+ },
+ {
+   "Name": "Chow",
+   "Personality": "M Cranky",
+   "Species": "Bear",
+   "Birthday": "July 22",
+   "Cathphrase": "aiya",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e5/NH-Keaton_poster.png/revision/latest?cb=20200422143413"
+ },
+ {
+   "Name": "Chrissy",
+   "Personality": "F Peppy",
+   "Species": "Rabbit",
+   "Birthday": "August 28",
+   "Cathphrase": "sparkles",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8a/NH-Celia_poster.png/revision/latest?cb=20200422143439"
+ },
+ {
+   "Name": "Claude",
+   "Personality": "M Lazy",
+   "Species": "Rabbit",
+   "Birthday": "December 3",
+   "Cathphrase": "hopalong",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2d/NH-Ken_poster.png/revision/latest?cb=20200328215929"
+ },
+ {
+   "Name": "Claudia",
+   "Personality": "F Snooty",
+   "Species": "Tiger",
+   "Birthday": "November 22",
+   "Cathphrase": "ooh la la",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fd/NH-Cesar_poster.png/revision/latest?cb=20200328192708"
+ },
+ {
+   "Name": "Clay",
+   "Personality": "M Lazy",
+   "Species": "Hamster",
+   "Birthday": "October 19",
+   "Cathphrase": "thump",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e1/NH-Ketchup_poster.png/revision/latest?cb=20200328215936"
+ },
+ {
+   "Name": "Cleo",
+   "Personality": "F Snooty",
+   "Species": "Horse",
+   "Birthday": "February 9",
+   "Cathphrase": "sugar",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/33/NH-Chadder_poster.png/revision/latest?cb=20200410192119"
+ },
+ {
+   "Name": "Clyde",
+   "Personality": "M Lazy",
+   "Species": "Horse",
+   "Birthday": "May 1",
+   "Cathphrase": "clip-clawp",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/20/NH-Kevin_poster.png/revision/latest?cb=20200410185817"
+ },
+ {
+   "Name": "Coach",
+   "Personality": "M Jock",
+   "Species": "Bull",
+   "Birthday": "April 29",
+   "Cathphrase": "stubble",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/71/NH-Charlise_poster.png/revision/latest?cb=20200328192721"
+ },
+ {
+   "Name": "Cobb",
+   "Personality": "M Jock",
+   "Species": "Pig",
+   "Birthday": "October 7",
+   "Cathphrase": "hot dog",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/30/NH-Kid_Cat_poster.png/revision/latest?cb=20200410182348"
+ },
+ {
+   "Name": "Coco",
+   "Personality": "F Normal",
+   "Species": "Rabbit",
+   "Birthday": "March 1",
+   "Cathphrase": "doyoing",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5c/NH-Cheri_poster.png/revision/latest?cb=20200328192728"
+ },
+ {
+   "Name": "Cole",
+   "Personality": "M Lazy",
+   "Species": "Rabbit",
+   "Birthday": "August 10",
+   "Cathphrase": "duuude",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/46/NH-Kidd_poster.png/revision/latest?cb=20200328215958"
+ },
+ {
+   "Name": "Colton",
+   "Personality": "M Smug",
+   "Species": "Horse",
+   "Birthday": "May 22",
+   "Cathphrase": "check it",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6e/NH-Cherry_poster.png/revision/latest?cb=20200328192735"
+ },
+ {
+   "Name": "Cookie",
+   "Personality": "F Peppy",
+   "Species": "Dog",
+   "Birthday": "June 18",
+   "Cathphrase": "arfer",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/34/NH-Kiki_poster.png/revision/latest?cb=20200410182200"
+ },
+ {
+   "Name": "Cousteau",
+   "Personality": "M Jock",
+   "Species": "Frog",
+   "Birthday": "December 17",
+   "Cathphrase": "oui oui",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cf/NH-Chester_poster.png/revision/latest?cb=20200328192748"
+ },
+ {
+   "Name": "Cranston",
+   "Personality": "M Lazy",
+   "Species": "Ostrich",
+   "Birthday": "September 23",
+   "Cathphrase": "sweatba",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/NH-Kitt_poster.png/revision/latest?cb=20200328220013"
+ },
+ {
+   "Name": "Croque",
+   "Personality": "M Cranky",
+   "Species": "Frog",
+   "Birthday": "July 18",
+   "Cathphrase": "as if",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f4/NH-Chevre_poster.png/revision/latest?cb=20200328192755"
+ },
+ {
+   "Name": "Cube",
+   "Personality": "M Lazy",
+   "Species": "Penguin",
+   "Birthday": "January 29",
+   "Cathphrase": "brainfreeze",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7a/NH-Kitty_poster.png/revision/latest?cb=20200410182820"
+ },
+ {
+   "Name": "Curlos",
+   "Personality": "M Smug",
+   "Species": "Sheep",
+   "Birthday": "May 8",
+   "Cathphrase": "shearly",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/56/NH-Chief_poster.png/revision/latest?cb=20200410183536"
+ },
+ {
+   "Name": "Curly",
+   "Personality": "M Jock",
+   "Species": "Pig",
+   "Birthday": "July 26",
+   "Cathphrase": "nyoink",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/56/NH-Klaus_poster.png/revision/latest?cb=20200328220034"
+ },
+ {
+   "Name": "Curt",
+   "Personality": "M Cranky",
+   "Species": "Bear",
+   "Birthday": "July 1",
+   "Cathphrase": "fuzzball",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6d/NH-Chops_poster.png/revision/latest?cb=20200410185841"
+ },
+ {
+   "Name": "Cyd",
+   "Personality": "M Cranky",
+   "Species": "Elephant",
+   "Birthday": "June 9",
+   "Cathphrase": "rockin'",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/45/NH-Knox_poster.png/revision/latest?cb=20200328220041"
+ },
+ {
+   "Name": "Cyrano",
+   "Personality": "M Cranky",
+   "Species": "Anteater",
+   "Birthday": "March 9",
+   "Cathphrase": "ah-CHOO",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b7/NH-Chow_poster.png/revision/latest?cb=20200328192817"
+ },
+ {
+   "Name": "Daisy",
+   "Personality": "F Normal",
+   "Species": "Dog",
+   "Birthday": "November 16",
+   "Cathphrase": "bow-WOW",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/30/NH-Kody_poster.png/revision/latest?cb=20200328220048"
+ },
+ {
+   "Name": "Deena",
+   "Personality": "F Normal",
+   "Species": "Duck",
+   "Birthday": "June 27",
+   "Cathphrase": "woowoo",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1f/NH-Chrissy_poster.png/revision/latest?cb=20200410185303"
+ },
+ {
+   "Name": "Deirdre",
+   "Personality": "F Sisterly",
+   "Species": "Deer",
+   "Birthday": "May 4",
+   "Cathphrase": "whatevs",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/93/NH-Kyle_poster.png/revision/latest?cb=20200410183323"
+ },
+ {
+   "Name": "Del",
+   "Personality": "M Cranky",
+   "Species": "Alligator",
+   "Birthday": "May 27",
+   "Cathphrase": "gronk",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/19/NH-Claude_poster.png/revision/latest?cb=20200410185347"
+ },
+ {
+   "Name": "Deli",
+   "Personality": "M Lazy",
+   "Species": "Monkey",
+   "Birthday": "May 24",
+   "Cathphrase": "monch",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1a/NH-Leonardo_poster.png/revision/latest?cb=20200410183650"
+ },
+ {
+   "Name": "Derwin",
+   "Personality": "M Lazy",
+   "Species": "Duck",
+   "Birthday": "May 25",
+   "Cathphrase": "derrrrr",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b1/NH-Claudia_poster.png/revision/latest?cb=20200410183623"
+ },
+ {
+   "Name": "Diana",
+   "Personality": "F Snooty",
+   "Species": "Deer",
+   "Birthday": "January 4",
+   "Cathphrase": "no doy",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/NH-Leopold_poster.png/revision/latest?cb=20200410192806"
+ },
+ {
+   "Name": "Diva",
+   "Personality": "F Sisterly",
+   "Species": "Frog",
+   "Birthday": "October 2",
+   "Cathphrase": "ya know",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0a/NH-Clay_poster.png/revision/latest?cb=20200328192903"
+ },
+ {
+   "Name": "Dizzy",
+   "Personality": "M Lazy",
+   "Species": "Elephant",
+   "Birthday": "January 14",
+   "Cathphrase": "woo-oo",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f0/NH-Lily_poster.png/revision/latest?cb=20200328220118"
+ },
+ {
+   "Name": "Dobie",
+   "Personality": "M Cranky",
+   "Species": "Wolf",
+   "Birthday": "February 17",
+   "Cathphrase": "ohmmm",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5e/NH-Cleo_poster.png/revision/latest?cb=20200328192909"
+ },
+ {
+   "Name": "Doc",
+   "Personality": "M Lazy",
+   "Species": "Rabbit",
+   "Birthday": "March 16",
+   "Cathphrase": "ol' bunny",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/NH-Limberg_poster.png/revision/latest?cb=20200410192555"
+ },
+ {
+   "Name": "Dom",
+   "Personality": "M Jock",
+   "Species": "Sheep",
+   "Birthday": "March 18",
+   "Cathphrase": "indeedaroo",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/93/NH-Clyde_poster.png/revision/latest?cb=20200328192916"
+ },
+ {
+   "Name": "Dora",
+   "Personality": "F Normal",
+   "Species": "Mouse",
+   "Birthday": "February 18",
+   "Cathphrase": "squeaky",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b1/NH-Lionel_poster.png/revision/latest?cb=20200328220132"
+ },
+ {
+   "Name": "Dotty",
+   "Personality": "F Peppy",
+   "Species": "Rabbit",
+   "Birthday": "March 14",
+   "Cathphrase": "wee one",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a3/NH-Coach_poster.png/revision/latest?cb=20200328192922"
+ },
+ {
+   "Name": "Drago",
+   "Personality": "M Lazy",
+   "Species": "Alligator",
+   "Birthday": "February 12",
+   "Cathphrase": "burrrn",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f8/NH-Lobo_poster.png/revision/latest?cb=20200410183522"
+ },
+ {
+   "Name": "Drake",
+   "Personality": "M Lazy",
+   "Species": "Duck",
+   "Birthday": "June 25",
+   "Cathphrase": "quacko",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6d/NH-Cobb_poster.png/revision/latest?cb=20200410190041"
+ },
+ {
+   "Name": "Drift",
+   "Personality": "M Jock",
+   "Species": "Frog",
+   "Birthday": "October 9",
+   "Cathphrase": "brah",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b0/NH-Lolly_poster.png/revision/latest?cb=20200410182533"
+ },
+ {
+   "Name": "Ed",
+   "Personality": "M Smug",
+   "Species": "Horse",
+   "Birthday": "September 16",
+   "Cathphrase": "greenhorn",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/37/NH-Coco_poster.png/revision/latest?cb=20200410185633"
+ },
+ {
+   "Name": "Egbert",
+   "Personality": "M Lazy",
+   "Species": "Chicken",
+   "Birthday": "October 14",
+   "Cathphrase": "doodle-duh",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/NH-Lopez_poster.png/revision/latest?cb=20200328220213"
+ },
+ {
+   "Name": "Elise",
+   "Personality": "F Snooty",
+   "Species": "Monkey",
+   "Birthday": "March 21",
+   "Cathphrase": "puh-lease",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/60/NH-Cole_poster.png/revision/latest?cb=20200410185107"
+ },
+ {
+   "Name": "Ellie",
+   "Personality": "F Normal",
+   "Species": "Elephant",
+   "Birthday": "May 12",
+   "Cathphrase": "li'l one",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/13/NH-Louie_poster.png/revision/latest?cb=20200328220220"
+ },
+ {
+   "Name": "Elmer",
+   "Personality": "M Lazy",
+   "Species": "Horse",
+   "Birthday": "October 5",
+   "Cathphrase": "tenderfoot",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/04/NH-Colton_poster.png/revision/latest?cb=20200328192957"
+ },
+ {
+   "Name": "Eloise",
+   "Personality": "F Snooty",
+   "Species": "Elephant",
+   "Birthday": "December 8",
+   "Cathphrase": "tooooot",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/NH-Lucha_poster.png/revision/latest?cb=20200328220226"
+ },
+ {
+   "Name": "Elvis",
+   "Personality": "M Cranky",
+   "Species": "Lion",
+   "Birthday": "July 23",
+   "Cathphrase": "unh-hunh",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/85/NH-Cookie_poster.png/revision/latest?cb=20200328193004"
+ },
+ {
+   "Name": "Erik",
+   "Personality": "M Lazy",
+   "Species": "Deer",
+   "Birthday": "July 27",
+   "Cathphrase": "chow down",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4d/NH-Lucky_poster.png/revision/latest?cb=20200328220233"
+ },
+ {
+   "Name": "Eunice",
+   "Personality": "F Normal",
+   "Species": "Sheep",
+   "Birthday": "April 3",
+   "Cathphrase": "lambchop",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/41/NH-Cousteau_poster.png/revision/latest?cb=20200328193012"
+ },
+ {
+   "Name": "Eugene",
+   "Personality": "M Smug",
+   "Species": "Koala",
+   "Birthday": "October 26",
+   "Cathphrase": "yeah buddy",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/14/NH-Lucy_poster.png/revision/latest?cb=20200410190214"
+ },
+ {
+   "Name": "Fang",
+   "Personality": "M Cranky",
+   "Species": "Wolf",
+   "Birthday": "December 18",
+   "Cathphrase": "cha-chomp",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/75/NH-Cranston_poster.png/revision/latest?cb=20200410191717"
+ },
+ {
+   "Name": "Fauna",
+   "Personality": "F Normal",
+   "Species": "Deer",
+   "Birthday": "March 26",
+   "Cathphrase": "dearie",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1a/NH-Lyman_poster.png/revision/latest?cb=20200328220247"
+ },
+ {
+   "Name": "Felicity",
+   "Personality": "F Peppy",
+   "Species": "Cat",
+   "Birthday": "March 30",
+   "Cathphrase": "mimimi",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9a/NH-Croque_poster.png/revision/latest?cb=20200328193024"
+ },
+ {
+   "Name": "Filbert",
+   "Personality": "M Lazy",
+   "Species": "Squirrel",
+   "Birthday": "June 3",
+   "Cathphrase": "bucko",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4d/NH-Mac_poster.png/revision/latest?cb=20200328220254"
+ },
+ {
+   "Name": "Flip",
+   "Personality": "M Jock",
+   "Species": "Monkey",
+   "Birthday": "November 21",
+   "Cathphrase": "rerack",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c6/NH-Cube_poster.png/revision/latest?cb=20200416233224"
+ },
+ {
+   "Name": "Flo",
+   "Personality": "F Sisterly",
+   "Species": "Penguin",
+   "Birthday": "September 2",
+   "Cathphrase": "cha",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/07/NH-Maddie_poster.png/revision/latest?cb=20200328220300"
+ },
+ {
+   "Name": "Flora",
+   "Personality": "F Peppy",
+   "Species": "Ostrich",
+   "Birthday": "February 9",
+   "Cathphrase": "pinky",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/15/NH-Curlos_poster.png/revision/latest?cb=20200410184634"
+ },
+ {
+   "Name": "Flurry",
+   "Personality": "F Normal",
+   "Species": "Hamster",
+   "Birthday": "January 30",
+   "Cathphrase": "powderpuff",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/de/NH-Maelle_poster.png/revision/latest?cb=20200328220306"
+ },
+ {
+   "Name": "Francine",
+   "Personality": "F Snooty",
+   "Species": "Rabbit",
+   "Birthday": "January 22",
+   "Cathphrase": "karat",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/14/NH-Curly_poster.png/revision/latest?cb=20200410190319"
+ },
+ {
+   "Name": "Frank",
+   "Personality": "M Cranky",
+   "Species": "Eagle",
+   "Birthday": "July 30",
+   "Cathphrase": "crushy",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4f/NH-Maggie_poster.png/revision/latest?cb=20200410185952"
+ },
+ {
+   "Name": "Freckles",
+   "Personality": "F Peppy",
+   "Species": "Duck",
+   "Birthday": "February 19",
+   "Cathphrase": "ducky",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ef/NH-Curt_poster.png/revision/latest?cb=20200328193051"
+ },
+ {
+   "Name": "Freya",
+   "Personality": "F Snooty",
+   "Species": "Wolf",
+   "Birthday": "December 14",
+   "Cathphrase": "uff da",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/35/NH-Mallary_poster.png/revision/latest?cb=20200328220321"
+ },
+ {
+   "Name": "Friga",
+   "Personality": "F Snooty",
+   "Species": "Penguin",
+   "Birthday": "October 16",
+   "Cathphrase": "brrmph",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9b/NH-Cyd_poster.png/revision/latest?cb=20200328193058"
+ },
+ {
+   "Name": "Frita",
+   "Personality": "F Sisterly",
+   "Species": "Sheep",
+   "Birthday": "July 16",
+   "Cathphrase": "oh ewe",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d1/NH-Maple_poster.png/revision/latest?cb=20200328220328"
+ },
+ {
+   "Name": "Frobert",
+   "Personality": "M Jock",
+   "Species": "Frog",
+   "Birthday": "February 8",
+   "Cathphrase": "fribbit",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/65/NH-Cyrano_poster.png/revision/latest?cb=20200328193104"
+ },
+ {
+   "Name": "Fuchsia",
+   "Personality": "F Sisterly",
+   "Species": "Deer",
+   "Birthday": "September 19",
+   "Cathphrase": "precious",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/ff/NH-Margie_poster.png/revision/latest?cb=20200328220349"
+ },
+ {
+   "Name": "Gabi",
+   "Personality": "F Peppy",
+   "Species": "Rabbit",
+   "Birthday": "December 16",
+   "Cathphrase": "honeybun",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a8/NH-Daisy_poster.png/revision/latest?cb=20200328200822"
+ },
+ {
+   "Name": "Gala",
+   "Personality": "F Normal",
+   "Species": "Pig",
+   "Birthday": "March 5",
+   "Cathphrase": "snortie",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e5/NH-Marcel_poster.png/revision/latest?cb=20200328220335"
+ },
+ {
+   "Name": "Gaston",
+   "Personality": "M Cranky",
+   "Species": "Rabbit",
+   "Birthday": "October 28",
+   "Cathphrase": "mon chou",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f5/NH-Deena_poster.png/revision/latest?cb=20200328200829"
+ },
+ {
+   "Name": "Gayle",
+   "Personality": "F Normal",
+   "Species": "Alligator",
+   "Birthday": "May 17",
+   "Cathphrase": "snacky",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/db/NH-Marcie_poster.png/revision/latest?cb=20200328220342"
+ },
+ {
+   "Name": "Genji",
+   "Personality": "M Jock",
+   "Species": "Rabbit",
+   "Birthday": "January 21",
+   "Cathphrase": "mochi",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/NH-Deirdre_poster.png/revision/latest?cb=20200328200836"
+ },
+ {
+   "Name": "Gigi",
+   "Personality": "F Snooty",
+   "Species": "Frog",
+   "Birthday": "August 11",
+   "Cathphrase": "ribette",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fd/NH-Marina_poster.png/revision/latest?cb=20200410192009"
+ },
+ {
+   "Name": "Gladys",
+   "Personality": "F Normal",
+   "Species": "Ostrich",
+   "Birthday": "January 15",
+   "Cathphrase": "stretch",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c2/NH-Del_poster.png/revision/latest?cb=20200328200842"
+ },
+ {
+   "Name": "Gloria",
+   "Personality": "F Snooty",
+   "Species": "Duck",
+   "Birthday": "August 12",
+   "Cathphrase": "quacker",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e6/NH-Marshal_poster.png/revision/latest?cb=20200328220403"
+ },
+ {
+   "Name": "Goldie",
+   "Personality": "F Normal",
+   "Species": "Dog",
+   "Birthday": "December 27",
+   "Cathphrase": "woof",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/03/NH-Deli_poster.png/revision/latest?cb=20200410192638"
+ },
+ {
+   "Name": "Gonzo",
+   "Personality": "M Cranky",
+   "Species": "Koala",
+   "Birthday": "October 13",
+   "Cathphrase": "mate",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/81/NH-Mathilda_poster.png/revision/latest?cb=20200328220410"
+ },
+ {
+   "Name": "Goose",
+   "Personality": "M Jock",
+   "Species": "Chicken",
+   "Birthday": "October 4",
+   "Cathphrase": "buh-kay",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/95/NH-Derwin_poster.png/revision/latest?cb=20200328200856"
+ },
+ {
+   "Name": "Graham",
+   "Personality": "M Smug",
+   "Species": "Hamster",
+   "Birthday": "June 20",
+   "Cathphrase": "indeed",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/18/NH-Megan_poster.png/revision/latest?cb=20200328220444"
+ },
+ {
+   "Name": "Greta",
+   "Personality": "F Snooty",
+   "Species": "Mouse",
+   "Birthday": "September 5",
+   "Cathphrase": "yelp",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/10/NH-Diana_poster.png/revision/latest?cb=20200328200903"
+ },
+ {
+   "Name": "Grizzly",
+   "Personality": "M Cranky",
+   "Species": "Bear",
+   "Birthday": "July 31",
+   "Cathphrase": "grrr...",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/57/NH-Melba_poster.png/revision/latest?cb=20200328220450"
+ },
+ {
+   "Name": "Groucho",
+   "Personality": "M Cranky",
+   "Species": "Bear",
+   "Birthday": "October 23",
+   "Cathphrase": "grumble",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e7/NH-Diva_poster.png/revision/latest?cb=20200328200909"
+ },
+ {
+   "Name": "Gruff",
+   "Personality": "M Cranky",
+   "Species": "Goat",
+   "Birthday": "August 29",
+   "Cathphrase": "bleh eh eh",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9d/NH-Merengue_poster.png/revision/latest?cb=20200410184909"
+ },
+ {
+   "Name": "Gwen",
+   "Personality": "F Snooty",
+   "Species": "Penguin",
+   "Birthday": "January 23",
+   "Cathphrase": "h-h-hon",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/db/NH-Spork_poster.png/revision/latest?cb=20200328193112"
+ },
+ {
+   "Name": "Hamlet",
+   "Personality": "M Jock",
+   "Species": "Hamster",
+   "Birthday": "May 30",
+   "Cathphrase": "hammie",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/65/NH-Dizzy_poster.png/revision/latest?cb=20200328200915"
+ },
+ {
+   "Name": "Hamphrey",
+   "Personality": "M Cranky",
+   "Species": "Hamster",
+   "Birthday": "February 25",
+   "Cathphrase": "snort",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f0/NH-Merry_poster.png/revision/latest?cb=20200410182436"
+ },
+ {
+   "Name": "Hans",
+   "Personality": "M Smug",
+   "Species": "Gorilla",
+   "Birthday": "December 5",
+   "Cathphrase": "groovy",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e5/NH-Sprinkle_poster.png/revision/latest?cb=20200410190333"
+ },
+ {
+   "Name": "Harry",
+   "Personality": "M Cranky",
+   "Species": "Hippo",
+   "Birthday": "January 7",
+   "Cathphrase": "beach bum",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/86/NH-Midge_poster.png/revision/latest?cb=20200328220512"
+ },
+ {
+   "Name": "Hazel",
+   "Personality": "F Sisterly",
+   "Species": "Squirrel",
+   "Birthday": "August 30",
+   "Cathphrase": "uni-wow",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e6/NH-Sprocket_poster.png/revision/latest?cb=20200410191806"
+ },
+ {
+   "Name": "Henry",
+   "Personality": "M Smug",
+   "Species": "Frog",
+   "Birthday": "September 21",
+   "Cathphrase": "snoozit",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2a/NH-Mint_poster.png/revision/latest?cb=20200410184044"
+ },
+ {
+   "Name": "Hippeux",
+   "Personality": "M Smug",
+   "Species": "Hippo",
+   "Birthday": "October 15",
+   "Cathphrase": "natch",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/ff/NH-Static_poster.png/revision/latest?cb=20200410184107"
+ },
+ {
+   "Name": "Hopkins",
+   "Personality": "M Lazy",
+   "Species": "Rabbit",
+   "Birthday": "March 11",
+   "Cathphrase": "thumper",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/79/NH-Mira_poster.png/revision/latest?cb=20200410185049"
+ },
+ {
+   "Name": "Hopper",
+   "Personality": "M Cranky",
+   "Species": "Penguin",
+   "Birthday": "April 6",
+   "Cathphrase": "slushie",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/50/NH-Stella_poster.png/revision/latest?cb=20200410184731"
+ },
+ {
+   "Name": "Hornsby",
+   "Personality": "M Lazy",
+   "Species": "Rhino",
+   "Birthday": "March 20",
+   "Cathphrase": "schnozzle",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f4/NH-Miranda_poster.png/revision/latest?cb=20200328220535"
+ },
+ {
+   "Name": "Huck",
+   "Personality": "M Smug",
+   "Species": "Frog",
+   "Birthday": "July 9",
+   "Cathphrase": "hopper",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/72/NH-Dotty_poster.png/revision/latest?cb=20200410185658"
+ },
+ {
+   "Name": "Hugh",
+   "Personality": "M Lazy",
+   "Species": "Pig",
+   "Birthday": "December 30",
+   "Cathphrase": "snortle",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0a/NH-Sterling_poster.png/revision/latest?cb=20200410191029"
+ },
+ {
+   "Name": "Iggly",
+   "Personality": "M Jock",
+   "Species": "Penguin",
+   "Birthday": "November 2",
+   "Cathphrase": "waddler",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/20/NH-Mitzi_poster.png/revision/latest?cb=20200410182006"
+ },
+ {
+   "Name": "Ike",
+   "Personality": "M Cranky",
+   "Species": "Bear",
+   "Birthday": "May 16",
+   "Cathphrase": "roadie",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/52/NH-Drago_poster.png/revision/latest?cb=20200328200956"
+ },
+ {
+   "Name": "JacobNA",
+   "Personality": "M Lazy",
+   "Species": "Bi",
+   "Birthday": "August 24",
+   "Cathphrase": "chuuuuurp",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cc/NH-Stinky_poster.png/revision/latest?cb=20200422143457"
+ },
+ {
+   "Name": "",
+   "Personality": "",
+   "Species": "",
+   "Birthday": "",
+   "Cathphrase": "",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7e/NH-Moe_poster.png/revision/latest?cb=20200410182701"
+ },
+ {
+   "Name": "",
+   "Personality": "",
+   "Species": "",
+   "Birthday": "",
+   "Cathphrase": "",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/16/NH-Drake_poster.png/revision/latest?cb=20200328201002"
+ },
+ {
+   "Name": "",
+   "Personality": "",
+   "Species": "",
+   "Birthday": "",
+   "Cathphrase": "",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0a/NH-Stitches_poster.png/revision/latest?cb=20200328232329"
+ },
+ {
+   "Name": "",
+   "Personality": "",
+   "Species": "",
+   "Birthday": "",
+   "Cathphrase": "",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/00/NH-Molly_poster.png/revision/latest?cb=20200328220554"
+ },
+ {
+   "Name": "JakeyPAL",
+   "Personality": "",
+   "Species": "",
+   "Birthday": "",
+   "Cathphrase": "",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7f/NH-Drift_poster.png/revision/latest?cb=20200328201008"
+ },
+ {
+   "Name": "Jacques",
+   "Personality": "M Smug",
+   "Species": "Bi",
+   "Birthday": "June 22",
+   "Cathphrase": "zut alors",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fc/NH-Stu_poster.png/revision/latest?cb=20200328232336"
+ },
+ {
+   "Name": "Jambette",
+   "Personality": "F Normal",
+   "Species": "Frog",
+   "Birthday": "October 27",
+   "Cathphrase": "croak-kay",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d3/NH-Monique_poster.png/revision/latest?cb=20200410182724"
+ },
+ {
+   "Name": "Jay",
+   "Personality": "M Jock",
+   "Species": "Bi",
+   "Birthday": "July 17",
+   "Cathphrase": "heeeeeyy",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f6/NH-Sydney_poster.png/revision/latest?cb=20200328232343"
+ },
+ {
+   "Name": "Jeremiah",
+   "Personality": "M Lazy",
+   "Species": "Frog",
+   "Birthday": "July 8",
+   "Cathphrase": "nee-deep",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2b/NH-Monty_poster.png/revision/latest?cb=20200328220609"
+ },
+ {
+   "Name": "Jitters",
+   "Personality": "M Jock",
+   "Species": "Bi",
+   "Birthday": "February 2",
+   "Cathphrase": "bzzert",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/41/NH-Sylvana_poster.png/revision/latest?cb=20200410183935"
+ },
+ {
+   "Name": "Joey",
+   "Personality": "M Lazy",
+   "Species": "Duck",
+   "Birthday": "January 3",
+   "Cathphrase": "bleeeeeck",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b2/NH-Moose_poster.png/revision/latest?cb=20200410192236"
+ },
+ {
+   "Name": "Judy",
+   "Personality": "F Snooty",
+   "Species": "Cub",
+   "Birthday": "March 10",
+   "Cathphrase": "myohmy",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4b/NH-Sylvia_poster.png/revision/latest?cb=20200328232357"
+ },
+ {
+   "Name": "Julia",
+   "Personality": "F Snooty",
+   "Species": "Ostrich",
+   "Birthday": "July 31",
+   "Cathphrase": "dahling",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/66/NH-Mott_poster.png/revision/latest?cb=20200328220623"
+ },
+ {
+   "Name": "Julian",
+   "Personality": "M Smug",
+   "Species": "Horse",
+   "Birthday": "March 15",
+   "Cathphrase": "glitter",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d7/NH-Tabby_poster.png/revision/latest?cb=20200410182747"
+ },
+ {
+   "Name": "June",
+   "Personality": "F Normal",
+   "Species": "Cub",
+   "Birthday": "May 21",
+   "Cathphrase": "rainbow",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/70/NH-Muffy_poster.png/revision/latest?cb=20200410184450"
+ },
+ {
+   "Name": "Kabuki",
+   "Personality": "M Cranky",
+   "Species": "Cat",
+   "Birthday": "November 29",
+   "Cathphrase": "meooo-OH",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c8/NH-Tad_poster.png/revision/latest?cb=20200328233440"
+ },
+ {
+   "Name": "Katt",
+   "Personality": "F Sisterly",
+   "Species": "Cat",
+   "Birthday": "April 27",
+   "Cathphrase": "purrty",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/69/NH-Murphy_poster.png/revision/latest?cb=20200328220636"
+ },
+ {
+   "Name": "Keaton",
+   "Personality": "M Smug",
+   "Species": "Eagle",
+   "Birthday": "June 1",
+   "Cathphrase": "wingo",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d1/NH-Tammi_poster.png/revision/latest?cb=20200328233446"
+ },
+ {
+   "Name": "Ken",
+   "Personality": "M Smug",
+   "Species": "Chicken",
+   "Birthday": "December 23",
+   "Cathphrase": "no doubt",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/de/NH-Nan_poster.png/revision/latest?cb=20200328224025"
+ },
+ {
+   "Name": "Ketchup",
+   "Personality": "F Peppy",
+   "Species": "Duck",
+   "Birthday": "July 27",
+   "Cathphrase": "bitty",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/66/NH-Tammy_poster.png/revision/latest?cb=20200328233452"
+ },
+ {
+   "Name": "Kevin",
+   "Personality": "M Jock",
+   "Species": "Pig",
+   "Birthday": "April 26",
+   "Cathphrase": "weeweewee",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/NH-Nana_poster.png/revision/latest?cb=20200328224032"
+ },
+ {
+   "Name": "Kid Cat",
+   "Personality": "M Jock",
+   "Species": "Cat",
+   "Birthday": "August 1",
+   "Cathphrase": "ps",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c8/NH-Tangy_poster.png/revision/latest?cb=20200410182223"
+ },
+ {
+   "Name": "Kidd",
+   "Personality": "M Smug",
+   "Species": "Goat",
+   "Birthday": "June 28",
+   "Cathphrase": "wut",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/97/NH-Naomi_poster.png/revision/latest?cb=20200328224038"
+ },
+ {
+   "Name": "Kiki",
+   "Personality": "F Normal",
+   "Species": "Cat",
+   "Birthday": "October 8",
+   "Cathphrase": "kitty cat",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/eb/NH-Tank_poster.png/revision/latest?cb=20200410185033"
+ },
+ {
+   "Name": "Kitt",
+   "Personality": "F Normal",
+   "Species": "Kangaroo",
+   "Birthday": "October 11",
+   "Cathphrase": "child",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1a/NH-Nate_poster.png/revision/latest?cb=20200328224048"
+ },
+ {
+   "Name": "Kitty",
+   "Personality": "F Snooty",
+   "Species": "Cat",
+   "Birthday": "February 15",
+   "Cathphrase": "mrowrr",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/ca/NH-T-Bone_poster.png/revision/latest?cb=20200328233520"
+ },
+ {
+   "Name": "Klaus",
+   "Personality": "M Smug",
+   "Species": "Bear",
+   "Birthday": "March 31",
+   "Cathphrase": "strudel",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d5/NH-Nibbles_poster.png/revision/latest?cb=20200410184229"
+ },
+ {
+   "Name": "Knox",
+   "Personality": "M Cranky",
+   "Species": "Chicken",
+   "Birthday": "November 23",
+   "Cathphrase": "cluckling",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d3/NH-Tasha_poster.png/revision/latest?cb=20200416234123"
+ },
+ {
+   "Name": "Kody",
+   "Personality": "M Jock",
+   "Species": "Cub",
+   "Birthday": "September 28",
+   "Cathphrase": "grah-grah",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/94/NH-Norma_poster.png/revision/latest?cb=20200328224124"
+ },
+ {
+   "Name": "Kyle",
+   "Personality": "M Smug",
+   "Species": "Wolf",
+   "Birthday": "December 6",
+   "Cathphrase": "alpha",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/11/NH-Teddy_poster.png/revision/latest?cb=20200328233527"
+ },
+ {
+   "Name": "Leonardo",
+   "Personality": "M Jock",
+   "Species": "Tiger",
+   "Birthday": "May 15",
+   "Cathphrase": "flexin",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b4/NH-Fauna_poster.png/revision/latest?cb=20200328201146"
+ },
+ {
+   "Name": "Leopold",
+   "Personality": "M Smug",
+   "Species": "Lion",
+   "Birthday": "August 14",
+   "Cathphrase": "lion cub",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/82/NH-Octavian_poster.png/revision/latest?cb=20200410192036"
+ },
+ {
+   "Name": "Lily",
+   "Personality": "F Normal",
+   "Species": "Frog",
+   "Birthday": "February 4",
+   "Cathphrase": "toady",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a1/NH-Tex_poster.png/revision/latest?cb=20200410190412"
+ },
+ {
+   "Name": "Limberg",
+   "Personality": "M Cranky",
+   "Species": "Mouse",
+   "Birthday": "October 17",
+   "Cathphrase": "squinky",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/57/NH-O%27Hare_poster.png/revision/latest?cb=20200410185212"
+ },
+ {
+   "Name": "Lionel",
+   "Personality": "M Smug",
+   "Species": "Lion",
+   "Birthday": "July 29",
+   "Cathphrase": "precisely",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/41/NH-Tia_poster.png/revision/latest?cb=20200328233543"
+ },
+ {
+   "Name": "Lobo",
+   "Personality": "M Cranky",
+   "Species": "Wolf",
+   "Birthday": "November 5",
+   "Cathphrase": "ah-rooooo",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5c/NH-Olaf_poster.png/revision/latest?cb=20200328224144"
+ },
+ {
+   "Name": "Lolly",
+   "Personality": "F Normal",
+   "Species": "Cat",
+   "Birthday": "March 27",
+   "Cathphrase": "bonbon",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fb/NH-Tiffany_poster.png/revision/latest?cb=20200410185508"
+ },
+ {
+   "Name": "Lopez",
+   "Personality": "M Smug",
+   "Species": "Deer",
+   "Birthday": "August 20",
+   "Cathphrase": "buckaroo",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fd/NH-Olive_poster.png/revision/latest?cb=20200328224150"
+ },
+ {
+   "Name": "Louie",
+   "Personality": "M Jock",
+   "Species": "Gorilla",
+   "Birthday": "March 26",
+   "Cathphrase": "hoo hoo ha",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6a/NH-Timbra_poster.png/revision/latest?cb=20200410184616"
+ },
+ {
+   "Name": "Lucha",
+   "Personality": "M Smug",
+   "Species": "Bi",
+   "Birthday": "December 12",
+   "Cathphrase": "cacaw",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5a/NH-Olivia_poster.png/revision/latest?cb=20200410182136"
+ },
+ {
+   "Name": "Lucky",
+   "Personality": "M Lazy",
+   "Species": "Dog",
+   "Birthday": "November 4",
+   "Cathphrase": "rrr-owch",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/NH-Tipper_poster.png/revision/latest?cb=20200328233604"
+ },
+ {
+   "Name": "Lucy",
+   "Personality": "F Normal",
+   "Species": "Pig",
+   "Birthday": "June 2",
+   "Cathphrase": "snoooink",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/73/NH-Opal_poster.png/revision/latest?cb=20200328224203"
+ },
+ {
+   "Name": "Lyman",
+   "Personality": "M Jock",
+   "Species": "Koala",
+   "Birthday": "October 12",
+   "Cathphrase": "chips",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7d/NH-Tom_poster.png/revision/latest?cb=20200505042555"
+ },
+ {
+   "Name": "Mac",
+   "Personality": "M Jock",
+   "Species": "Dog",
+   "Birthday": "November 11",
+   "Cathphrase": "woo woof",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Ozzie_poster.png/revision/latest?cb=20200328224210"
+ },
+ {
+   "Name": "Maddie",
+   "Personality": "F Peppy",
+   "Species": "Dog",
+   "Birthday": "January 11",
+   "Cathphrase": "yippee",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a1/NH-Francine_poster.png/revision/latest?cb=20200410185321"
+ },
+ {
+   "Name": "Maelle",
+   "Personality": "F Snooty",
+   "Species": "Duck",
+   "Birthday": "April 8",
+   "Cathphrase": "duckling",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c9/NH-Truffles_poster.png/revision/latest?cb=20200328233618"
+ },
+ {
+   "Name": "Maggie",
+   "Personality": "F Normal",
+   "Species": "Pig",
+   "Birthday": "September 3",
+   "Cathphrase": "schep",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/86/NH-Frank_poster.png/revision/latest?cb=20200410191050"
+ },
+ {
+   "Name": "Mallary",
+   "Personality": "F Snooty",
+   "Species": "Duck",
+   "Birthday": "November 17",
+   "Cathphrase": "quackp",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/32/NH-Tucker_poster.png/revision/latest?cb=20200328233625"
+ },
+ {
+   "Name": "Maple",
+   "Personality": "F Normal",
+   "Species": "Cub",
+   "Birthday": "June 15",
+   "Cathphrase": "honey",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d3/NH-Pango_poster.png/revision/latest?cb=20200328224224"
+ },
+ {
+   "Name": "Margie",
+   "Personality": "F Normal",
+   "Species": "Elephant",
+   "Birthday": "January 28",
+   "Cathphrase": "tootie",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/95/NH-Tutu_poster.png/revision/latest?cb=20200328233631"
+ },
+ {
+   "Name": "Marcel",
+   "Personality": "M Lazy",
+   "Species": "Dog",
+   "Birthday": "December 31",
+   "Cathphrase": "non",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6d/NH-Papi_poster.png/revision/latest?cb=20200328224238"
+ },
+ {
+   "Name": "Marcie",
+   "Personality": "F Normal",
+   "Species": "Kangaroo",
+   "Birthday": "May 31",
+   "Cathphrase": "pouches",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/52/NH-Twiggy_poster.png/revision/latest?cb=20200328233643"
+ },
+ {
+   "Name": "Marina",
+   "Personality": "F Normal",
+   "Species": "Octopus",
+   "Birthday": "June 26",
+   "Cathphrase": "blurp",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fc/NH-Paolo_poster.png/revision/latest?cb=20200328224231"
+ },
+ {
+   "Name": "Marshal",
+   "Personality": "M Smug",
+   "Species": "Squirrel",
+   "Birthday": "September 29",
+   "Cathphrase": "sulky",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/NH-Tybalt_poster.png/revision/latest?cb=20200410183724"
+ },
+ {
+   "Name": "Mathilda",
+   "Personality": "F Snooty",
+   "Species": "Kangaroo",
+   "Birthday": "November 12",
+   "Cathphrase": "wee baby",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/23/NH-Ursala_poster.png/revision/latest?cb=20200328233702"
+ },
+ {
+   "Name": "Megan",
+   "Personality": "F Normal",
+   "Species": "Bear",
+   "Birthday": "March 13",
+   "Cathphrase": "sundae",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/17/NH-Velma_poster.png/revision/latest?cb=20200328233708"
+ },
+ {
+   "Name": "Melba",
+   "Personality": "F Normal",
+   "Species": "Koala",
+   "Birthday": "April 12",
+   "Cathphrase": "toasty",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/NH-Vesta_poster.png/revision/latest?cb=20200410184828"
+ },
+ {
+   "Name": "Merengue",
+   "Personality": "F Normal",
+   "Species": "Rhino",
+   "Birthday": "March 19",
+   "Cathphrase": "shortcake",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b9/NH-Vic_poster.png/revision/latest?cb=20200328233722"
+ },
+ {
+   "Name": "Merry",
+   "Personality": "F Peppy",
+   "Species": "Cat",
+   "Birthday": "June 29",
+   "Cathphrase": "mweee",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/46/NH-Victoria_poster.png/revision/latest?cb=20200328233729"
+ },
+ {
+   "Name": "Midge",
+   "Personality": "F Normal",
+   "Species": "Bi",
+   "Birthday": "March 12",
+   "Cathphrase": "tweedledee",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b7/NH-Violet_poster.png/revision/latest?cb=20200328233736"
+ },
+ {
+   "Name": "Mint",
+   "Personality": "F Snooty",
+   "Species": "Squirrel",
+   "Birthday": "May 2",
+   "Cathphrase": "ahhhhhh",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d2/NH-Vivian_poster.png/revision/latest?cb=20200410183210"
+ },
+ {
+   "Name": "Mira",
+   "Personality": "F Sisterly",
+   "Species": "Rabbit",
+   "Birthday": "July 6",
+   "Cathphrase": "cottontail",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Vladimir_poster.png/revision/latest?cb=20200328233749"
+ },
+ {
+   "Name": "Miranda",
+   "Personality": "F Snooty",
+   "Species": "Duck",
+   "Birthday": "April 23",
+   "Cathphrase": "quackulous",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8e/NH-Wade_poster.png/revision/latest?cb=20200410190514"
+ },
+ {
+   "Name": "Mitzi",
+   "Personality": "F Normal",
+   "Species": "Cat",
+   "Birthday": "September 25",
+   "Cathphrase": "mew",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6a/NH-Pekoe_poster.png/revision/latest?cb=20200328224404"
+ },
+ {
+   "Name": "Moe",
+   "Personality": "M Lazy",
+   "Species": "Cat",
+   "Birthday": "January 12",
+   "Cathphrase": "myawn",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e0/NH-Walker_poster.png/revision/latest?cb=20200328233803"
+ },
+ {
+   "Name": "Molly",
+   "Personality": "F Normal",
+   "Species": "Duck",
+   "Birthday": "March 7",
+   "Cathphrase": "quackidee",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/72/NH-Penelope_poster.png/revision/latest?cb=20200410192138"
+ },
+ {
+   "Name": "Monique",
+   "Personality": "F Snooty",
+   "Species": "Cat",
+   "Birthday": "September 30",
+   "Cathphrase": "pffffft",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3a/NH-Walt_poster.png/revision/latest?cb=20200328233810"
+ },
+ {
+   "Name": "Monty",
+   "Personality": "M Cranky",
+   "Species": "Monkey",
+   "Birthday": "December 7",
+   "Cathphrase": "g'tang",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/26/NH-Phil_poster.png/revision/latest?cb=20200410191701"
+ },
+ {
+   "Name": "Moose",
+   "Personality": "M Jock",
+   "Species": "Mouse",
+   "Birthday": "September 13",
+   "Cathphrase": "shorty",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f7/NH-Wart_Jr._poster.png/revision/latest?cb=20200328233816"
+ },
+ {
+   "Name": "Mott",
+   "Personality": "M Jock",
+   "Species": "Lion",
+   "Birthday": "July 10",
+   "Cathphrase": "cagey",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8b/NH-Phoebe_poster.png/revision/latest?cb=20200410191547"
+ },
+ {
+   "Name": "Muffy",
+   "Personality": "F Sisterly",
+   "Species": "Sheep",
+   "Birthday": "February 14",
+   "Cathphrase": "nightshade",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/54/NH-Weber_poster.png/revision/latest?cb=20200328233823"
+ },
+ {
+   "Name": "Murphy",
+   "Personality": "M Cranky",
+   "Species": "Cub",
+   "Birthday": "December 29",
+   "Cathphrase": "laddie",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/NH-Pierce_poster.png/revision/latest?cb=20200410191226"
+ },
+ {
+   "Name": "Nan",
+   "Personality": "F Normal",
+   "Species": "Goat",
+   "Birthday": "August 24",
+   "Cathphrase": "kid",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4e/NH-Wendy_poster.png/revision/latest?cb=20200410184538"
+ },
+ {
+   "Name": "Nana",
+   "Personality": "F Normal",
+   "Species": "Monkey",
+   "Birthday": "August 23",
+   "Cathphrase": "po po",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/21/NH-Pietro_poster.png/revision/latest?cb=20200328224436"
+ },
+ {
+   "Name": "Naomi",
+   "Personality": "F Snooty",
+   "Species": "Cow",
+   "Birthday": "February 28",
+   "Cathphrase": "moolah",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/76/NH-Winnie_poster.png/revision/latest?cb=20200328233850"
+ },
+ {
+   "Name": "Nate",
+   "Personality": "M Lazy",
+   "Species": "Bear",
+   "Birthday": "August 16",
+   "Cathphrase": "yawwwn",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ea/NH-Pinky_poster.png/revision/latest?cb=20200328224443"
+ },
+ {
+   "Name": "Nibbles",
+   "Personality": "F Peppy",
+   "Species": "Squirrel",
+   "Birthday": "July 19",
+   "Cathphrase": "niblet",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b0/NH-Whitney_poster.png/revision/latest?cb=20200410183425"
+ },
+ {
+   "Name": "Norma",
+   "Personality": "F Normal",
+   "Species": "Cow",
+   "Birthday": "September 20",
+   "Cathphrase": "hoof hoo",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/96/NH-Grizzly_poster.png/revision/latest?cb=20200328205814"
+ },
+ {
+   "Name": "Octavian",
+   "Personality": "M Cranky",
+   "Species": "Octopus",
+   "Birthday": "September 20",
+   "Cathphrase": "sucker",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/05/NH-Willow_poster.png/revision/latest?cb=20200410184651"
+ },
+ {
+   "Name": "O'Hare",
+   "Personality": "M Smug",
+   "Species": "Rabbit",
+   "Birthday": "July 24",
+   "Cathphrase": "amigo",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/19/NH-Wolfgang_poster.png/revision/latest?cb=20200410183450"
+ },
+ {
+   "Name": "Olaf",
+   "Personality": "M Smug",
+   "Species": "Anteater",
+   "Birthday": "May 19",
+   "Cathphrase": "whiffa",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b6/NH-Yuka_poster.png/revision/latest?cb=20200328233904"
+ },
+ {
+   "Name": "Olive",
+   "Personality": "F Normal",
+   "Species": "Cub",
+   "Birthday": "July 12",
+   "Cathphrase": "sweet pea",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c8/NH-Zell_poster.png/revision/latest?cb=20200328233911"
+ },
+ {
+   "Name": "Olivia",
+   "Personality": "F Snooty",
+   "Species": "Cat",
+   "Birthday": "February 3",
+   "Cathphrase": "purrr",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/10/NH-Zucker_poster.png/revision/latest?cb=20200416233351"
+ },
+ {
+   "Name": "Opal",
+   "Personality": "F Snooty",
+   "Species": "Elephant",
+   "Birthday": "January 20",
+   "Cathphrase": "snoot",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ea/NH-Poncho_poster.png/revision/latest?cb=20200328224521"
+ },
+ {
+   "Name": "Ozzie",
+   "Personality": "M Lazy",
+   "Species": "Koala",
+   "Birthday": "May 7",
+   "Cathphrase": "ol' bear",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5c/NH-Poppy_poster.png/revision/latest?cb=20200410183916"
+ },
+ {
+   "Name": "Pancetti",
+   "Personality": "F Snooty",
+   "Species": "Pig",
+   "Birthday": "November 14",
+   "Cathphrase": "sooey",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/79/NH-Portia_poster.png/revision/latest?cb=20200328224542"
+ },
+ {
+   "Name": "Pango",
+   "Personality": "F Peppy",
+   "Species": "Anteater",
+   "Birthday": "November 9",
+   "Cathphrase": "snooooof",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0b/NH-Prince_poster.png/revision/latest?cb=20200328224548"
+ },
+ {
+   "Name": "Papi",
+   "Personality": "M Lazy",
+   "Species": "Horse",
+   "Birthday": "January 10",
+   "Cathphrase": "haaay",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/52/NH-Puck_poster.png/revision/latest?cb=20200410190527"
+ },
+ {
+   "Name": "Paolo",
+   "Personality": "M Lazy",
+   "Species": "Elephant",
+   "Birthday": "May 5",
+   "Cathphrase": "pal",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/78/NH-Puddles_poster.png/revision/latest?cb=20200328224601"
+ },
+ {
+   "Name": "Pashmina",
+   "Personality": "F Sisterly",
+   "Species": "Goat",
+   "Birthday": "December 26",
+   "Cathphrase": "kidders",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2b/NH-Pudge_poster.png/revision/latest?cb=20200328224608"
+ },
+ {
+   "Name": "Pate",
+   "Personality": "F Peppy",
+   "Species": "Duck",
+   "Birthday": "February 23",
+   "Cathphrase": "quackle",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d2/NH-Punchy_poster.png/revision/latest?cb=20200410182252"
+ },
+ {
+   "Name": "Patty",
+   "Personality": "F Peppy",
+   "Species": "Cow",
+   "Birthday": "May 10",
+   "Cathphrase": "how-now",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3d/NH-Purrl_poster.png/revision/latest?cb=20200410182641"
+ },
+ {
+   "Name": "Paula",
+   "Personality": "F Sisterly",
+   "Species": "Bear",
+   "Birthday": "March 22",
+   "Cathphrase": "yodelay",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c6/NH-Queenie_poster.png/revision/latest?cb=20200410191922"
+ },
+ {
+   "Name": "Peaches",
+   "Personality": "F Normal",
+   "Species": "Horse",
+   "Birthday": "November 28",
+   "Cathphrase": "neighbor",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/69/NH-Quillson_poster.png/revision/latest?cb=20200328224634"
+ },
+ {
+   "Name": "Peanut",
+   "Personality": "F Peppy",
+   "Species": "Squirrel",
+   "Birthday": "June 8",
+   "Cathphrase": "slacker",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5b/NH-Raddle_poster.png/revision/latest?cb=20200328231704"
+ },
+ {
+   "Name": "Pecan",
+   "Personality": "F Snooty",
+   "Species": "Squirrel",
+   "Birthday": "September 10",
+   "Cathphrase": "chipmunk",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/ba/NH-Rasher_poster.png/revision/latest?cb=20200410190250"
+ },
+ {
+   "Name": "Peck",
+   "Personality": "M Jock",
+   "Species": "Bi",
+   "Birthday": "July 25",
+   "Cathphrase": "crunch",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8e/NH-Raymond_poster.png/revision/latest?cb=20200416234103"
+ },
+ {
+   "Name": "Peewee",
+   "Personality": "M Cranky",
+   "Species": "Gorilla",
+   "Birthday": "September 11",
+   "Cathphrase": "li'l dude",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d8/NH-Ren%C3%A9e_poster.png/revision/latest?cb=20200328231724"
+ },
+ {
+   "Name": "Peggy",
+   "Personality": "F Peppy",
+   "Species": "Pig",
+   "Birthday": "May 23",
+   "Cathphrase": "shweetie",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/33/NH-Reneigh_poster.png/revision/latest?cb=20200328231731"
+ },
+ {
+   "Name": "Pekoe",
+   "Personality": "F Normal",
+   "Species": "Cub",
+   "Birthday": "May 18",
+   "Cathphrase": "bud",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a7/NH-Rex_poster.png/revision/latest?cb=20200328231738"
+ },
+ {
+   "Name": "Penelope",
+   "Personality": "F Peppy",
+   "Species": "Mouse",
+   "Birthday": "February 5",
+   "Cathphrase": "oh bow",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/NH-Rhonda_poster.png/revision/latest?cb=20200410185017"
+ },
+ {
+   "Name": "Phil",
+   "Personality": "M Smug",
+   "Species": "Ostrich",
+   "Birthday": "November 27",
+   "Cathphrase": "hurk",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4e/NH-Ribbot_poster.png/revision/latest?cb=20200328231752"
+ },
+ {
+   "Name": "Phoebe",
+   "Personality": "F Sisterly",
+   "Species": "Ostrich",
+   "Birthday": "April 22",
+   "Cathphrase": "sparky",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6b/NH-Ricky_poster.png/revision/latest?cb=20200410184030"
+ },
+ {
+   "Name": "Pierce",
+   "Personality": "M Jock",
+   "Species": "Eagle",
+   "Birthday": "January 8",
+   "Cathphrase": "hawkeye",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/93/NH-Rizzo_poster.png/revision/latest?cb=20200410192330"
+ },
+ {
+   "Name": "Pietro",
+   "Personality": "M Smug",
+   "Species": "Sheep",
+   "Birthday": "April 19",
+   "Cathphrase": "honk honk",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4f/NH-Roald_poster.png/revision/latest?cb=20200410190858"
+ },
+ {
+   "Name": "Pinky",
+   "Personality": "F Peppy",
+   "Species": "Bear",
+   "Birthday": "September 9",
+   "Cathphrase": "wah",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/62/NH-Robin_poster.png/revision/latest?cb=20200328231820"
+ },
+ {
+   "Name": "Piper",
+   "Personality": "F Peppy",
+   "Species": "Bi",
+   "Birthday": "April 18",
+   "Cathphrase": "chickadee",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/32/NH-Rocco_poster.png/revision/latest?cb=20200328231827"
+ },
+ {
+   "Name": "Pippy",
+   "Personality": "F Peppy",
+   "Species": "Rabbit",
+   "Birthday": "June 14",
+   "Cathphrase": "li'l hare",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d3/NH-Rocket_poster.png/revision/latest?cb=20200328231834"
+ },
+ {
+   "Name": "Plucky",
+   "Personality": "F Sisterly",
+   "Species": "Chicken",
+   "Birthday": "October 12",
+   "Cathphrase": "chicky-poo",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/10/NH-Rod_poster.png/revision/latest?cb=20200410192406"
+ },
+ {
+   "Name": "Pompom",
+   "Personality": "F Peppy",
+   "Species": "Duck",
+   "Birthday": "February 11",
+   "Cathphrase": "rah rah",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/15/NH-Rodeo_poster.png/revision/latest?cb=20200328231847"
+ },
+ {
+   "Name": "Poncho",
+   "Personality": "M Jock",
+   "Species": "Cub",
+   "Birthday": "January 2",
+   "Cathphrase": "li'l bear",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/58/NH-Rodney_poster.png/revision/latest?cb=20200328231854"
+ },
+ {
+   "Name": "Poppy",
+   "Personality": "F Normal",
+   "Species": "Squirrel",
+   "Birthday": "August 5",
+   "Cathphrase": "nutty",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5c/NH-Rolf_poster.png/revision/latest?cb=20200410183806"
+ },
+ {
+   "Name": "Portia",
+   "Personality": "F Snooty",
+   "Species": "Dog",
+   "Birthday": "October 25",
+   "Cathphrase": "ruffian",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/36/NH-Rooney_poster.png/revision/latest?cb=20200328231908"
+ },
+ {
+   "Name": "Prince",
+   "Personality": "M Lazy",
+   "Species": "Frog",
+   "Birthday": "July 21",
+   "Cathphrase": "burrup",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f3/NH-Rory_poster.png/revision/latest?cb=20200328231915"
+ },
+ {
+   "Name": "Puck",
+   "Personality": "M Lazy",
+   "Species": "Penguin",
+   "Birthday": "February 21",
+   "Cathphrase": "brrrrrrrrr",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/01/NH-Roscoe_poster.png/revision/latest?cb=20200328231940"
+ },
+ {
+   "Name": "Puddles",
+   "Personality": "F Peppy",
+   "Species": "Frog",
+   "Birthday": "January 13",
+   "Cathphrase": "splish",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/46/NH-Rosie_poster.png/revision/latest?cb=20200410182055"
+ },
+ {
+   "Name": "Pudge",
+   "Personality": "M Lazy",
+   "Species": "Cub",
+   "Birthday": "June 11",
+   "Cathphrase": "pudgy",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/41/NH-Rowan_poster.png/revision/latest?cb=20200410183742"
+ },
+ {
+   "Name": "Punchy",
+   "Personality": "M Lazy",
+   "Species": "Cat",
+   "Birthday": "April 11",
+   "Cathphrase": "mrmpht",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5c/NH-Ruby_poster.png/revision/latest?cb=20200410185420"
+ },
+ {
+   "Name": "Purrl",
+   "Personality": "F Snooty",
+   "Species": "Cat",
+   "Birthday": "May 29",
+   "Cathphrase": "kitten",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c1/NH-Rudy_poster.png/revision/latest?cb=20200410182928"
+ },
+ {
+   "Name": "Queenie",
+   "Personality": "F Snooty",
+   "Species": "Ostrich",
+   "Birthday": "November 13",
+   "Cathphrase": "chicken",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5d/NH-Sally_poster.png/revision/latest?cb=20200410184136"
+ },
+ {
+   "Name": "Quillson",
+   "Personality": "M Smug",
+   "Species": "Duck",
+   "Birthday": "December 22",
+   "Cathphrase": "ridukulous",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d7/NH-Samson_poster.png/revision/latest?cb=20200410192424"
+ },
+ {
+   "Name": "Raddle",
+   "Personality": "M Lazy",
+   "Species": "Frog",
+   "Birthday": "June 6",
+   "Cathphrase": "aaach-",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/93/NH-Sandy_poster.png/revision/latest?cb=20200410191836"
+ },
+ {
+   "Name": "Rasher",
+   "Personality": "M Cranky",
+   "Species": "Pig",
+   "Birthday": "April 7",
+   "Cathphrase": "swine",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/10/NH-Savannah_poster.png/revision/latest?cb=20200328232034"
+ },
+ {
+   "Name": "Raymo",
+   "Personality": "M Smug",
+   "Species": "Cat",
+   "Birthday": "October 1",
+   "Cathphrase": "crisp",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9d/NH-Scoot_poster.png/revision/latest?cb=20200328232040"
+ },
+ {
+   "Name": "Renée",
+   "Personality": "F Sisterly",
+   "Species": "Rhino",
+   "Birthday": "May 28",
+   "Cathphrase": "yo yo yo",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/47/NH-Shari_poster.png/revision/latest?cb=20200410192655"
+ },
+ {
+   "Name": "Reneigh",
+   "Personality": "F Sisterly",
+   "Species": "Horse",
+   "Birthday": "June 4",
+   "Cathphrase": "ayup, yup",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8e/NH-Sheldon_poster.png/revision/latest?cb=20200410183900"
+ },
+ {
+   "Name": "Rex",
+   "Personality": "M Lazy",
+   "Species": "Lion",
+   "Birthday": "July 24",
+   "Cathphrase": "cool cat",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e9/NH-Shep_poster.png/revision/latest?cb=20200328232109"
+ },
+ {
+   "Name": "Rhonda",
+   "Personality": "F Normal",
+   "Species": "Rhino",
+   "Birthday": "January 24",
+   "Cathphrase": "bigfoot",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/04/Sherb_Poster_NH.png/revision/latest?cb=20200319185254"
+ },
+ {
+   "Name": "Ribbot",
+   "Personality": "M Jock",
+   "Species": "Frog",
+   "Birthday": "February 13",
+   "Cathphrase": "zzrrbbitt",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6a/NH-Simon_poster.png/revision/latest?cb=20200328232139"
+ },
+ {
+   "Name": "Ricky",
+   "Personality": "M Cranky",
+   "Species": "Squirrel",
+   "Birthday": "September 14",
+   "Cathphrase": "nutcase",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/10/NH-Skye_poster.png/revision/latest?cb=20200410183340"
+ },
+ {
+   "Name": "Rizzo",
+   "Personality": "M Cranky",
+   "Species": "Mouse",
+   "Birthday": "January 17",
+   "Cathphrase": "squee",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7f/NH-Sly_poster.png/revision/latest?cb=20200328232206"
+ },
+ {
+   "Name": "Roald",
+   "Personality": "M Jock",
+   "Species": "Penguin",
+   "Birthday": "January 5",
+   "Cathphrase": "b-b-buddy",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Snake_poster.png/revision/latest?cb=20200410185619"
+ },
+ {
+   "Name": "Robin",
+   "Personality": "F Snooty",
+   "Species": "Bi",
+   "Birthday": "December 4",
+   "Cathphrase": "la-di-da",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d2/NH-Snooty_poster.png/revision/latest?cb=20200328232219"
+ },
+ {
+   "Name": "Rocco",
+   "Personality": "M Cranky",
+   "Species": "Hippo",
+   "Birthday": "August 18",
+   "Cathphrase": "hippie",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9f/NH-Soleil_poster.png/revision/latest?cb=20200328232229"
+ },
+ {
+   "Name": "Rocket",
+   "Personality": "F Sisterly",
+   "Species": "Gorilla",
+   "Birthday": "April 14",
+   "Cathphrase": "vroom",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/69/NH-Sparro_poster.png/revision/latest?cb=20200328232235"
+ },
+ {
+   "Name": "Rod",
+   "Personality": "M Jock",
+   "Species": "Mouse",
+   "Birthday": "August 14",
+   "Cathphrase": "ace",
+   "Image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/95/NH-Spike_poster.png/revision/latest?cb=20200410185000"
+ },
+ {
+   "Name": "Rodeo",
+   "Personality": "M Lazy",
+   "Species": "Bull",
+   "Birthday": "October 29",
+   "Cathphrase": "chaps",
+   "Image": ""
+ },
+ {
+   "Name": "Rodney",
+   "Personality": "M Smug",
+   "Species": "Hamster",
+   "Birthday": "November 10",
+   "Cathphrase": "le ham",
+   "Image": ""
+ },
+ {
+   "Name": "Rolf",
+   "Personality": "M Cranky",
+   "Species": "Tiger",
+   "Birthday": "August 22",
+   "Cathphrase": "grrrolf",
+   "Image": ""
+ },
+ {
+   "Name": "Rooney",
+   "Personality": "M Cranky",
+   "Species": "Kangaroo",
+   "Birthday": "December 1",
+   "Cathphrase": "punches",
+   "Image": ""
+ },
+ {
+   "Name": "Rory",
+   "Personality": "M Jock",
+   "Species": "Lion",
+   "Birthday": "August 7",
+   "Cathphrase": "capital",
+   "Image": ""
+ },
+ {
+   "Name": "Roscoe",
+   "Personality": "M Cranky",
+   "Species": "Horse",
+   "Birthday": "June 16",
+   "Cathphrase": "nay",
+   "Image": ""
+ },
+ {
+   "Name": "Rosie",
+   "Personality": "F Peppy",
+   "Species": "Cat",
+   "Birthday": "February 27",
+   "Cathphrase": "silly",
+   "Image": ""
+ },
+ {
+   "Name": "Rowan",
+   "Personality": "M Jock",
+   "Species": "Tiger",
+   "Birthday": "August 26",
+   "Cathphrase": "mango",
+   "Image": ""
+ },
+ {
+   "Name": "Ruby",
+   "Personality": "F Peppy",
+   "Species": "Rabbit",
+   "Birthday": "December 25",
+   "Cathphrase": "li'l ears",
+   "Image": ""
+ },
+ {
+   "Name": "Rudy",
+   "Personality": "M Jock",
+   "Species": "Cat",
+   "Birthday": "December 20",
+   "Cathphrase": "mush",
+   "Image": ""
+ },
+ {
+   "Name": "Sally",
+   "Personality": "F Normal",
+   "Species": "Squirrel",
+   "Birthday": "June 19",
+   "Cathphrase": "nutmeg",
+   "Image": ""
+ },
+ {
+   "Name": "Samson",
+   "Personality": "M Jock",
+   "Species": "Mouse",
+   "Birthday": "July 5",
+   "Cathphrase": "pipsqueak",
+   "Image": ""
+ },
+ {
+   "Name": "Sandy",
+   "Personality": "F Normal",
+   "Species": "Ostrich",
+   "Birthday": "October 21",
+   "Cathphrase": "speedy",
+   "Image": ""
+ },
+ {
+   "Name": "Savannah",
+   "Personality": "F Normal",
+   "Species": "Horse",
+   "Birthday": "January 25",
+   "Cathphrase": "y'all",
+   "Image": ""
+ },
+ {
+   "Name": "Scoot",
+   "Personality": "M Jock",
+   "Species": "Duck",
+   "Birthday": "June 13",
+   "Cathphrase": "zip zoom",
+   "Image": ""
+ },
+ {
+   "Name": "Shari",
+   "Personality": "F Sisterly",
+   "Species": "Monkey",
+   "Birthday": "April 10",
+   "Cathphrase": "cheeky",
+   "Image": ""
+ },
+ {
+   "Name": "Sheldon",
+   "Personality": "M Jock",
+   "Species": "Squirrel",
+   "Birthday": "February 26",
+   "Cathphrase": "cardio",
+   "Image": ""
+ },
+ {
+   "Name": "Shep",
+   "Personality": "M Smug",
+   "Species": "Dog",
+   "Birthday": "November 24",
+   "Cathphrase": "baa baa baa",
+   "Image": ""
+ },
+ {
+   "Name": "Sherb",
+   "Personality": "M Lazy",
+   "Species": "Goat",
+   "Birthday": "January 18",
+   "Cathphrase": "bawwww",
+   "Image": ""
+ },
+ {
+   "Name": "Simon",
+   "Personality": "M Lazy",
+   "Species": "Monkey",
+   "Birthday": "January 19",
+   "Cathphrase": "zzzook",
+   "Image": ""
+ },
+ {
+   "Name": "Skye",
+   "Personality": "F Normal",
+   "Species": "Wolf",
+   "Birthday": "March 24",
+   "Cathphrase": "airmail",
+   "Image": ""
+ },
+ {
+   "Name": "Sly",
+   "Personality": "M Jock",
+   "Species": "Alligator",
+   "Birthday": "November 15",
+   "Cathphrase": "hoo-rah",
+   "Image": ""
+ },
+ {
+   "Name": "Snake",
+   "Personality": "M Jock",
+   "Species": "Rabbit",
+   "Birthday": "November 3",
+   "Cathphrase": "bunyip",
+   "Image": ""
+ },
+ {
+   "Name": "Snooty",
+   "Personality": "F Snooty",
+   "Species": "Anteater",
+   "Birthday": "August 24",
+   "Cathphrase": "snifffff",
+   "Image": ""
+ },
+ {
+   "Name": "Soleil",
+   "Personality": "F Snooty",
+   "Species": "Hamster",
+   "Birthday": "August 9",
+   "Cathphrase": "tarnation",
+   "Image": ""
+ },
+ {
+   "Name": "Sparro",
+   "Personality": "M Jock",
+   "Species": "Bi",
+   "Birthday": "November 20",
+   "Cathphrase": "like whoa",
+   "Image": ""
+ },
+ {
+   "Name": "Spike",
+   "Personality": "M Cranky",
+   "Species": "Rhino",
+   "Birthday": "June 17",
+   "Cathphrase": "punk",
+   "Image": ""
+ },
+ {
+   "Name": "SporkNA",
+   "Personality": "M Lazy",
+   "Species": "Pig",
+   "Birthday": "September 3",
+   "Cathphrase": "snork",
+   "Image": ""
+ },
+ {
+   "Name": "",
+   "Personality": "",
+   "Species": "",
+   "Birthday": "",
+   "Cathphrase": "",
+   "Image": ""
+ },
+ {
+   "Name": "",
+   "Personality": "",
+   "Species": "",
+   "Birthday": "",
+   "Cathphrase": "",
+   "Image": ""
+ },
+ {
+   "Name": "",
+   "Personality": "",
+   "Species": "",
+   "Birthday": "",
+   "Cathphrase": "",
+   "Image": ""
+ },
+ {
+   "Name": "",
+   "Personality": "",
+   "Species": "",
+   "Birthday": "",
+   "Cathphrase": "",
+   "Image": ""
+ },
+ {
+   "Name": "CracklePAL",
+   "Personality": "",
+   "Species": "",
+   "Birthday": "",
+   "Cathphrase": "",
+   "Image": ""
+ },
+ {
+   "Name": "Sprinkle",
+   "Personality": "F Peppy",
+   "Species": "Penguin",
+   "Birthday": "February 20",
+   "Cathphrase": "frappe",
+   "Image": ""
+ },
+ {
+   "Name": "Sprocket",
+   "Personality": "M Jock",
+   "Species": "Ostrich",
+   "Birthday": "December 1",
+   "Cathphrase": "zort",
+   "Image": ""
+ },
+ {
+   "Name": "Static",
+   "Personality": "M Cranky",
+   "Species": "Squirrel",
+   "Birthday": "July 9",
+   "Cathphrase": "krzzt",
+   "Image": ""
+ },
+ {
+   "Name": "Stella",
+   "Personality": "F Normal",
+   "Species": "Sheep",
+   "Birthday": "April 9",
+   "Cathphrase": "baa-dabing",
+   "Image": ""
+ },
+ {
+   "Name": "Sterling",
+   "Personality": "M Jock",
+   "Species": "Eagle",
+   "Birthday": "December 11",
+   "Cathphrase": "skraaaaw",
+   "Image": ""
+ },
+ {
+   "Name": "Stinky",
+   "Personality": "M Jock",
+   "Species": "Cat",
+   "Birthday": "August 17",
+   "Cathphrase": "GAHHHH",
+   "Image": ""
+ },
+ {
+   "Name": "Stitches",
+   "Personality": "M Lazy",
+   "Species": "Cub",
+   "Birthday": "February 10",
+   "Cathphrase": "stuffin'",
+   "Image": ""
+ },
+ {
+   "Name": "Stu",
+   "Personality": "M Lazy",
+   "Species": "Bull",
+   "Birthday": "April 20",
+   "Cathphrase": "moo-dude",
+   "Image": ""
+ },
+ {
+   "Name": "Sydney",
+   "Personality": "F Normal",
+   "Species": "Koala",
+   "Birthday": "June 21",
+   "Cathphrase": "sunshine",
+   "Image": ""
+ },
+ {
+   "Name": "Sylvana",
+   "Personality": "F Normal",
+   "Species": "Squirrel",
+   "Birthday": "October 22",
+   "Cathphrase": "hubbub",
+   "Image": ""
+ },
+ {
+   "Name": "Sylvia",
+   "Personality": "F Sisterly",
+   "Species": "Kangaroo",
+   "Birthday": "May 3",
+   "Cathphrase": "boing",
+   "Image": ""
+ },
+ {
+   "Name": "Tabby",
+   "Personality": "F Peppy",
+   "Species": "Cat",
+   "Birthday": "August 13",
+   "Cathphrase": "me-WOW",
+   "Image": ""
+ },
+ {
+   "Name": "Tad",
+   "Personality": "M Jock",
+   "Species": "Frog",
+   "Birthday": "August 3",
+   "Cathphrase": "sluuuurp",
+   "Image": ""
+ },
+ {
+   "Name": "Tammi",
+   "Personality": "F Peppy",
+   "Species": "Monkey",
+   "Birthday": "April 2",
+   "Cathphrase": "chimpy",
+   "Image": ""
+ },
+ {
+   "Name": "Tammy",
+   "Personality": "F Sisterly",
+   "Species": "Cub",
+   "Birthday": "June 23",
+   "Cathphrase": "ya hea",
+   "Image": ""
+ },
+ {
+   "Name": "Tangy",
+   "Personality": "F Peppy",
+   "Species": "Cat",
+   "Birthday": "June 17",
+   "Cathphrase": "reeeeOWR",
+   "Image": ""
+ },
+ {
+   "Name": "Tank",
+   "Personality": "M Jock",
+   "Species": "Rhino",
+   "Birthday": "May 6",
+   "Cathphrase": "kerPOW",
+   "Image": ""
+ },
+ {
+   "Name": "T-Bone",
+   "Personality": "M Cranky",
+   "Species": "Bull",
+   "Birthday": "May 20",
+   "Cathphrase": "moocher",
+   "Image": ""
+ },
+ {
+   "Name": "Tasha",
+   "Personality": "F Snooty",
+   "Species": "Squirrel",
+   "Birthday": "November 30",
+   "Cathphrase": "nice nice",
+   "Image": ""
+ },
+ {
+   "Name": "Teddy",
+   "Personality": "M Jock",
+   "Species": "Bear",
+   "Birthday": "September 26",
+   "Cathphrase": "grooof",
+   "Image": ""
+ },
+ {
+   "Name": "Tex",
+   "Personality": "M Smug",
+   "Species": "Penguin",
+   "Birthday": "October 6",
+   "Cathphrase": "picante",
+   "Image": ""
+ },
+ {
+   "Name": "Tia",
+   "Personality": "F Normal",
+   "Species": "Elephant",
+   "Birthday": "November 18",
+   "Cathphrase": "teacup",
+   "Image": ""
+ },
+ {
+   "Name": "Tiffany",
+   "Personality": "F Snooty",
+   "Species": "Rabbit",
+   "Birthday": "January 9",
+   "Cathphrase": "bun bun",
+   "Image": ""
+ },
+ {
+   "Name": "Timbra",
+   "Personality": "F Snooty",
+   "Species": "Sheep",
+   "Birthday": "October 21",
+   "Cathphrase": "pine nut",
+   "Image": ""
+ },
+ {
+   "Name": "Tipper",
+   "Personality": "F Snooty",
+   "Species": "Cow",
+   "Birthday": "August 25",
+   "Cathphrase": "pushy",
+   "Image": ""
+ },
+ {
+   "Name": "Tom",
+   "Personality": "M Cranky",
+   "Species": "Cat",
+   "Birthday": "December 10",
+   "Cathphrase": "me-YOWZA",
+   "Image": ""
+ },
+ {
+   "Name": "Truffles",
+   "Personality": "F Peppy",
+   "Species": "Pig",
+   "Birthday": "July 28",
+   "Cathphrase": "snoutie",
+   "Image": ""
+ },
+ {
+   "Name": "Tucker",
+   "Personality": "M Lazy",
+   "Species": "Elephant",
+   "Birthday": "September 7",
+   "Cathphrase": "fuzzers",
+   "Image": ""
+ },
+ {
+   "Name": "Tutu",
+   "Personality": "F Peppy",
+   "Species": "Bear",
+   "Birthday": "November 15",
+   "Cathphrase": "twinkles",
+   "Image": ""
+ },
+ {
+   "Name": "Twiggy",
+   "Personality": "F Peppy",
+   "Species": "Bi",
+   "Birthday": "July 13",
+   "Cathphrase": "cheepers",
+   "Image": ""
+ },
+ {
+   "Name": "Tybalt",
+   "Personality": "M Jock",
+   "Species": "Tiger",
+   "Birthday": "August 19",
+   "Cathphrase": "grrRAH",
+   "Image": ""
+ },
+ {
+   "Name": "Ursala",
+   "Personality": "F Sisterly",
+   "Species": "Bear",
+   "Birthday": "January 16",
+   "Cathphrase": "grooomph",
+   "Image": ""
+ },
+ {
+   "Name": "Velma",
+   "Personality": "F Snooty",
+   "Species": "Goat",
+   "Birthday": "January 14",
+   "Cathphrase": "blih",
+   "Image": ""
+ },
+ {
+   "Name": "Vesta",
+   "Personality": "F Normal",
+   "Species": "Sheep",
+   "Birthday": "April 16",
+   "Cathphrase": "baaaffo",
+   "Image": ""
+ },
+ {
+   "Name": "Vic",
+   "Personality": "M Cranky",
+   "Species": "Bull",
+   "Birthday": "December 29",
+   "Cathphrase": "cud",
+   "Image": ""
+ },
+ {
+   "Name": "Victoria",
+   "Personality": "F Peppy",
+   "Species": "Horse",
+   "Birthday": "July 11",
+   "Cathphrase": "sugar cube",
+   "Image": ""
+ },
+ {
+   "Name": "Violet",
+   "Personality": "F Snooty",
+   "Species": "Gorilla",
+   "Birthday": "September 1",
+   "Cathphrase": "sweetie",
+   "Image": ""
+ },
+ {
+   "Name": "Vivian",
+   "Personality": "F Snooty",
+   "Species": "Wolf",
+   "Birthday": "January 26",
+   "Cathphrase": "piffle",
+   "Image": ""
+ },
+ {
+   "Name": "Vladimir",
+   "Personality": "M Cranky",
+   "Species": "Cub",
+   "Birthday": "August 2",
+   "Cathphrase": "nyet",
+   "Image": ""
+ },
+ {
+   "Name": "Wade",
+   "Personality": "M Lazy",
+   "Species": "Penguin",
+   "Birthday": "October 30",
+   "Cathphrase": "so it goes",
+   "Image": ""
+ },
+ {
+   "Name": "Walker",
+   "Personality": "M Lazy",
+   "Species": "Dog",
+   "Birthday": "June 10",
+   "Cathphrase": "wuh",
+   "Image": ""
+ },
+ {
+   "Name": "Walt",
+   "Personality": "M Cranky",
+   "Species": "Kangaroo",
+   "Birthday": "April 24",
+   "Cathphrase": "pockets",
+   "Image": ""
+ },
+ {
+   "Name": "Wart Jr.",
+   "Personality": "M Cranky",
+   "Species": "Frog",
+   "Birthday": "August 21",
+   "Cathphrase": "grr-ribbit",
+   "Image": ""
+ },
+ {
+   "Name": "Weber",
+   "Personality": "M Lazy",
+   "Species": "Duck",
+   "Birthday": "June 30",
+   "Cathphrase": "quaa",
+   "Image": ""
+ },
+ {
+   "Name": "Wendy",
+   "Personality": "F Peppy",
+   "Species": "Sheep",
+   "Birthday": "August 15",
+   "Cathphrase": "lambkins",
+   "Image": ""
+ },
+ {
+   "Name": "Winnie",
+   "Personality": "F Peppy",
+   "Species": "Horse",
+   "Birthday": "January 31",
+   "Cathphrase": "hay-OK",
+   "Image": ""
+ },
+ {
+   "Name": "Whitney",
+   "Personality": "F Snooty",
+   "Species": "Wolf",
+   "Birthday": "September 17",
+   "Cathphrase": "snappy",
+   "Image": ""
+ },
+ {
+   "Name": "Willow",
+   "Personality": "F Snooty",
+   "Species": "Sheep",
+   "Birthday": "November 26",
+   "Cathphrase": "bo peep",
+   "Image": ""
+ },
+ {
+   "Name": "Wolfgang",
+   "Personality": "M Cranky",
+   "Species": "Wolf",
+   "Birthday": "November 25",
+   "Cathphrase": "snarrrl",
+   "Image": ""
+ },
+ {
+   "Name": "Yuka",
+   "Personality": "F Snooty",
+   "Species": "Koala",
+   "Birthday": "July 20",
+   "Cathphrase": "tsk tsk",
+   "Image": ""
+ },
+ {
+   "Name": "Zell",
+   "Personality": "M Smug",
+   "Species": "Deer",
+   "Birthday": "June 7",
+   "Cathphrase": "pronk",
+   "Image": ""
+ },
+ {
+   "Name": "Zucker",
+   "Personality": "M Lazy",
+   "Species": "Octopus",
+   "Birthday": "March 8",
+   "Cathphrase": "bloop",
+   "Image": ""
+ }
+]

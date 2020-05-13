@@ -1,0 +1,722 @@
+[
+ {
+   "Number": 1,
+   "Fish": "Bitterling",
+   "Location": "River",
+   "Shadow Size": "Smallest",
+   "Value": "900",
+   "Time": "All day",
+   "Month": "November-March (Northern) / May-September (Southern)"
+ },
+ {
+   "Number": 2,
+   "Fish": "Pale Chub",
+   "Location": "River",
+   "Shadow Size": "Smallest",
+   "Value": "160",
+   "Time": "9 a.m. - 4 p.m.",
+   "Month": "Year-round (Northern and Southern)"
+ },
+ {
+   "Number": 3,
+   "Fish": "Crucian Carp",
+   "Location": "River",
+   "Shadow Size": "Small",
+   "Value": "160",
+   "Time": "All day",
+   "Month": "Year-round (Northern and Southern)"
+ },
+ {
+   "Number": 4,
+   "Fish": "Dace",
+   "Location": "River",
+   "Shadow Size": "Medium",
+   "Value": "240",
+   "Time": "4 p.m. - 9 a.m.",
+   "Month": "Year-round (Northern and Southern)"
+ },
+ {
+   "Number": 5,
+   "Fish": "Carp",
+   "Location": "Pond",
+   "Shadow Size": "Large",
+   "Value": "300",
+   "Time": "All day",
+   "Month": "Year-round (Northern and Southern)"
+ },
+ {
+   "Number": 6,
+   "Fish": "Koi",
+   "Location": "Pond",
+   "Shadow Size": "Large",
+   "Value": "4,000",
+   "Time": "4 p.m. - 9 a.m.",
+   "Month": "Year-round (Northern and Southern)"
+ },
+ {
+   "Number": 7,
+   "Fish": "Goldfish",
+   "Location": "Pond",
+   "Shadow Size": "Smallest",
+   "Value": "1,300",
+   "Time": "All day",
+   "Month": "Year-round (Northern and Southern)"
+ },
+ {
+   "Number": 8,
+   "Fish": "Pop-eyed Goldfish",
+   "Location": "Pond",
+   "Shadow Size": "Smallest",
+   "Value": "1,300",
+   "Time": "9 a.m. - 4 p.m.",
+   "Month": "Year-round (Northern and Southern)"
+ },
+ {
+   "Number": 9,
+   "Fish": "Ranchu Goldfish",
+   "Location": "Pond",
+   "Shadow Size": "Small",
+   "Value": "4,500",
+   "Time": "9 a.m. - 4 p.m.",
+   "Month": "Year-round (Northern and Southern)"
+ },
+ {
+   "Number": 10,
+   "Fish": "Killifish",
+   "Location": "Pond",
+   "Shadow Size": "Smallest",
+   "Value": "300",
+   "Time": "All day",
+   "Month": "April-August (Northern) / October-February (Southern)"
+ },
+ {
+   "Number": 11,
+   "Fish": "Crawfish",
+   "Location": "Pond",
+   "Shadow Size": "Small",
+   "Value": "200",
+   "Time": "All day",
+   "Month": "April-September (Northern) / October-March (Southern)"
+ },
+ {
+   "Number": 12,
+   "Fish": "Soft-shelled Turtle",
+   "Location": "River",
+   "Shadow Size": "Large",
+   "Value": "3,750",
+   "Time": "4 p.m. - 9 a.m.",
+   "Month": "August-September (Northern) / February-March (Southern)"
+ },
+ {
+   "Number": 13,
+   "Fish": "Snapping Turtle",
+   "Location": "River",
+   "Shadow Size": "X Large",
+   "Value": "5,000",
+   "Time": "9 p.m. - 4 a.m.",
+   "Month": "April-October (Northern) / October-April (Southern)"
+ },
+ {
+   "Number": 14,
+   "Fish": "Tadpole",
+   "Location": "Pond",
+   "Shadow Size": "Smallest",
+   "Value": "100",
+   "Time": "All day",
+   "Month": "March-July (Northern) / September-January (Southern)"
+ },
+ {
+   "Number": 15,
+   "Fish": "Frog",
+   "Location": "Pond",
+   "Shadow Size": "Small",
+   "Value": "120",
+   "Time": "All day",
+   "Month": "May-August (Northern) / November-Feburary (Southern)"
+ },
+ {
+   "Number": 16,
+   "Fish": "Freshwater Goby",
+   "Location": "River",
+   "Shadow Size": "Small",
+   "Value": "400",
+   "Time": "4 p.m. - 9 a.m.",
+   "Month": "Year-round (Northern and Southern)"
+ },
+ {
+   "Number": 17,
+   "Fish": "Loach",
+   "Location": "River",
+   "Shadow Size": "Small",
+   "Value": "400",
+   "Time": "All day",
+   "Month": "March-May (Northern) / September-November (Southern)"
+ },
+ {
+   "Number": 18,
+   "Fish": "Catfish",
+   "Location": "Pond",
+   "Shadow Size": "Large",
+   "Value": "800",
+   "Time": "4 p.m. - 9 a.m.",
+   "Month": "May-October (Northern) / November-April (Southern)"
+ },
+ {
+   "Number": 19,
+   "Fish": "Giant Snakehead",
+   "Location": "Pond",
+   "Shadow Size": "X Large",
+   "Value": "5,500",
+   "Time": "9 a.m. - 4 p.m.",
+   "Month": "June-August (Northern) / December-February (Southern)"
+ },
+ {
+   "Number": 20,
+   "Fish": "Bluegill",
+   "Location": "River",
+   "Shadow Size": "Small",
+   "Value": "180",
+   "Time": "9 a.m. - 4 p.m.",
+   "Month": "Year-round (Northern and Southern)"
+ },
+ {
+   "Number": 21,
+   "Fish": "Yellow Perch",
+   "Location": "River",
+   "Shadow Size": "Medium",
+   "Value": "300",
+   "Time": "All day",
+   "Month": "October-March (Northern) / April-September (Southern)"
+ },
+ {
+   "Number": 22,
+   "Fish": "Black Bass",
+   "Location": "River",
+   "Shadow Size": "Large",
+   "Value": "400",
+   "Time": "All day",
+   "Month": "Year-round (Northern and Southern)"
+ },
+ {
+   "Number": 23,
+   "Fish": "Tilapia",
+   "Location": "River",
+   "Shadow Size": "Medium",
+   "Value": "800",
+   "Time": "All day",
+   "Month": "June-October (Northern) / December-April (Southern)"
+ },
+ {
+   "Number": 24,
+   "Fish": "Pike",
+   "Location": "River",
+   "Shadow Size": "X Large",
+   "Value": "1,800",
+   "Time": "All day",
+   "Month": "September-December (Northern) / March-June (Southern)"
+ },
+ {
+   "Number": 25,
+   "Fish": "Pond Smelt",
+   "Location": "River",
+   "Shadow Size": "Small",
+   "Value": "500",
+   "Time": "All day",
+   "Month": "December-February (Northern) / June-August (Southern)"
+ },
+ {
+   "Number": 26,
+   "Fish": "Sweetfish",
+   "Location": "River",
+   "Shadow Size": "Medium",
+   "Value": "900",
+   "Time": "All day",
+   "Month": "July-September (Northern) / January-March (Southern)"
+ },
+ {
+   "Number": 27,
+   "Fish": "Cherry Salmon",
+   "Location": "River (Clifftop)",
+   "Shadow Size": "Medium",
+   "Value": "1,000",
+   "Time": "4 p.m. - 9 a.m.",
+   "Month": "March-June, September-November (Northern) / March-May, September-December (Southern)"
+ },
+ {
+   "Number": 28,
+   "Fish": "Char",
+   "Location": "River (Clifftop)",
+   "Shadow Size": "Medium",
+   "Value": "3,800",
+   "Time": "4 p.m. - 9 a.m.",
+   "Month": "March-June, September-November (Northern) / March-May, September-December (Southern)"
+ },
+ {
+   "Number": 29,
+   "Fish": "Golden Trout",
+   "Location": "River (Clifftop)",
+   "Shadow Size": "Medium",
+   "Value": "15,000",
+   "Time": "4 p.m. - 9 a.m.",
+   "Month": "March-June, September-November (Northern) / March-May, September-December (Southern)"
+ },
+ {
+   "Number": 30,
+   "Fish": "Stringfish",
+   "Location": "River (Clifftop)",
+   "Shadow Size": "X Large",
+   "Value": "15,000",
+   "Time": "4 p.m. - 9 a.m.",
+   "Month": "December-March (Northern) / June-September (Southern)"
+ },
+ {
+   "Number": 31,
+   "Fish": "Salmon",
+   "Location": "River (mouth)",
+   "Shadow Size": "Large",
+   "Value": "700",
+   "Time": "All day",
+   "Month": "September (Northern) / March (Southern)"
+ },
+ {
+   "Number": 32,
+   "Fish": "King Salmon",
+   "Location": "River (mouth)",
+   "Shadow Size": "Largest",
+   "Value": "1,800",
+   "Time": "All day",
+   "Month": "September (Northern) / March (Southern)"
+ },
+ {
+   "Number": 33,
+   "Fish": "Mitten Crab",
+   "Location": "River",
+   "Shadow Size": "Small",
+   "Value": "2,000",
+   "Time": "4 p.m. - 9 a.m.",
+   "Month": "September-November (Northern) / March-May (Southern)"
+ },
+ {
+   "Number": 34,
+   "Fish": "Guppy",
+   "Location": "River",
+   "Shadow Size": "Smallest",
+   "Value": "1,300",
+   "Time": "9 a.m. - 4 p.m.",
+   "Month": "April-November (Northern) / October-May (Southern)"
+ },
+ {
+   "Number": 35,
+   "Fish": "Nibble Fish",
+   "Location": "River",
+   "Shadow Size": "Smallest",
+   "Value": "1,500",
+   "Time": "9 a.m. - 4 p.m.",
+   "Month": "May-September (Northern) / November-March (Southern)"
+ },
+ {
+   "Number": 36,
+   "Fish": "Angelfish",
+   "Location": "River",
+   "Shadow Size": "Small",
+   "Value": "3,000",
+   "Time": "4 p.m. - 9 a.m.",
+   "Month": "May-October (Northern) / November-April (Southern)"
+ },
+ {
+   "Number": 37,
+   "Fish": "Betta",
+   "Location": "River",
+   "Shadow Size": "Small",
+   "Value": "2,500",
+   "Time": "9 a.m. - 4 p.m.",
+   "Month": "May-October (Northern) / November-April (Southern)"
+ },
+ {
+   "Number": 38,
+   "Fish": "Neon Tetra",
+   "Location": "River",
+   "Shadow Size": "Smallest",
+   "Value": "500",
+   "Time": "9 a.m. - 4 p.m.",
+   "Month": "April-November (Northern) / October-May (Southern)"
+ },
+ {
+   "Number": 39,
+   "Fish": "Rainbowfish",
+   "Location": "River",
+   "Shadow Size": "Smallest",
+   "Value": "800",
+   "Time": "9 a.m. - 4 p.m.",
+   "Month": "May-October (Northern) / November-April (Southern)"
+ },
+ {
+   "Number": 40,
+   "Fish": "Piranha",
+   "Location": "River",
+   "Shadow Size": "Small",
+   "Value": "2,500",
+   "Time": "9 a.m. - 4 p.m., 9 p.m. - 4 a.m.",
+   "Month": "June-September (Northern) / December-March (Southern)"
+ },
+ {
+   "Number": 41,
+   "Fish": "Arowana",
+   "Location": "River",
+   "Shadow Size": "Large",
+   "Value": "10,000",
+   "Time": "4 p.m. - 9 a.m.",
+   "Month": "June-September (Northern) / December-March (Southern)"
+ },
+ {
+   "Number": 42,
+   "Fish": "Dorado",
+   "Location": "River",
+   "Shadow Size": "X Large",
+   "Value": "15,000",
+   "Time": "4 a.m. - 9 p.m.",
+   "Month": "June-September (Northern) / December-March (Southern)"
+ },
+ {
+   "Number": 43,
+   "Fish": "Gar",
+   "Location": "Pond",
+   "Shadow Size": "Largest",
+   "Value": "6,000",
+   "Time": "4 p.m. - 9 a.m.",
+   "Month": "June-September (Northern) / December-March (Southern)"
+ },
+ {
+   "Number": 44,
+   "Fish": "Arapaima",
+   "Location": "River",
+   "Shadow Size": "Largest",
+   "Value": "10,000",
+   "Time": "4 p.m. - 9 a.m.",
+   "Month": "June-September (Northern) / December-March (Southern)"
+ },
+ {
+   "Number": 45,
+   "Fish": "Saddled Bichir",
+   "Location": "River",
+   "Shadow Size": "Large",
+   "Value": "4,000",
+   "Time": "9 p.m. - 4 a.m.",
+   "Month": "June-September (Northern) / December-March (Southern)"
+ },
+ {
+   "Number": 46,
+   "Fish": "Sturgeon",
+   "Location": "River (mouth)",
+   "Shadow Size": "Largest",
+   "Value": "10,000",
+   "Time": "All day",
+   "Month": "September-March (Northern) / March-September (Southern)"
+ },
+ {
+   "Number": 47,
+   "Fish": "Sea Butterfly",
+   "Location": "Sea",
+   "Shadow Size": "Smallest",
+   "Value": "1,000",
+   "Time": "All day",
+   "Month": "December-March (Northern) / June-September (Southern)"
+ },
+ {
+   "Number": 48,
+   "Fish": "Sea Horse",
+   "Location": "Sea",
+   "Shadow Size": "Smallest",
+   "Value": "1,100",
+   "Time": "All day",
+   "Month": "April-November (Northern) / October-May (Southern)"
+ },
+ {
+   "Number": 49,
+   "Fish": "Clown Fish",
+   "Location": "Sea",
+   "Shadow Size": "Smallest",
+   "Value": "650",
+   "Time": "All day",
+   "Month": "April-September (Northern) / October-March (Southern)"
+ },
+ {
+   "Number": 50,
+   "Fish": "Surgeonfish",
+   "Location": "Sea",
+   "Shadow Size": "Small",
+   "Value": "1,000",
+   "Time": "All day",
+   "Month": "April-September (Northern) / October-March (Southern)"
+ },
+ {
+   "Number": 51,
+   "Fish": "Butterfly Fish",
+   "Location": "Sea",
+   "Shadow Size": "Small",
+   "Value": "1,000",
+   "Time": "All day",
+   "Month": "April-September (Northern) / October-March (Southern)"
+ },
+ {
+   "Number": 52,
+   "Fish": "Napoleonfish",
+   "Location": "Sea",
+   "Shadow Size": "Largest",
+   "Value": "10,000",
+   "Time": "4 a.m. - 9 p.m.",
+   "Month": "July-August (Northern) / January-February (Southern)"
+ },
+ {
+   "Number": 53,
+   "Fish": "Zebra Turkeyfish",
+   "Location": "Sea",
+   "Shadow Size": "Medium",
+   "Value": "500",
+   "Time": "All day",
+   "Month": "April-November (Northern) / October-May (Southern)"
+ },
+ {
+   "Number": 54,
+   "Fish": "Blowfish",
+   "Location": "Sea",
+   "Shadow Size": "Medium",
+   "Value": "5,000",
+   "Time": "9 p.m. - 4 a.m.",
+   "Month": "November-February (Northern) / May-August (Southern)"
+ },
+ {
+   "Number": 55,
+   "Fish": "Puffer Fish",
+   "Location": "Sea",
+   "Shadow Size": "Medium",
+   "Value": "250",
+   "Time": "All day",
+   "Month": "July-September (Northern) / January-March (Southern)"
+ },
+ {
+   "Number": 56,
+   "Fish": "Anchovy",
+   "Location": "Sea",
+   "Shadow Size": "Small",
+   "Value": "200",
+   "Time": "4 a.m. - 9 p.m.",
+   "Month": "Year-round (Northern and Southern)"
+ },
+ {
+   "Number": 57,
+   "Fish": "Horse Mackerel",
+   "Location": "Sea",
+   "Shadow Size": "Small",
+   "Value": "150",
+   "Time": "All day",
+   "Month": "Year-round (Northern and Southern)"
+ },
+ {
+   "Number": 58,
+   "Fish": "Barred Knifejaw",
+   "Location": "Sea",
+   "Shadow Size": "Medium",
+   "Value": "5,000",
+   "Time": "All day",
+   "Month": "March-November (Northern) / September-May (Southern)"
+ },
+ {
+   "Number": 59,
+   "Fish": "Sea Bass",
+   "Location": "Sea",
+   "Shadow Size": "X Large",
+   "Value": "400",
+   "Time": "All day",
+   "Month": "Year-round (Northern and Southern)"
+ },
+ {
+   "Number": 60,
+   "Fish": "Red Snapper",
+   "Location": "Sea",
+   "Shadow Size": "Large",
+   "Value": "3,000",
+   "Time": "All day",
+   "Month": "Year-round (Northern and Southern)"
+ },
+ {
+   "Number": 61,
+   "Fish": "Dab",
+   "Location": "Sea",
+   "Shadow Size": "Medium",
+   "Value": "300",
+   "Time": "All day",
+   "Month": "October-April (Northern) / April-October (Southern)"
+ },
+ {
+   "Number": 62,
+   "Fish": "Olive Flounder",
+   "Location": "Sea",
+   "Shadow Size": "Large",
+   "Value": "800",
+   "Time": "All day",
+   "Month": "Year-round (Northern and Southern)"
+ },
+ {
+   "Number": 63,
+   "Fish": "Squid",
+   "Location": "Sea",
+   "Shadow Size": "Medium",
+   "Value": "500",
+   "Time": "All day",
+   "Month": "December-August (Northern) / June-February (Southern)"
+ },
+ {
+   "Number": 64,
+   "Fish": "Moray Eel",
+   "Location": "Sea",
+   "Shadow Size": "Narrow",
+   "Value": "2,000",
+   "Time": "All day",
+   "Month": "August-October (Northern) / February-April (Southern)"
+ },
+ {
+   "Number": 65,
+   "Fish": "Ribbon Eel",
+   "Location": "Sea",
+   "Shadow Size": "Narrow",
+   "Value": "600",
+   "Time": "All day",
+   "Month": "June-October (Northern) / December-April (Southern)"
+ },
+ {
+   "Number": 66,
+   "Fish": "Tuna",
+   "Location": "Pier",
+   "Shadow Size": "Largest",
+   "Value": "7,000",
+   "Time": "All day",
+   "Month": "November-April (Northern) / May-October (Southern)"
+ },
+ {
+   "Number": 67,
+   "Fish": "Blue Marlin",
+   "Location": "Pier",
+   "Shadow Size": "Largest",
+   "Value": "10,000",
+   "Time": "All day",
+   "Month": "July-September, November-April (Northern) / January-March, May-November (Southern)"
+ },
+ {
+   "Number": 68,
+   "Fish": "Giant Trevally",
+   "Location": "Pier",
+   "Shadow Size": "X Large",
+   "Value": "4,500",
+   "Time": "All day",
+   "Month": "May-October (Northern) / November-April (Southern)"
+ },
+ {
+   "Number": 69,
+   "Fish": "Mahi-mahi",
+   "Location": "Pier",
+   "Shadow Size": "X Large",
+   "Value": "6,000",
+   "Time": "All day",
+   "Month": "May-October (Northern) / November-April (Southern)"
+ },
+ {
+   "Number": 70,
+   "Fish": "Ocean Sunfish",
+   "Location": "Sea",
+   "Shadow Size": "Largest (Fin)",
+   "Value": "4,000",
+   "Time": "4 a.m. - 9 p.m.",
+   "Month": "July-September (Northern) / January-March (Southern)"
+ },
+ {
+   "Number": 71,
+   "Fish": "Ray",
+   "Location": "Sea",
+   "Shadow Size": "X Large",
+   "Value": "3,000",
+   "Time": "4 a.m. - 9 p.m.",
+   "Month": "August-November (Northern) / February-May (Southern)"
+ },
+ {
+   "Number": 72,
+   "Fish": "Saw Shark",
+   "Location": "Sea",
+   "Shadow Size": "Largest (Fin)",
+   "Value": "12,000",
+   "Time": "4 p.m. - 9 a.m.",
+   "Month": "June-September (Northern) / December-March (Southern)"
+ },
+ {
+   "Number": 73,
+   "Fish": "Hammerhead Shark",
+   "Location": "Sea",
+   "Shadow Size": "Largest (Fin)",
+   "Value": "8,000",
+   "Time": "4 p.m. - 9 a.m.",
+   "Month": "June-September (Northern) / December-March (Southern)"
+ },
+ {
+   "Number": 74,
+   "Fish": "Great White Shark",
+   "Location": "Sea",
+   "Shadow Size": "Largest (Fin)",
+   "Value": "15,000",
+   "Time": "4 p.m. - 9 a.m.",
+   "Month": "June-September (Northern) / December-March (Southern)"
+ },
+ {
+   "Number": 75,
+   "Fish": "Whale Shark",
+   "Location": "Sea",
+   "Shadow Size": "Largest (Fin)",
+   "Value": "13,000",
+   "Time": "All day",
+   "Month": "June-September (Northern) / December-March (Southern)"
+ },
+ {
+   "Number": 76,
+   "Fish": "Suckerfish",
+   "Location": "Sea",
+   "Shadow Size": "Large (Fin)",
+   "Value": "1,500",
+   "Time": "All day",
+   "Month": "June-September (Northern) / December-March (Southern)"
+ },
+ {
+   "Number": 77,
+   "Fish": "Football Fish",
+   "Location": "Sea",
+   "Shadow Size": "Large",
+   "Value": "2,500",
+   "Time": "4 p.m. - 9 a.m.",
+   "Month": "November-March (Northern) / May-September (Southern)"
+ },
+ {
+   "Number": 78,
+   "Fish": "Oarfish",
+   "Location": "Sea",
+   "Shadow Size": "Largest",
+   "Value": "9,000",
+   "Time": "All day",
+   "Month": "December-May (Northern) / June-November (Southern)"
+ },
+ {
+   "Number": 79,
+   "Fish": "Barreleye",
+   "Location": "Sea",
+   "Shadow Size": "Small",
+   "Value": "15,000",
+   "Time": "9 p.m. - 4 a.m.",
+   "Month": "Year-round (Northern and Southern)"
+ },
+ {
+   "Number": 80,
+   "Fish": "Coelacanth",
+   "Location": "Sea (rainy days)",
+   "Shadow Size": "Largest",
+   "Value": "15,000",
+   "Time": "All day",
+   "Month": "Year-round (Northern and Southern)"
+ }
+]
