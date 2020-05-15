@@ -16,3 +16,5 @@ https://pub.dev/packages/flutter_touch_spin
 Switch
 https://pub.dev/packages/lite_rolling_switch
 https://pub.dev/packages/toggle_switch
+
+https://medium.com/swlh/flutter-get-data-from-a-rest-api-and-save-locally-in-a-sqlite-database-9a9de5867939
