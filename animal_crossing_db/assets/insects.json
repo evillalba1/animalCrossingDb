@@ -1,642 +1,802 @@
 [
- {
-   "Number": 1,
-   "Insect": "Common Butterfly",
-   "Location": "Flying",
-   "Value": "160",
-   "Time": "4 a.m. - 7 p.m.",
-   "Month": "September-June (Northern) / March-December (Southern)"
- },
- {
-   "Number": 2,
-   "Insect": "Yellow Butterfly",
-   "Location": "Flying",
-   "Value": "160",
-   "Time": "4 a.m. - 7 p.m.",
-   "Month": "March-June, September-October (Northern) / March-April, September-December (Southern)"
- },
- {
-   "Number": 3,
-   "Insect": "Tiger Butterfly",
-   "Location": "Flying",
-   "Value": "240",
-   "Time": "4 a.m. - 7 p.m.",
-   "Month": "March-September (Northern) / September-March (Southern)"
- },
- {
-   "Number": 4,
-   "Insect": "Peacock Butterfly",
-   "Location": "Flying by hybrid flowers",
-   "Value": "2,500",
-   "Time": "4 a.m. - 7 p.m.",
-   "Month": "March-June (Northern) / September-December (Southern)"
- },
- {
-   "Number": 5,
-   "Insect": "Common Bluebottle",
-   "Location": "Flying",
-   "Value": "300",
-   "Time": "4 a.m. - 7 p.m.",
-   "Month": "April-August (Northern) / October-February (Southern)"
- },
- {
-   "Number": 6,
-   "Insect": "Paper Kite Butterfly",
-   "Location": "Flying",
-   "Value": "1,000",
-   "Time": "8 a.m. - 7 p.m.",
-   "Month": "Year-round (Northern and Southern)"
- },
- {
-   "Number": 7,
-   "Insect": "Great Purple Emperor",
-   "Location": "Flying",
-   "Value": "3,000",
-   "Time": "4 a.m. - 7 p.m.",
-   "Month": "May-August (Northern) / November-February (Southern)"
- },
- {
-   "Number": 8,
-   "Insect": "Monarch Butterfly",
-   "Location": "Flying",
-   "Value": "140",
-   "Time": "4 a.m. - 5 p.m.",
-   "Month": "September-November (Northern) / March-May (Southern)"
- },
- {
-   "Number": 9,
-   "Insect": "Emperor Butterfly",
-   "Location": "Flying",
-   "Value": "4,000",
-   "Time": "5 p.m. - 8 a.m.",
-   "Month": "June-September, December-March (Northern) / December-March, June-September (Southern)"
- },
- {
-   "Number": 10,
-   "Insect": "Agrias Butterfly",
-   "Location": "Flying",
-   "Value": "3,000",
-   "Time": "8 a.m. - 5 p.m.",
-   "Month": "April-September (Northern) / November-March (Southern)"
- },
- {
-   "Number": 11,
-   "Insect": "Raja Brooke's Birdwing",
-   "Location": "Flying by purple flowers",
-   "Value": "2,500",
-   "Time": "8 a.m. - 5 p.m.",
-   "Month": "April-September, December-February (Northern) / November-March, June-August (Southern)"
- },
- {
-   "Number": 12,
-   "Insect": "Queen Alexandra's Birdwing",
-   "Location": "Flying",
-   "Value": "4,000",
-   "Time": "8 a.m. - 4 p.m.",
-   "Month": "May-September (Northern) / November-March (Southern)"
- },
- {
-   "Number": 13,
-   "Insect": "Moth",
-   "Location": "Flying by light",
-   "Value": "130",
-   "Time": "7 p.m. - 4 a.m.",
-   "Month": "Year-round (Northern and Southern)"
- },
- {
-   "Number": 14,
-   "Insect": "Atlas Moth",
-   "Location": "On trees",
-   "Value": "3,000",
-   "Time": "7 p.m. - 4 a.m.",
-   "Month": "April-September (Northern) / October-March (Southern)"
- },
- {
-   "Number": 15,
-   "Insect": "Madagascan Sunset Moth",
-   "Location": "Flying",
-   "Value": "2,500",
-   "Time": "8 a.m. - 4 p.m.",
-   "Month": "April-September (Northern) / October-March (Southern)"
- },
- {
-   "Number": 16,
-   "Insect": "Long Locust",
-   "Location": "On ground",
-   "Value": "200",
-   "Time": "8 a.m. - 7 p.m.",
-   "Month": "April-November (Northern) / November-May (Southern)"
- },
- {
-   "Number": 17,
-   "Insect": "Migratory Locust",
-   "Location": "On ground",
-   "Value": "600",
-   "Time": "8 a.m. - 7 p.m.",
-   "Month": "August-November (Northern) / February-May (Southern)"
- },
- {
-   "Number": 18,
-   "Insect": "Rice Grasshopper",
-   "Location": "On ground",
-   "Value": "160",
-   "Time": "8 a.m. - 7 p.m.",
-   "Month": "August-November (Northern) / February-May (Southern)"
- },
- {
-   "Number": 19,
-   "Insect": "Grasshopper",
-   "Location": "On ground",
-   "Value": "160",
-   "Time": "8 a.m. - 5 p.m.",
-   "Month": "July-September (Northern) / January-March (Southern)"
- },
- {
-   "Number": 20,
-   "Insect": "Cricket",
-   "Location": "On ground",
-   "Value": "130",
-   "Time": "5 p.m. - 8 a.m.",
-   "Month": "September-November (Northern) / March-May (Southern)"
- },
- {
-   "Number": 21,
-   "Insect": "Bell Cricket",
-   "Location": "On ground",
-   "Value": "430",
-   "Time": "5 p.m. - 8 a.m.",
-   "Month": "September-October (Northern) / March-April (Southern)"
- },
- {
-   "Number": 22,
-   "Insect": "Mantis",
-   "Location": "On flowers",
-   "Value": "430",
-   "Time": "8 a.m. - 5 p.m.",
-   "Month": "March-November (Northern) / September-May (Southern)"
- },
- {
-   "Number": 23,
-   "Insect": "Orchid Mantis",
-   "Location": "On white flowers",
-   "Value": "2,400",
-   "Time": "8 a.m. - 5 p.m.",
-   "Month": "March-November (Northern) / September-May (Southern)"
- },
- {
-   "Number": 24,
-   "Insect": "Honeybee",
-   "Location": "Flying",
-   "Value": "200",
-   "Time": "8 a.m. - 5 p.m.",
-   "Month": "March-July (Northern) / March-July (Southern)"
- },
- {
-   "Number": 25,
-   "Insect": "Wasp",
-   "Location": "Falls from shaking trees",
-   "Value": "2,500",
-   "Time": "All day",
-   "Month": "Year-round (Northern and Southern)"
- },
- {
-   "Number": 26,
-   "Insect": "Brown Cicada",
-   "Location": "On trees",
-   "Value": "250",
-   "Time": "8 a.m. - 5 p.m.",
-   "Month": "July-August (Northern) / January-February (Southern)"
- },
- {
-   "Number": 27,
-   "Insect": "Robust Cicada",
-   "Location": "On trees",
-   "Value": "300",
-   "Time": "8 a.m. - 5 p.m.",
-   "Month": "July-August (Northern) / January-February (Southern)"
- },
- {
-   "Number": 28,
-   "Insect": "Giant Cicada",
-   "Location": "On trees",
-   "Value": "600",
-   "Time": "8 a.m. - 5 p.m.",
-   "Month": "July-August (Northern) / January-February (Southern)"
- },
- {
-   "Number": 29,
-   "Insect": "Walker Cicada",
-   "Location": "On trees",
-   "Value": "400",
-   "Time": "8 a.m. - 5 p.m.",
-   "Month": "August-September (Northern) / February-March (Southern)"
- },
- {
-   "Number": 30,
-   "Insect": "Evening Cicada",
-   "Location": "On trees",
-   "Value": "660",
-   "Time": "4 a.m. - 8 a.m., 4 p.m. - 7 p.m.",
-   "Month": "July-August (Northern) / January-February (Southern)"
- },
- {
-   "Number": 31,
-   "Insect": "Cicada Shell",
-   "Location": "On trees",
-   "Value": "10",
-   "Time": "All day",
-   "Month": "July-August (Northern) / January-February (Southern)"
- },
- {
-   "Number": 32,
-   "Insect": "Red Dragonfly",
-   "Location": "Flying",
-   "Value": "180",
-   "Time": "8 a.m. - 7 p.m.",
-   "Month": "September-October (Northern) / March-April (Southern)"
- },
- {
-   "Number": 33,
-   "Insect": "Darner Dragonfly",
-   "Location": "Flying",
-   "Value": "230",
-   "Time": "8 a.m. - 5 p.m.",
-   "Month": "April-October (Northern) / October-April (Southern)"
- },
- {
-   "Number": 34,
-   "Insect": "Banded Dragonfly",
-   "Location": "Flying",
-   "Value": "4,500",
-   "Time": "8 a.m. - 5 p.m.",
-   "Month": "May-October (Northern) / November-April (Southern)"
- },
- {
-   "Number": 35,
-   "Insect": "Damselfly",
-   "Location": "Flying",
-   "Value": "500",
-   "Time": "All day",
-   "Month": "November-February (Northern) / May-August (Southern)"
- },
- {
-   "Number": 36,
-   "Insect": "Firefly",
-   "Location": "Flying",
-   "Value": "300",
-   "Time": "7 p.m. - 4 a.m.",
-   "Month": "June (Northern) / December (Southern)"
- },
- {
-   "Number": 37,
-   "Insect": "Mole Cricket",
-   "Location": "Underground",
-   "Value": "500",
-   "Time": "All day",
-   "Month": "November-May (Northern) / May-November (Southern)"
- },
- {
-   "Number": 38,
-   "Insect": "Pondskater",
-   "Location": "Ponds",
-   "Value": "130",
-   "Time": "8 a.m. - 7 p.m.",
-   "Month": "May-September (Northern) / November-March (Southern)"
- },
- {
-   "Number": 39,
-   "Insect": "Diving Beetle",
-   "Location": "Ponds and rivers",
-   "Value": "800",
-   "Time": "8 a.m. - 7 p.m.",
-   "Month": "May-September (Northern) / November-March (Southern)"
- },
- {
-   "Number": 40,
-   "Insect": "Giant Water Bug",
-   "Location": "Ponds and rivers",
-   "Value": "2,000",
-   "Time": "7 p.m. - 8 a.m.",
-   "Month": "April-September (Northern) / October-March (Southern)"
- },
- {
-   "Number": 41,
-   "Insect": "Stinkbug",
-   "Location": "On flowers",
-   "Value": "120",
-   "Time": "All day",
-   "Month": "March-November (Northern) / September-May (Southern)"
- },
- {
-   "Number": 42,
-   "Insect": "Man-faced Stink Bug",
-   "Location": "On flowers",
-   "Value": "1,000",
-   "Time": "7 p.m. - 8 a.m.",
-   "Month": "March-November (Northern) / September-May (Southern)"
- },
- {
-   "Number": 43,
-   "Insect": "Ladybug",
-   "Location": "On flowers",
-   "Value": "200",
-   "Time": "8 a.m. - 5 p.m.",
-   "Month": "March-June, October (Northern) / September-December, April (Southern)"
- },
- {
-   "Number": 44,
-   "Insect": "Tiger Beetle",
-   "Location": "On ground",
-   "Value": "1,500",
-   "Time": "All day",
-   "Month": "February-November (Northern) / August-May (Southern)"
- },
- {
-   "Number": 45,
-   "Insect": "Jewel Beetle",
-   "Location": "On tree stumps",
-   "Value": "2,400",
-   "Time": "All day",
-   "Month": "April-August (Northern) / October-February (Southern)"
- },
- {
-   "Number": 46,
-   "Insect": "Violin Beetle",
-   "Location": "On tree stumps",
-   "Value": "450",
-   "Time": "All day",
-   "Month": "May-June, September-November (Northern) / November-December, March-April (Southern)"
- },
- {
-   "Number": 47,
-   "Insect": "Citrus Long-horned Beetle",
-   "Location": "On tree stumps",
-   "Value": "350",
-   "Time": "All day",
-   "Month": "Year-round (Northern and Southern)"
- },
- {
-   "Number": 48,
-   "Insect": "Rosalia Batesi Beetle",
-   "Location": "On tree stumps",
-   "Value": "3,000",
-   "Time": "All day",
-   "Month": "May-September (Northern) / November-March (Southern)"
- },
- {
-   "Number": 49,
-   "Insect": "Blue Weevil Beetle",
-   "Location": "On coconut trees",
-   "Value": "800",
-   "Time": "All day",
-   "Month": "July-August (Northern) / January-February (Southern)"
- },
- {
-   "Number": 50,
-   "Insect": "Dung Beetle",
-   "Location": "Pushing snowballs",
-   "Value": "3,000",
-   "Time": "All day",
-   "Month": "December-February (Northern) / June-August (Southern)"
- },
- {
-   "Number": 51,
-   "Insect": "Earth-boring Dung Beetle",
-   "Location": "On ground",
-   "Value": "300",
-   "Time": "All day",
-   "Month": "July-September (Northern) / January-March (Southern)"
- },
- {
-   "Number": 52,
-   "Insect": "Scarab Beetle",
-   "Location": "On trees",
-   "Value": "10,000",
-   "Time": "11 p.m. - 8 a.m.",
-   "Month": "July-August (Northern) / January-February (Southern)"
- },
- {
-   "Number": 53,
-   "Insect": "Drone Beetle",
-   "Location": "On trees",
-   "Value": "200",
-   "Time": "All day",
-   "Month": "June-August (Northern) / December-February (Southern)"
- },
- {
-   "Number": 54,
-   "Insect": "Goliath Beetle",
-   "Location": "On coconut trees",
-   "Value": "8,000",
-   "Time": "5 p.m. - 8 a.m.",
-   "Month": "June-September (Northern) / December-March (Southern)"
- },
- {
-   "Number": 55,
-   "Insect": "Saw Stag",
-   "Location": "On trees",
-   "Value": "2,000",
-   "Time": "All day",
-   "Month": "July-August (Northern) / January-February (Southern)"
- },
- {
-   "Number": 56,
-   "Insect": "Miyama Stag",
-   "Location": "On trees",
-   "Value": "1,000",
-   "Time": "All day",
-   "Month": "July-August (Northern) / January-February (Southern)"
- },
- {
-   "Number": 57,
-   "Insect": "Giant Stag",
-   "Location": "On trees",
-   "Value": "10,000",
-   "Time": "11 p.m. - 8 a.m.",
-   "Month": "July-August (Northern) / January-February (Southern)"
- },
- {
-   "Number": 58,
-   "Insect": "Rainbow Stag",
-   "Location": "On trees",
-   "Value": "6,000",
-   "Time": "7 p.m. - 8 a.m.",
-   "Month": "June-September (Northern) / December-March (Southern)"
- },
- {
-   "Number": 59,
-   "Insect": "Cyclommatus Stag",
-   "Location": "On coconut trees",
-   "Value": "8,000",
-   "Time": "5 p.m. - 8 a.m.",
-   "Month": "July-August (Northern) / January-February (Southern)"
- },
- {
-   "Number": 60,
-   "Insect": "Golden Stag",
-   "Location": "On coconut trees",
-   "Value": "12,000",
-   "Time": "5 p.m. - 8 a.m.",
-   "Month": "July-August (Northern) / January-February (Southern)"
- },
- {
-   "Number": 61,
-   "Insect": "Giraffe Stag",
-   "Location": "On coconut trees",
-   "Value": "12,000",
-   "Time": "5 p.m. - 8 a.m.",
-   "Month": "July-August (Northern) / January-February (Southern)"
- },
- {
-   "Number": 62,
-   "Insect": "Horned Dynastid",
-   "Location": "On trees",
-   "Value": "1,350",
-   "Time": "5 p.m. - 8 a.m.",
-   "Month": "July-August (Northern) / January-February (Southern)"
- },
- {
-   "Number": 63,
-   "Insect": "Horned Atlas",
-   "Location": "On coconut trees",
-   "Value": "8,000",
-   "Time": "5 p.m. - 8 a.m.",
-   "Month": "July-August (Northern) / January-February (Southern)"
- },
- {
-   "Number": 64,
-   "Insect": "Horned Elephant",
-   "Location": "On coconut trees",
-   "Value": "8,000",
-   "Time": "5 p.m. - 8 a.m.",
-   "Month": "July-August (Northern) / January-February (Southern)"
- },
- {
-   "Number": 65,
-   "Insect": "Horned Herucles",
-   "Location": "On coconut trees",
-   "Value": "12,000",
-   "Time": "5 p.m. - 8 a.m.",
-   "Month": "July-August (Northern) / January-February (Southern)"
- },
- {
-   "Number": 66,
-   "Insect": "Walking Stick",
-   "Location": "On trees",
-   "Value": "600",
-   "Time": "4 a.m. - 8 a.m., 5 p.m. - 7 p.m.",
-   "Month": "July-November (Northern) / January-May (Southern)"
- },
- {
-   "Number": 67,
-   "Insect": "Walking Leaf",
-   "Location": "Near trees, disguised as furniture leaf",
-   "Value": "600",
-   "Time": "All day",
-   "Month": "July-August (Northern) / January-March (Southern)"
- },
- {
-   "Number": 68,
-   "Insect": "Bagworm",
-   "Location": "Falls from shaking trees",
-   "Value": "600",
-   "Time": "All day",
-   "Month": "Year-round (Northern and Southern)"
- },
- {
-   "Number": 69,
-   "Insect": "Ant",
-   "Location": "On rotten food",
-   "Value": "80",
-   "Time": "All day",
-   "Month": "Year-round (Northern and Southern)"
- },
- {
-   "Number": 70,
-   "Insect": "Hermit Crab",
-   "Location": "Beach",
-   "Value": "1,000",
-   "Time": "7 p.m. - 8 a.m.",
-   "Month": "Year-round (Northern and Southern)"
- },
- {
-   "Number": 71,
-   "Insect": "Wharf Roach",
-   "Location": "On rocks at beach",
-   "Value": "200",
-   "Time": "All day",
-   "Month": "Year-round (Northern and Southern)"
- },
- {
-   "Number": 72,
-   "Insect": "Fly",
-   "Location": "On trash items",
-   "Value": "60",
-   "Time": "All day",
-   "Month": "Year-round (Northern and Southern)"
- },
- {
-   "Number": 73,
-   "Insect": "Mosquito",
-   "Location": "Flying",
-   "Value": "130",
-   "Time": "5 p.m. - 4 a.m.",
-   "Month": "June-September (Northern) / December-March (Southern)"
- },
- {
-   "Number": 74,
-   "Insect": "Flea",
-   "Location": "On villagers",
-   "Value": "70",
-   "Time": "All day",
-   "Month": "April-November (Northern) / October-May (Southern)"
- },
- {
-   "Number": 75,
-   "Insect": "Snail",
-   "Location": "On rocks (raining)",
-   "Value": "250",
-   "Time": "All day",
-   "Month": "Year-round (Northern and Southern)"
- },
- {
-   "Number": 76,
-   "Insect": "Pill Bug",
-   "Location": "Hit rocks",
-   "Value": "250",
-   "Time": "11 p.m. - 4 p.m.",
-   "Month": "September-June (Northern) / March-December (Southern)"
- },
- {
-   "Number": 77,
-   "Insect": "Centipede",
-   "Location": "Hit rocks",
-   "Value": "300",
-   "Time": "4 p.m. - 11 p.m.",
-   "Month": "September-June (Northern) / March-December (Southern)"
- },
- {
-   "Number": 78,
-   "Insect": "Spider",
-   "Location": "Falls from shaking trees",
-   "Value": "480",
-   "Time": "7 p.m. - 8 a.m.",
-   "Month": "Year-round (Northern and Southern)"
- },
- {
-   "Number": 79,
-   "Insect": "Tarantula",
-   "Location": "On ground",
-   "Value": "8,000",
-   "Time": "7 p.m. - 4 a.m.",
-   "Month": "November-April (Northern) / May-October (Southern)"
- },
- {
-   "Number": 80,
-   "Insect": "Scorpion",
-   "Location": "On ground",
-   "Value": "8,000",
-   "Time": "7 p.m. - 4 a.m.",
-   "Month": "May-October (Northern) / November-April (Southern)"
- }
+  {
+    "number": 1,
+    "name": "Common Butterfly",
+    "location": "Flying",
+    "value": "160",
+    "time": "4 a.m. - 7 p.m.",
+    "month": "September-June (Northern) / March-December (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 2,
+    "name": "Yellow Butterfly",
+    "location": "Flying",
+    "value": "160",
+    "time": "4 a.m. - 7 p.m.",
+    "month": "March-June, September-October (Northern) / March-April, September-December (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 3,
+    "name": "Tiger Butterfly",
+    "location": "Flying",
+    "value": "240",
+    "time": "4 a.m. - 7 p.m.",
+    "month": "March-September (Northern) / September-March (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 4,
+    "name": "Peacock Butterfly",
+    "location": "Flying by hybrid flowers",
+    "value": "2,500",
+    "time": "4 a.m. - 7 p.m.",
+    "month": "March-June (Northern) / September-December (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 5,
+    "name": "Common Bluebottle",
+    "location": "Flying",
+    "value": "300",
+    "time": "4 a.m. - 7 p.m.",
+    "month": "April-August (Northern) / October-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 6,
+    "name": "Paper Kite Butterfly",
+    "location": "Flying",
+    "value": "1,000",
+    "time": "8 a.m. - 7 p.m.",
+    "month": "Year-round (Northern and Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 7,
+    "name": "Great Purple Emperor",
+    "location": "Flying",
+    "value": "3,000",
+    "time": "4 a.m. - 7 p.m.",
+    "month": "May-August (Northern) / November-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 8,
+    "name": "Monarch Butterfly",
+    "location": "Flying",
+    "value": "140",
+    "time": "4 a.m. - 5 p.m.",
+    "month": "September-November (Northern) / March-May (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 9,
+    "name": "Emperor Butterfly",
+    "location": "Flying",
+    "value": "4,000",
+    "time": "5 p.m. - 8 a.m.",
+    "month": "June-September, December-March (Northern) / December-March, June-September (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 10,
+    "name": "Agrias Butterfly",
+    "location": "Flying",
+    "value": "3,000",
+    "time": "8 a.m. - 5 p.m.",
+    "month": "April-September (Northern) / November-March (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 11,
+    "name": "Raja Brooke's Birdwing",
+    "location": "Flying by purple flowers",
+    "value": "2,500",
+    "time": "8 a.m. - 5 p.m.",
+    "month": "April-September, December-February (Northern) / November-March, June-August (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 12,
+    "name": "Queen Alexandra's Birdwing",
+    "location": "Flying",
+    "value": "4,000",
+    "time": "8 a.m. - 4 p.m.",
+    "month": "May-September (Northern) / November-March (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 13,
+    "name": "Moth",
+    "location": "Flying by light",
+    "value": "130",
+    "time": "7 p.m. - 4 a.m.",
+    "month": "Year-round (Northern and Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 14,
+    "name": "Atlas Moth",
+    "location": "On trees",
+    "value": "3,000",
+    "time": "7 p.m. - 4 a.m.",
+    "month": "April-September (Northern) / October-March (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 15,
+    "name": "Madagascan Sunset Moth",
+    "location": "Flying",
+    "value": "2,500",
+    "time": "8 a.m. - 4 p.m.",
+    "month": "April-September (Northern) / October-March (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 16,
+    "name": "Long Locust",
+    "location": "On ground",
+    "value": "200",
+    "time": "8 a.m. - 7 p.m.",
+    "month": "April-November (Northern) / November-May (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 17,
+    "name": "Migratory Locust",
+    "location": "On ground",
+    "value": "600",
+    "time": "8 a.m. - 7 p.m.",
+    "month": "August-November (Northern) / February-May (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 18,
+    "name": "Rice Grasshopper",
+    "location": "On ground",
+    "value": "160",
+    "time": "8 a.m. - 7 p.m.",
+    "month": "August-November (Northern) / February-May (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 19,
+    "name": "Grasshopper",
+    "location": "On ground",
+    "value": "160",
+    "time": "8 a.m. - 5 p.m.",
+    "month": "July-September (Northern) / January-March (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 20,
+    "name": "Cricket",
+    "location": "On ground",
+    "value": "130",
+    "time": "5 p.m. - 8 a.m.",
+    "month": "September-November (Northern) / March-May (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 21,
+    "name": "Bell Cricket",
+    "location": "On ground",
+    "value": "430",
+    "time": "5 p.m. - 8 a.m.",
+    "month": "September-October (Northern) / March-April (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 22,
+    "name": "Mantis",
+    "location": "On flowers",
+    "value": "430",
+    "time": "8 a.m. - 5 p.m.",
+    "month": "March-November (Northern) / September-May (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 23,
+    "name": "Orchid Mantis",
+    "location": "On white flowers",
+    "value": "2,400",
+    "time": "8 a.m. - 5 p.m.",
+    "month": "March-November (Northern) / September-May (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 24,
+    "name": "Honeybee",
+    "location": "Flying",
+    "value": "200",
+    "time": "8 a.m. - 5 p.m.",
+    "month": "March-July (Northern) / March-July (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 25,
+    "name": "Wasp",
+    "location": "Falls from shaking trees",
+    "value": "2,500",
+    "time": "All day",
+    "month": "Year-round (Northern and Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 26,
+    "name": "Brown Cicada",
+    "location": "On trees",
+    "value": "250",
+    "time": "8 a.m. - 5 p.m.",
+    "month": "July-August (Northern) / January-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 27,
+    "name": "Robust Cicada",
+    "location": "On trees",
+    "value": "300",
+    "time": "8 a.m. - 5 p.m.",
+    "month": "July-August (Northern) / January-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 28,
+    "name": "Giant Cicada",
+    "location": "On trees",
+    "value": "600",
+    "time": "8 a.m. - 5 p.m.",
+    "month": "July-August (Northern) / January-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 29,
+    "name": "Walker Cicada",
+    "location": "On trees",
+    "value": "400",
+    "time": "8 a.m. - 5 p.m.",
+    "month": "August-September (Northern) / February-March (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 30,
+    "name": "Evening Cicada",
+    "location": "On trees",
+    "value": "660",
+    "time": "4 a.m. - 8 a.m., 4 p.m. - 7 p.m.",
+    "month": "July-August (Northern) / January-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 31,
+    "name": "Cicada Shell",
+    "location": "On trees",
+    "value": "10",
+    "time": "All day",
+    "month": "July-August (Northern) / January-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 32,
+    "name": "Red Dragonfly",
+    "location": "Flying",
+    "value": "180",
+    "time": "8 a.m. - 7 p.m.",
+    "month": "September-October (Northern) / March-April (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 33,
+    "name": "Darner Dragonfly",
+    "location": "Flying",
+    "value": "230",
+    "time": "8 a.m. - 5 p.m.",
+    "month": "April-October (Northern) / October-April (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 34,
+    "name": "Banded Dragonfly",
+    "location": "Flying",
+    "value": "4,500",
+    "time": "8 a.m. - 5 p.m.",
+    "month": "May-October (Northern) / November-April (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 35,
+    "name": "Damselfly",
+    "location": "Flying",
+    "value": "500",
+    "time": "All day",
+    "month": "November-February (Northern) / May-August (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 36,
+    "name": "Firefly",
+    "location": "Flying",
+    "value": "300",
+    "time": "7 p.m. - 4 a.m.",
+    "month": "June (Northern) / December (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 37,
+    "name": "Mole Cricket",
+    "location": "Underground",
+    "value": "500",
+    "time": "All day",
+    "month": "November-May (Northern) / May-November (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 38,
+    "name": "Pondskater",
+    "location": "Ponds",
+    "value": "130",
+    "time": "8 a.m. - 7 p.m.",
+    "month": "May-September (Northern) / November-March (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 39,
+    "name": "Diving Beetle",
+    "location": "Ponds and rivers",
+    "value": "800",
+    "time": "8 a.m. - 7 p.m.",
+    "month": "May-September (Northern) / November-March (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 40,
+    "name": "Giant Water Bug",
+    "location": "Ponds and rivers",
+    "value": "2,000",
+    "time": "7 p.m. - 8 a.m.",
+    "month": "April-September (Northern) / October-March (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 41,
+    "name": "Stinkbug",
+    "location": "On flowers",
+    "value": "120",
+    "time": "All day",
+    "month": "March-November (Northern) / September-May (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 42,
+    "name": "Man-faced Stink Bug",
+    "location": "On flowers",
+    "value": "1,000",
+    "time": "7 p.m. - 8 a.m.",
+    "month": "March-November (Northern) / September-May (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 43,
+    "name": "Ladybug",
+    "location": "On flowers",
+    "value": "200",
+    "time": "8 a.m. - 5 p.m.",
+    "month": "March-June, October (Northern) / September-December, April (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 44,
+    "name": "Tiger Beetle",
+    "location": "On ground",
+    "value": "1,500",
+    "time": "All day",
+    "month": "February-November (Northern) / August-May (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 45,
+    "name": "Jewel Beetle",
+    "location": "On tree stumps",
+    "value": "2,400",
+    "time": "All day",
+    "month": "April-August (Northern) / October-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 46,
+    "name": "Violin Beetle",
+    "location": "On tree stumps",
+    "value": "450",
+    "time": "All day",
+    "month": "May-June, September-November (Northern) / November-December, March-April (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 47,
+    "name": "Citrus Long-horned Beetle",
+    "location": "On tree stumps",
+    "value": "350",
+    "time": "All day",
+    "month": "Year-round (Northern and Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 48,
+    "name": "Rosalia Batesi Beetle",
+    "location": "On tree stumps",
+    "value": "3,000",
+    "time": "All day",
+    "month": "May-September (Northern) / November-March (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 49,
+    "name": "Blue Weevil Beetle",
+    "location": "On coconut trees",
+    "value": "800",
+    "time": "All day",
+    "month": "July-August (Northern) / January-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 50,
+    "name": "Dung Beetle",
+    "location": "Pushing snowballs",
+    "value": "3,000",
+    "time": "All day",
+    "month": "December-February (Northern) / June-August (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 51,
+    "name": "Earth-boring Dung Beetle",
+    "location": "On ground",
+    "value": "300",
+    "time": "All day",
+    "month": "July-September (Northern) / January-March (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 52,
+    "name": "Scarab Beetle",
+    "location": "On trees",
+    "value": "10,000",
+    "time": "11 p.m. - 8 a.m.",
+    "month": "July-August (Northern) / January-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 53,
+    "name": "Drone Beetle",
+    "location": "On trees",
+    "value": "200",
+    "time": "All day",
+    "month": "June-August (Northern) / December-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 54,
+    "name": "Goliath Beetle",
+    "location": "On coconut trees",
+    "value": "8,000",
+    "time": "5 p.m. - 8 a.m.",
+    "month": "June-September (Northern) / December-March (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 55,
+    "name": "Saw Stag",
+    "location": "On trees",
+    "value": "2,000",
+    "time": "All day",
+    "month": "July-August (Northern) / January-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 56,
+    "name": "Miyama Stag",
+    "location": "On trees",
+    "value": "1,000",
+    "time": "All day",
+    "month": "July-August (Northern) / January-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 57,
+    "name": "Giant Stag",
+    "location": "On trees",
+    "value": "10,000",
+    "time": "11 p.m. - 8 a.m.",
+    "month": "July-August (Northern) / January-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 58,
+    "name": "Rainbow Stag",
+    "location": "On trees",
+    "value": "6,000",
+    "time": "7 p.m. - 8 a.m.",
+    "month": "June-September (Northern) / December-March (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 59,
+    "name": "Cyclommatus Stag",
+    "location": "On coconut trees",
+    "value": "8,000",
+    "time": "5 p.m. - 8 a.m.",
+    "month": "July-August (Northern) / January-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 60,
+    "name": "Golden Stag",
+    "location": "On coconut trees",
+    "value": "12,000",
+    "time": "5 p.m. - 8 a.m.",
+    "month": "July-August (Northern) / January-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 61,
+    "name": "Giraffe Stag",
+    "location": "On coconut trees",
+    "value": "12,000",
+    "time": "5 p.m. - 8 a.m.",
+    "month": "July-August (Northern) / January-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 62,
+    "name": "Horned Dynastid",
+    "location": "On trees",
+    "value": "1,350",
+    "time": "5 p.m. - 8 a.m.",
+    "month": "July-August (Northern) / January-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 63,
+    "name": "Horned Atlas",
+    "location": "On coconut trees",
+    "value": "8,000",
+    "time": "5 p.m. - 8 a.m.",
+    "month": "July-August (Northern) / January-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 64,
+    "name": "Horned Elephant",
+    "location": "On coconut trees",
+    "value": "8,000",
+    "time": "5 p.m. - 8 a.m.",
+    "month": "July-August (Northern) / January-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 65,
+    "name": "Horned Herucles",
+    "location": "On coconut trees",
+    "value": "12,000",
+    "time": "5 p.m. - 8 a.m.",
+    "month": "July-August (Northern) / January-February (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 66,
+    "name": "Walking Stick",
+    "location": "On trees",
+    "value": "600",
+    "time": "4 a.m. - 8 a.m., 5 p.m. - 7 p.m.",
+    "month": "July-November (Northern) / January-May (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 67,
+    "name": "Walking Leaf",
+    "location": "Near trees, disguised as furniture leaf",
+    "value": "600",
+    "time": "All day",
+    "month": "July-August (Northern) / January-March (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 68,
+    "name": "Bagworm",
+    "location": "Falls from shaking trees",
+    "value": "600",
+    "time": "All day",
+    "month": "Year-round (Northern and Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 69,
+    "name": "Ant",
+    "location": "On rotten food",
+    "value": "80",
+    "time": "All day",
+    "month": "Year-round (Northern and Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 70,
+    "name": "Hermit Crab",
+    "location": "Beach",
+    "value": "1,000",
+    "time": "7 p.m. - 8 a.m.",
+    "month": "Year-round (Northern and Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 71,
+    "name": "Wharf Roach",
+    "location": "On rocks at beach",
+    "value": "200",
+    "time": "All day",
+    "month": "Year-round (Northern and Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 72,
+    "name": "Fly",
+    "location": "On trash items",
+    "value": "60",
+    "time": "All day",
+    "month": "Year-round (Northern and Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 73,
+    "name": "Mosquito",
+    "location": "Flying",
+    "value": "130",
+    "time": "5 p.m. - 4 a.m.",
+    "month": "June-September (Northern) / December-March (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 74,
+    "name": "Flea",
+    "location": "On villagers",
+    "value": "70",
+    "time": "All day",
+    "month": "April-November (Northern) / October-May (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 75,
+    "name": "Snail",
+    "location": "On rocks (raining)",
+    "value": "250",
+    "time": "All day",
+    "month": "Year-round (Northern and Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 76,
+    "name": "Pill Bug",
+    "location": "Hit rocks",
+    "value": "250",
+    "time": "11 p.m. - 4 p.m.",
+    "month": "September-June (Northern) / March-December (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 77,
+    "name": "Centipede",
+    "location": "Hit rocks",
+    "value": "300",
+    "time": "4 p.m. - 11 p.m.",
+    "month": "September-June (Northern) / March-December (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 78,
+    "name": "Spider",
+    "location": "Falls from shaking trees",
+    "value": "480",
+    "time": "7 p.m. - 8 a.m.",
+    "month": "Year-round (Northern and Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 79,
+    "name": "Tarantula",
+    "location": "On ground",
+    "value": "8,000",
+    "time": "7 p.m. - 4 a.m.",
+    "month": "November-April (Northern) / May-October (Southern)",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "number": 80,
+    "name": "Scorpion",
+    "location": "On ground",
+    "value": "8,000",
+    "time": "7 p.m. - 4 a.m.",
+    "month": "May-October (Northern) / November-April (Southern)",
+    "donated": "N",
+    "quantity": 0
+  }
 ]

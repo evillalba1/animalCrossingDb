@@ -12,7 +12,7 @@ void main() {
 //      .then((_) {
 //    runApp(MaterialApp(home: HomePage()));
 //  });
-  runApp(MaterialApp(home: HomePage()));
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -21,9 +21,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     debugPrint("fetching");
-    return MaterialApp(
+    return new MaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomePage(),
+      theme: new ThemeData( primarySwatch: Colors.green, )
     );
   }
 }

@@ -1,9 +1,12 @@
+import 'dart:convert';
 import 'dart:io';
 
+import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 import 'object_class.dart';
+import 'package:flutter/foundation.dart';
 
 class DatabaseHelper {
   static final _fishTbl = new FishTbl();
@@ -33,9 +36,10 @@ class DatabaseHelper {
     return await openDatabase(path, version: _dbVersion, onCreate: _onCreate);
   }
 
-  Future _onCreate(Database db, int version) {
-    db.execute(''' 
-       
+  Future _onCreate(Database db, int version) async {
+    debugPrint("Creating DB");
+    await db.execute(''' 
+      
         CREATE TABLE ${_fishTbl.table} (
       ${_fishTbl.number} INTEGER PRIMARY KEY,
       ${_fishTbl.name} TEXT NOT NULL,
@@ -45,9 +49,12 @@ class DatabaseHelper {
       ${_fishTbl.time} TEXT NOT NULL,
       ${_fishTbl.month} TEXT NOT NULL,
       ${_fishTbl.donated} INTEGER NOT NULL,
-      ${_fishTbl.quantity} INTEGER NOT NULL,
-       )
-       
+      ${_fishTbl.quantity} INTEGER NOT NULL
+      ) 
+      ''');
+
+    await db.execute(''' 
+      
       CREATE TABLE ${_insectTbl.table} (
       ${_insectTbl.number} INTEGER PRIMARY KEY,
       ${_insectTbl.name} TEXT NOT NULL,
@@ -56,29 +63,150 @@ class DatabaseHelper {
       ${_insectTbl.time} TEXT NOT NULL,
       ${_insectTbl.month} TEXT NOT NULL,
       ${_insectTbl.donated} INTEGER NOT NULL,
-      ${_insectTbl.quantity} INTEGER NOT NULL,
-       )
-       
-       CREATE TABLE ${_fossilTbl.table} (
-       number INTEGER AUTOINCREMENT PRIMARY KEY,
+      ${_insectTbl.quantity} INTEGER NOT NULL
+      )
+      ''');
+
+    await db.execute(''' 
+      
+      CREATE TABLE ${_fossilTbl.table} (
+      number INTEGER PRIMARY KEY AUTOINCREMENT ,
       ${_fossilTbl.name} TEXT NOT NULL,
       ${_fossilTbl.price} TEXT NOT NULL,
       ${_fossilTbl.donated} INTEGER NOT NULL,
-      ${_fossilTbl.quantity} INTEGER NOT NULL,
-       )
-       
-       CREATE TABLE ${_villagerTbl.table} (
-      ${_villagerTbl.number} INTEGER AUTOINCREMENT PRIMARY KEY,
+      ${_fossilTbl.quantity} INTEGER NOT NULL
+      )
+      ''');
+
+    await db.execute(''' 
+      CREATE TABLE ${_villagerTbl.table} (
+      ${_villagerTbl.number} INTEGER PRIMARY KEY AUTOINCREMENT ,
       ${_villagerTbl.name} TEXT NOT NULL,
       ${_villagerTbl.personality} TEXT NOT NULL,
       ${_villagerTbl.species} TEXT NOT NULL,
       ${_villagerTbl.birthday} TEXT NOT NULL,
-      ${_villagerTbl.cathphrase} TEXT NOT NULL,
+      ${_villagerTbl.catchphrase} TEXT NOT NULL,
       ${_villagerTbl.imageUrl} TEXT NOT NULL,
-      ${_villagerTbl.resident} INTEGER NOT NULL,
-       )
-       
+      ${_villagerTbl.resident} INTEGER NOT NULL
+      )
       ''');
+
+      //insertAllVillagers();
+      //insertAllFossil();
+      // insertAllFishes();
+      // insertAllInsects();
+  }
+
+
+  Future<void> insertAllFossil() async {
+    debugPrint("insertAllFossil");
+    final Database db = await instance.database;
+    Batch batch = db.batch();
+    String fossilsJson = await rootBundle.loadString('assets/fossils.json');
+    List fossilsList = json.decode(fossilsJson);
+      fossilsList.forEach((val) {
+        Fossil fossil = new Fossil();
+        fossil.name = val["name"];
+        fossil.price = val ["price"];
+        fossil.donated = val["donated"];
+        fossil.quantity = val["quantity"];
+        batch.insert(_fossilTbl.table, fossil.toMap());
+      });
+      batch.commit();
+    // await db.insert(
+    //   'dogs',
+    //   fossil.toMap(),
+    //   conflictAlgorithm: ConflictAlgorithm.replace,
+    // );
+  }
+
+  Future<void> insertAllVillagers() async {
+    debugPrint("insertAllVillagers");
+    final Database db = await instance.database;
+    //  Villager villager = new Villager();
+    //     villager.name = "Eduardo";
+    //     villager.personality = "Happy";
+    //     villager.species = "Dog";
+    //     villager.birthday = "March 31";
+    //     villager.catchphrase = "uva";
+    //     villager.imageUrl = "google.com";
+    //     villager.resident = "N";
+    //     //batch.insert(_villagerTbl.table, villager.toMap());
+    //     await db.insert(_villagerTbl.table, villager.toMap(), conflictAlgorithm: ConflictAlgorithm.replace,);
+    //Batch batch = db.batch();
+    String villalgersJson = await rootBundle.loadString('assets/villagers.json');
+    List villagersList = json.decode(villalgersJson);
+      villagersList.forEach((val) async {
+        Villager villager = new Villager();
+        villager.name = val["name"];
+        villager.personality = val ["personality"];
+        villager.species = val["species"];
+        villager.birthday = val["birthday"];
+        villager.catchphrase = val["catchphrase"];
+        villager.imageUrl = val["imageUrl"];
+        villager.resident = val["resident"];
+        //batch.insert(_villagerTbl.table, villager.toMap());
+        await db.insert(_villagerTbl.table, villager.toMap(), conflictAlgorithm: ConflictAlgorithm.replace,);
+      });
+      //batch.commit();
+
+  }
+
+  Future<void> insertAllFishes() async {
+    debugPrint("insertAllFishes");
+    final Database db = await instance.database;
+    Batch batch = db.batch();
+    String fishesJson = await rootBundle.loadString('assets/fish.json');
+    List fishesList = json.decode(fishesJson);
+      fishesList.forEach((val) {
+        Fish fish = new Fish();
+        fish.number = val["number"];
+        fish.name = val["name"];
+        fish.location = val ["location"];
+        fish.shadowSize = val["shadowSize"];
+        fish.value = val["value"];
+        fish.time = val["time"];
+        fish.month = val["month"];
+        fish.donated = val["donated"];
+        fish.quantity = val["quantity"];
+        batch.insert(_fishTbl.table, fish.toMap());
+      });
+      batch.commit();
+    // await db.insert(
+    //   'dogs',
+    //   fossil.toMap(),
+    //   conflictAlgorithm: ConflictAlgorithm.replace,
+    // );
+  }
+
+  Future<void> insertAllInsects() async {
+    debugPrint("insertAllInsects");
+    final Database db = await instance.database;
+    Batch batch = db.batch();
+    String insectsJson = await rootBundle.loadString('assets/insects.json');
+    List insectsList = json.decode(insectsJson);
+      insectsList.forEach((val) {
+        Insect insect = new Insect();
+        insect.number = val["number"];
+        insect.name = val["name"];
+        insect.location = val ["location"];
+        insect.value = val["value"];
+        insect.time = val["time"];
+        insect.month = val["month"];
+        insect.donated = val["donated"];
+        insect.quantity = val["quantity"];
+        batch.insert(_insectTbl.table, insect.toMap());
+      });
+      batch.commit();
+    // await db.insert(
+    //   'dogs',
+    //   fossil.toMap(),
+    //   conflictAlgorithm: ConflictAlgorithm.replace,
+    // );
+  }
+
+  Future<void> createDB() async {
+    Database db = await instance.database;
   }
 
   Future<int> insert(Map<String, dynamic> row, String tableName) async {

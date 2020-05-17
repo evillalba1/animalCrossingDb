@@ -1,294 +1,440 @@
 [
- {
-   "Fossil Name": "Acanthostega ",
-   "Sell Price": "2,000"
- },
- {
-   "Fossil Name": "Amber ",
-   "Sell Price": "1,200"
- },
- {
-   "Fossil Name": "Ammonite ",
-   "Sell Price": "1,100"
- },
- {
-   "Fossil Name": "Ankylo Skull ",
-   "Sell Price": "3,500"
- },
- {
-   "Fossil Name": "Ankylo Tail ",
-   "Sell Price": "2,500"
- },
- {
-   "Fossil Name": "Ankylo Torso ",
-   "Sell Price": "3,000"
- },
- {
-   "Fossil Name": "Anomalocaris ",
-   "Sell Price": "2,000"
- },
- {
-   "Fossil Name": "Archaeopteryx ",
-   "Sell Price": "1,300"
- },
- {
-   "Fossil Name": "Archelon Skull ",
-   "Sell Price": "4,000"
- },
- {
-   "Fossil Name": "Archelon Tail ",
-   "Sell Price": "3,500"
- },
- {
-   "Fossil Name": "Australopith ",
-   "Sell Price": "1,100"
- },
- {
-   "Fossil Name": "Brachio Chest ",
-   "Sell Price": "5,500"
- },
- {
-   "Fossil Name": "Brachio Pelvis ",
-   "Sell Price": "5,000"
- },
- {
-   "Fossil Name": "Brachio Skull ",
-   "Sell Price": "6,000"
- },
- {
-   "Fossil Name": "Brachio Tail ",
-   "Sell Price": "5,500"
- },
- {
-   "Fossil Name": "Coprolite ",
-   "Sell Price": "1,100"
- },
- {
-   "Fossil Name": "Deinony Tail ",
-   "Sell Price": "2,500"
- },
- {
-   "Fossil Name": "Deinony Torso ",
-   "Sell Price": "3,000"
- },
- {
-   "Fossil Name": "Dimetrodon Skull ",
-   "Sell Price": "5,500"
- },
- {
-   "Fossil Name": "Dimetrodon Torso ",
-   "Sell Price": "5,000"
- },
- {
-   "Fossil Name": "Dinosaur Track ",
-   "Sell Price": "1,000"
- },
- {
-   "Fossil Name": "Diplo Chest ",
-   "Sell Price": "4,000"
- },
- {
-   "Fossil Name": "Diplo Neck ",
-   "Sell Price": "4,500"
- },
- {
-   "Fossil Name": "Diplo Pelvis ",
-   "Sell Price": "4,000"
- },
- {
-   "Fossil Name": "Diplo Skull ",
-   "Sell Price": "5,000"
- },
- {
-   "Fossil Name": "Diplo Tail ",
-   "Sell Price": "4,500"
- },
- {
-   "Fossil Name": "Diplo Tail Tip ",
-   "Sell Price": "4,000"
- },
- {
-   "Fossil Name": "Dunkleosteus ",
-   "Sell Price": "3,500"
- },
- {
-   "Fossil Name": "Eusthenopteron ",
-   "Sell Price": "2,000"
- },
- {
-   "Fossil Name": "Iguanodon Skull ",
-   "Sell Price": "4,000"
- },
- {
-   "Fossil Name": "Iguanodon Tail ",
-   "Sell Price": "3,000"
- },
- {
-   "Fossil Name": "Iguanodon Torso ",
-   "Sell Price": "3,500"
- },
- {
-   "Fossil Name": "Juramaia ",
-   "Sell Price": "1,500"
- },
- {
-   "Fossil Name": "Left Megalo Side ",
-   "Sell Price": "4,000"
- },
- {
-   "Fossil Name": "Left Ptera Wing ",
-   "Sell Price": "4,500"
- },
- {
-   "Fossil Name": "Left Quetzal Wing ",
-   "Sell Price": "5,000"
- },
- {
-   "Fossil Name": "Mammoth Skull ",
-   "Sell Price": "3,000"
- },
- {
-   "Fossil Name": "Mammoth Torso ",
-   "Sell Price": "2,500"
- },
- {
-   "Fossil Name": "Megacero Skull ",
-   "Sell Price": "4,500"
- },
- {
-   "Fossil Name": "Megacero Tail ",
-   "Sell Price": "3,000"
- },
- {
-   "Fossil Name": "Megacero Torso ",
-   "Sell Price": "3,500"
- },
- {
-   "Fossil Name": "Myllokunmingia ",
-   "Sell Price": "1,500"
- },
- {
-   "Fossil Name": "Ophthalmo Skull ",
-   "Sell Price": "2,500"
- },
- {
-   "Fossil Name": "Ophthalmo Torso ",
-   "Sell Price": "2,000"
- },
- {
-   "Fossil Name": "Pachy Skull ",
-   "Sell Price": "4,000"
- },
- {
-   "Fossil Name": "Pachy Tail ",
-   "Sell Price": "3,000"
- },
- {
-   "Fossil Name": "Parasaur Skull ",
-   "Sell Price": "3,500"
- },
- {
-   "Fossil Name": "Parasaur Tail ",
-   "Sell Price": "2,500"
- },
- {
-   "Fossil Name": "Parasaur Torso ",
-   "Sell Price": "3,000"
- },
- {
-   "Fossil Name": "Plesio Body ",
-   "Sell Price": "4,500"
- },
- {
-   "Fossil Name": "Plesio Skull ",
-   "Sell Price": "4,000"
- },
- {
-   "Fossil Name": "Plesio Tail ",
-   "Sell Price": "4,500"
- },
- {
-   "Fossil Name": "Ptera Body ",
-   "Sell Price": "4,000"
- },
- {
-   "Fossil Name": "Quetzal Torso ",
-   "Sell Price": "4,500"
- },
- {
-   "Fossil Name": "Right Megalo Side ",
-   "Sell Price": "5,500"
- },
- {
-   "Fossil Name": "Right Ptera Wing ",
-   "Sell Price": "4,500"
- },
- {
-   "Fossil Name": "Right Quetzal Wing ",
-   "Sell Price": "5,000"
- },
- {
-   "Fossil Name": "Sabertooth Skull ",
-   "Sell Price": "2,500"
- },
- {
-   "Fossil Name": "Sabertooth Tail ",
-   "Sell Price": "2,000"
- },
- {
-   "Fossil Name": "Shark-Tooth Pattern ",
-   "Sell Price": "1,000"
- },
- {
-   "Fossil Name": "Spino Skull ",
-   "Sell Price": "4,000"
- },
- {
-   "Fossil Name": "Spino Tail ",
-   "Sell Price": "2,500"
- },
- {
-   "Fossil Name": "Spino Torso ",
-   "Sell Price": "3,000"
- },
- {
-   "Fossil Name": "Stego Skull ",
-   "Sell Price": "5,000"
- },
- {
-   "Fossil Name": "Stego Tail ",
-   "Sell Price": "4,000"
- },
- {
-   "Fossil Name": "Stego Torso ",
-   "Sell Price": "4,500"
- },
- {
-   "Fossil Name": "T. Rex Skull ",
-   "Sell Price": "6,000"
- },
- {
-   "Fossil Name": "T. Rex Tail ",
-   "Sell Price": "5,000"
- },
- {
-   "Fossil Name": "T. Rex Torso ",
-   "Sell Price": "5,500"
- },
- {
-   "Fossil Name": "Tricera Skull ",
-   "Sell Price": "5,500"
- },
- {
-   "Fossil Name": "Tricera Tail ",
-   "Sell Price": "4,500"
- },
- {
-   "Fossil Name": "Tricera Torso ",
-   "Sell Price": "5,000"
- },
- {
-   "Fossil Name": "Trilobite ",
-   "Sell Price": "1,300"
- }
+  {
+    "name": "Acanthostega ",
+    "price": "2,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Amber ",
+    "price": "1,200",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Ammonite ",
+    "price": "1,100",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Ankylo Skull ",
+    "price": "3,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Ankylo Tail ",
+    "price": "2,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Ankylo Torso ",
+    "price": "3,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Anomalocaris ",
+    "price": "2,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Archaeopteryx ",
+    "price": "1,300",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Archelon Skull ",
+    "price": "4,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Archelon Tail ",
+    "price": "3,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Australopith ",
+    "price": "1,100",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Brachio Chest ",
+    "price": "5,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Brachio Pelvis ",
+    "price": "5,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Brachio Skull ",
+    "price": "6,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Brachio Tail ",
+    "price": "5,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Coprolite ",
+    "price": "1,100",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Deinony Tail ",
+    "price": "2,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Deinony Torso ",
+    "price": "3,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Dimetrodon Skull ",
+    "price": "5,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Dimetrodon Torso ",
+    "price": "5,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Dinosaur Track ",
+    "price": "1,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Diplo Chest ",
+    "price": "4,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Diplo Neck ",
+    "price": "4,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Diplo Pelvis ",
+    "price": "4,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Diplo Skull ",
+    "price": "5,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Diplo Tail ",
+    "price": "4,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Diplo Tail Tip ",
+    "price": "4,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Dunkleosteus ",
+    "price": "3,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Eusthenopteron ",
+    "price": "2,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Iguanodon Skull ",
+    "price": "4,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Iguanodon Tail ",
+    "price": "3,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Iguanodon Torso ",
+    "price": "3,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Juramaia ",
+    "price": "1,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Left Megalo Side ",
+    "price": "4,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Left Ptera Wing ",
+    "price": "4,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Left Quetzal Wing ",
+    "price": "5,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Mammoth Skull ",
+    "price": "3,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Mammoth Torso ",
+    "price": "2,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Megacero Skull ",
+    "price": "4,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Megacero Tail ",
+    "price": "3,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Megacero Torso ",
+    "price": "3,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Myllokunmingia ",
+    "price": "1,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Ophthalmo Skull ",
+    "price": "2,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Ophthalmo Torso ",
+    "price": "2,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Pachy Skull ",
+    "price": "4,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Pachy Tail ",
+    "price": "3,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Parasaur Skull ",
+    "price": "3,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Parasaur Tail ",
+    "price": "2,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Parasaur Torso ",
+    "price": "3,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Plesio Body ",
+    "price": "4,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Plesio Skull ",
+    "price": "4,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Plesio Tail ",
+    "price": "4,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Ptera Body ",
+    "price": "4,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Quetzal Torso ",
+    "price": "4,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Right Megalo Side ",
+    "price": "5,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Right Ptera Wing ",
+    "price": "4,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Right Quetzal Wing ",
+    "price": "5,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Sabertooth Skull ",
+    "price": "2,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Sabertooth Tail ",
+    "price": "2,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Shark-Tooth Pattern ",
+    "price": "1,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Spino Skull ",
+    "price": "4,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Spino Tail ",
+    "price": "2,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Spino Torso ",
+    "price": "3,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Stego Skull ",
+    "price": "5,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Stego Tail ",
+    "price": "4,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Stego Torso ",
+    "price": "4,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "T. Rex Skull ",
+    "price": "6,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "T. Rex Tail ",
+    "price": "5,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "T. Rex Torso ",
+    "price": "5,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Tricera Skull ",
+    "price": "5,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Tricera Tail ",
+    "price": "4,500",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Tricera Torso ",
+    "price": "5,000",
+    "donated": "N",
+    "quantity": 0
+  },
+  {
+    "name": "Trilobite ",
+    "price": "1,300",
+    "donated": "N",
+    "quantity": 0
+  }
 ]

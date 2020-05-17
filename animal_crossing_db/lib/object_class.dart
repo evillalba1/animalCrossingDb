@@ -1,43 +1,95 @@
 
 class Fossil {
-  String number;
+  int number;
   String name;
   String price;
-  bool donated;
+  String donated;
   int quantity;
+
+  Map<String, dynamic> toMap() {
+  return {
+    'number': number,
+    'name': name,
+    'price': price,
+    'donated': donated,
+    'quantity': quantity
+    };
+  }
 }
 
 class Fish {
-  String number;
+  int number;
   String name;
   String location;
   String shadowSize;
   String value;
   String time;
   String month;
-  bool donated;
+  String donated;
   int quantity;
+
+  Map<String, dynamic> toMap() {
+  return {
+    'number': number,
+    'name': name,
+    'location': location,
+    'shadowSize': shadowSize,
+    'value': value,
+    'time': time,
+    'month': month,
+    'donated': donated,
+    'quantity': quantity
+    };
+  }
+
 }
 
 class Insect {
-  String number;
+  int number;
   String name;
   String location;
   String value;
   String time;
   String month;
-  bool donated;
+  String donated;
   int quantity;
+
+  Map<String, dynamic> toMap() {
+  return {
+    'number': number,
+    'name': name,
+    'location': location,
+    'value': value,
+    'time': time,
+    'month': month,
+    'donated': donated,
+    'quantity': quantity
+    };
+  }
 }
 
 class Villager {
-  String number;
+  int number;
   String name;
   String personality;
   String species;
   String birthday;
   String catchphrase;
   String imageUrl;
+  String resident;
+
+  Map<String, dynamic> toMap() {
+  return {
+    'number': number,
+    'name': name,
+    'personality': personality,
+    'species': species,
+    'birthday': birthday,
+    'catchphrase': catchphrase,
+    'imageUrl': imageUrl,
+    'resident': resident,
+    };
+  }
 }
 
 class VillagerTbl {
@@ -47,7 +99,7 @@ class VillagerTbl {
   String personality = "personality";
   String species = "species";
   String birthday = "birthday";
-  String cathphrase = "cathphrase";
+  String catchphrase = "catchphrase";
   String imageUrl = "imageUrl";
   String resident = "resident";
 }
@@ -66,7 +118,7 @@ class FossilTbl {
 class FishTbl {
   String table = "fish";
   String number = "number";
-  String name = "insect";
+  String name = "name";
   String location = "location";
   String shadowSize = "shadowSize";
   String value = "value";
@@ -79,7 +131,7 @@ class FishTbl {
 class InsectTbl {
   String table = "insect";
   String number = "number";
-  String name = "insect";
+  String name = "name";
   String location = "location";
   String value = "value";
   String time = "time";
