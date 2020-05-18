@@ -29,6 +29,9 @@ dependencies:
   shared_preferences:
   http:
   awesome_button: ^1.0.2
+  flutter_counter: ^1.0.3
+  gradual_stepper: ^1.0.0
+  stepper_counter_swipe: ^0.0.5
 
 dev_dependencies:
   flutter_test:

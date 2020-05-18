@@ -76,6 +76,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_counter:
+    dependency: "direct main"
+    description:
+      name: flutter_counter
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.3"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -86,6 +93,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  gradual_stepper:
+    dependency: "direct main"
+    description:
+      name: gradual_stepper
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
   http:
     dependency: "direct main"
     description:
@@ -107,6 +121,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.12"
+  intl:
+    dependency: transitive
+    description:
+      name: intl
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.16.1"
   js:
     dependency: transitive
     description:
@@ -252,6 +273,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.9.3"
+  stepper_counter_swipe:
+    dependency: "direct main"
+    description:
+      name: stepper_counter_swipe
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.5"
   stream_channel:
     dependency: transitive
     description:

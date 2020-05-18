@@ -20,11 +20,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    debugPrint("fetching");
     return new MaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomePage(),
-      theme: new ThemeData( primarySwatch: Colors.green, )
+      theme: new ThemeData( primarySwatch: Colors.lightGreen, )
     );
   }
 }

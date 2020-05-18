@@ -21,7 +21,6 @@ class _HomePageState extends State<HomePage> {
 
   @override
   void initState() {
-    debugPrint('Creating DB');
     createDB();
     super.initState();
   }
