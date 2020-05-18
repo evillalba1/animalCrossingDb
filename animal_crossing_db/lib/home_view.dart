@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
                     MenuButton(
                         page: InsectsPage(),
                         bntColor: Colors.green[300],
-                        btnIcon: Icons.account_circle,
+                        btnIcon: Icons.bug_report,
                         btnText: 'Insects'),
                     MenuButton(
                         page: VillagersPage(),

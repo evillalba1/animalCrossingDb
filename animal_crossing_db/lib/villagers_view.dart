@@ -11,7 +11,7 @@ class VillagersPage extends StatefulWidget {
 
 class _VillagersPageState extends State<VillagersPage> {
   // ignore: non_constant_identifier_names
-  List<Map<String, dynamic>> Villagers;
+  List<Map<String, dynamic>> villagers;
 
   fetchVillagers() async {
     debugPrint("fetching Villagers");
@@ -29,7 +29,7 @@ class _VillagersPageState extends State<VillagersPage> {
       setState(() {
         setState(() {
           debugPrint(queryRows.length.toString());
-          Villagers = queryRows;
+          villagers = queryRows;
         }); // Here you can write your code for open new view
       });
     }
@@ -44,7 +44,7 @@ class _VillagersPageState extends State<VillagersPage> {
     debugPrint('initState Villagers');
     fetchData();
     super.initState();
-    print(Villagers);
+    print(villagers);
   }
 
   @override
@@ -53,9 +53,33 @@ class _VillagersPageState extends State<VillagersPage> {
       appBar: AppBar(
         title: Text("Villagers"),
       ),
-      body: Column(children: <Widget>[
-        
-      ],),
+      body: villagers == null ? Center(child: CircularProgressIndicator(),) : ListView.builder(itemBuilder: (context, index) {
+        return Card (
+          child: Container(
+            height: 130,
+            margin: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+            child: Row(
+              children: <Widget>[
+                Container(
+                  width: 200,
+                  margin: EdgeInsets.symmetric(horizontal: 10),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      Text(villagers[index]['name'], style: TextStyle(fontWeight: FontWeight.bold)),
+                      SizedBox(height: 10,),
+                      Image.network(villagers[index]['imageUrl'], height: 100, width: 100,fit: BoxFit.fill,),
+                    ],
+                  ) ,
+                )
+              ]
+            )
+          ),
+        );
+      },
+      itemCount: villagers == null ? 0 : villagers.length,
+      ),
     );
   }
 }
