@@ -90,11 +90,6 @@ class DatabaseHelper {
       ${_villagerTbl.resident} INTEGER NOT NULL
       )
       ''');
-
-      //insertAllVillagers();
-      //insertAllFossil();
-      // insertAllFishes();
-      // insertAllInsects();
   }
 
 
@@ -113,27 +108,11 @@ class DatabaseHelper {
         batch.insert(_fossilTbl.table, fossil.toMap());
       });
       batch.commit();
-    // await db.insert(
-    //   'dogs',
-    //   fossil.toMap(),
-    //   conflictAlgorithm: ConflictAlgorithm.replace,
-    // );
   }
 
   Future<void> insertAllVillagers() async {
     debugPrint("insertAllVillagers");
     final Database db = await instance.database;
-    //  Villager villager = new Villager();
-    //     villager.name = "Eduardo";
-    //     villager.personality = "Happy";
-    //     villager.species = "Dog";
-    //     villager.birthday = "March 31";
-    //     villager.catchphrase = "uva";
-    //     villager.imageUrl = "google.com";
-    //     villager.resident = "N";
-    //     //batch.insert(_villagerTbl.table, villager.toMap());
-    //     await db.insert(_villagerTbl.table, villager.toMap(), conflictAlgorithm: ConflictAlgorithm.replace,);
-    //Batch batch = db.batch();
     String villalgersJson = await rootBundle.loadString('assets/villagers.json');
     List villagersList = json.decode(villalgersJson);
       villagersList.forEach((val) async {
@@ -145,10 +124,8 @@ class DatabaseHelper {
         villager.catchphrase = val["catchphrase"];
         villager.imageUrl = val["imageUrl"];
         villager.resident = val["resident"];
-        //batch.insert(_villagerTbl.table, villager.toMap());
         await db.insert(_villagerTbl.table, villager.toMap(), conflictAlgorithm: ConflictAlgorithm.replace,);
       });
-      //batch.commit();
 
   }
 
@@ -172,11 +149,6 @@ class DatabaseHelper {
         batch.insert(_fishTbl.table, fish.toMap());
       });
       batch.commit();
-    // await db.insert(
-    //   'dogs',
-    //   fossil.toMap(),
-    //   conflictAlgorithm: ConflictAlgorithm.replace,
-    // );
   }
 
   Future<void> insertAllInsects() async {
@@ -198,11 +170,6 @@ class DatabaseHelper {
         batch.insert(_insectTbl.table, insect.toMap());
       });
       batch.commit();
-    // await db.insert(
-    //   'dogs',
-    //   fossil.toMap(),
-    //   conflictAlgorithm: ConflictAlgorithm.replace,
-    // );
   }
 
   Future<void> createDB() async {
@@ -218,6 +185,91 @@ class DatabaseHelper {
     Database db = await instance.database;
     return await db.query(tableName);
   }
+
+  //-------------------------Fossil-------------------------------
+  Future<int> updateDonatedFossil(int index, String donated) async {
+    Database db = await instance.database;
+    int updateCount = await db.rawUpdate('''
+    UPDATE ${ _fossilTbl.table} 
+    SET ${ _fossilTbl.donated} = ?
+    WHERE ${ _fossilTbl.number} = ?
+    ''',
+        [donated, index.toString()]);
+    return updateCount;
+  }
+
+  Future<int> updateQuantityFossil(int index, int quantity) async {
+    Database db = await instance.database;
+    int updateCount = await db.rawUpdate('''
+    UPDATE ${ _fossilTbl.table} 
+    SET ${ _fossilTbl.quantity} = ?
+    WHERE ${ _fossilTbl.number} = ?
+    ''',
+        [quantity.toString(), index.toString()]);
+    return updateCount;
+  }
+  //-------------------------------------------------------------
+
+  //-------------------------Insect-------------------------------
+  Future<int> updateDonatedInsect(int index, String donated) async {
+    Database db = await instance.database;
+    int updateCount = await db.rawUpdate('''
+    UPDATE ${ _insectTbl.table} 
+    SET ${ _insectTbl.donated} = ?
+    WHERE ${ _insectTbl.number} = ?
+    ''',
+        [donated, index.toString()]);
+    return updateCount;
+  }
+
+  Future<int> updateQuantityInsect(int index, int quantity) async {
+    Database db = await instance.database;
+    int updateCount = await db.rawUpdate('''
+    UPDATE ${ _insectTbl.table} 
+    SET ${ _insectTbl.quantity} = ?
+    WHERE ${ _insectTbl.number} = ?
+    ''',
+        [quantity.toString(), index.toString()]);
+    return updateCount;
+  }
+  //-------------------------------------------------------------
+
+  //-------------------------Fish-------------------------------
+  Future<int> updateDonatedFish(int index, String donated) async {
+    Database db = await instance.database;
+    int updateCount = await db.rawUpdate('''
+    UPDATE ${ _fishTbl.table} 
+    SET ${ _fishTbl.donated} = ?
+    WHERE ${ _fishTbl.number} = ?
+    ''',
+        [donated, index.toString()]);
+    return updateCount;
+  }
+
+  Future<int> updateQuantityFish(int index, int quantity) async {
+    Database db = await instance.database;
+    int updateCount = await db.rawUpdate('''
+    UPDATE ${ _fishTbl.table} 
+    SET ${ _fishTbl.quantity} = ?
+    WHERE ${ _fishTbl.number} = ?
+    ''',
+        [quantity.toString(), index.toString()]);
+    return updateCount;
+  }
+  //-------------------------------------------------------------
+
+  //-------------------------Villager-------------------------------
+  Future<int> updateResidentVillager(int index, String resident) async {
+    Database db = await instance.database;
+    int updateCount = await db.rawUpdate('''
+    UPDATE ${ _villagerTbl.table} 
+    SET ${ _villagerTbl.resident} = ?
+    WHERE ${ _villagerTbl.number} = ?
+    ''',
+        [resident, index.toString()]);
+    return updateCount;
+  }
+  //-------------------------------------------------------------
 
   Future<int> update(Map<String, dynamic> row, String tableName) async {
     Database db = await instance.database;

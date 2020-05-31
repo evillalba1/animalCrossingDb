@@ -32,6 +32,7 @@ dependencies:
   flutter_counter: ^1.0.3
   gradual_stepper: ^1.0.0
   stepper_counter_swipe: ^0.0.5
+  slide_popup_dialog: ^0.0.2
 
 dev_dependencies:
   flutter_test:

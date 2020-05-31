@@ -4,6 +4,7 @@ List<Fossil> mapFossilsList(List<Map<String, dynamic>> qFossils) {
   List<Fossil> fossils = new List<Fossil>();
   qFossils.forEach((val) {
     Fossil fossil = new Fossil();
+    fossil.number = val["number"];
     fossil.name = val["name"];
     fossil.price = val["price"];
     fossil.donated = val["donated"];

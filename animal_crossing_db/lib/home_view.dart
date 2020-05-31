@@ -16,6 +16,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   createDB() async {
+    print('Creating DB');
     await DatabaseHelper.instance.createDB();
   }
 
@@ -59,12 +60,12 @@ class _HomePageState extends State<HomePage> {
                     MenuButton(
                         page: FossilPage(),
                         bntColor: Colors.brown[300],
-                        btnIcon: Icons.account_circle,
+                        btnIcon: Icons.account_balance,
                         btnText: 'Fossils'),
                     MenuButton(
                         page: FishesPage(),
                         bntColor: Colors.blue[300],
-                        btnIcon: Icons.account_circle,
+                        btnIcon: Icons.beach_access,
                         btnText: 'Fishes'),
                     MenuButton(
                         page: InsectsPage(),
@@ -98,6 +99,7 @@ class MenuButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return AwesomeButton(
       blurRadius: 10.0,
       splashColor: Color.fromRGBO(255, 255, 255, .4),
@@ -107,25 +109,32 @@ class MenuButton extends StatelessWidget {
       onTap: () => Navigator.push(
           context, MaterialPageRoute(builder: (context) => page)),
       color: bntColor,
-      child: Row(
-        //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: <Widget>[
-          Icon(
-            btnIcon,
-            color: Colors.white,
-            size: 50.0,
-          ),
-          SizedBox(
-            width: 30,
-          ),
-          Text(
-            btnText,
-            style: TextStyle(
+
+      child: Container(
+        padding: EdgeInsets.only(left: 15),
+        child: Row(
+          //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: <Widget>[
+//          SizedBox(
+//            width: 15,
+//          ),
+            Icon(
+              btnIcon,
               color: Colors.white,
-              fontSize: 20.0,
+              size: 50.0,
             ),
-          ),
-        ],
+            SizedBox(
+              width: 20,
+            ),
+            Text(
+              btnText,
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 20.0,
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

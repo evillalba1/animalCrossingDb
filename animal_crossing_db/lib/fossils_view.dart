@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_counter/flutter_counter.dart';
 import 'package:gradual_stepper/gradual_stepper.dart';
 import 'package:stepper_counter_swipe/stepper_counter_swipe.dart';
+import 'package:slide_popup_dialog/slide_popup_dialog.dart' as slideDialog;
 
 import 'database_helper.dart';
 
@@ -15,6 +16,8 @@ class FossilPage extends StatefulWidget {
 class _FossilPageState extends State<FossilPage> {
   List<Map<String, dynamic>> fossils;
   List<Fossil> fossilList = new List<Fossil>();
+  List<Fossil> filteredFossilList = new List<Fossil>();
+  List<Fossil> unfilteredFossilList = new List<Fossil>();
   Fossil fos = new Fossil();
 
   fetchFossils() async {
@@ -36,6 +39,10 @@ class _FossilPageState extends State<FossilPage> {
     }
   }
 
+  filterByDonated() {
+
+  }
+
   Future fetchData() async {
     fetchFossils();
   }
@@ -49,30 +56,44 @@ class _FossilPageState extends State<FossilPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Fossils"),
-      ),
-      body: fossilList == null ? Center(child: CircularProgressIndicator(),) : 
+        appBar: AppBar(
+          title: Text("Fossils"),
+          actions: <Widget>[
+            Padding(
+                padding: EdgeInsets.only(right: 20.0),
+                child: GestureDetector(
+                  onTap: () {
+                    //_showDialog();
+                  },
+                  child: Icon(
+                    Icons.filter_list,
+                    size: 26.0,
+                  ),
+                )
+            ),
+          ],
+        ),
+      body: fossilList == null ? Center(child: CircularProgressIndicator(),) :
       Stack(
         children: <Widget>[
           Container(
-          //   decoration: BoxDecoration(
-          // image: DecorationImage(
-          //     image: AssetImage("assets/AnimalCrossingGrass.png"),
-          //     fit: BoxFit.cover))
+             decoration: BoxDecoration(
+           image: DecorationImage(
+               image: AssetImage("assets/AnimalCrossingGrass.png"),
+               fit: BoxFit.cover))
           ),
           ListView.builder(itemBuilder: (context, index) {
           return Card (
             child: Container(
-              color: Colors.red,
-              
+              //color: Colors.red,
+
               height: 100,
               margin: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   Container(
-                    color: Colors.blue,
+                    //color: Colors.blue,
                     width: 150,
                     margin: EdgeInsets.symmetric(horizontal: 10),
                     child: Column(
@@ -88,7 +109,7 @@ class _FossilPageState extends State<FossilPage> {
                   ),
                   SizedBox(width: 40,),
                   Container(
-                    color: Colors.purple,
+                   // color: Colors.purple,
                     width: 150,
                     height: 200,
                     margin: EdgeInsets.symmetric(horizontal: 10),
@@ -102,18 +123,21 @@ class _FossilPageState extends State<FossilPage> {
                             value: fossilList[index].donated == 'N' ? false : true,
                             onChanged: (value) {
                               setState(() {
+                                print(index.toString() + ' ' + fossilList[index].number.toString() );
                                 fossilList[index].donated = value == false ? 'N' : 'Y';
+                                //call dbHelper update
+                                DatabaseHelper.instance.updateDonatedFossil(fossilList[index].number, fossilList[index].donated);
                               });
                             },
                             //activeColor: Colors.lightGreen,
                             //inactiveThumbColor: Colors.redAccent,
                           )
-                          
+
                         ],),
                         Row (children: <Widget>[
                           Text('Quantity: ', style: TextStyle(fontWeight: FontWeight.bold)),
                           Expanded(
-                            child: 
+                            child:
                             StepperSwipe(
                               iconsColor: Colors.black,
                               counterTextColor: Colors.black,
@@ -127,9 +151,16 @@ class _FossilPageState extends State<FossilPage> {
                               withSpring: true,
                               withNaturalNumbers: true,
                               withBackground: false,
-                              onChanged: (int val) => print('New value : $val'),
+                              onChanged: (int value){
+                                setState(() {
+                                  print(value);
+                                  fossilList[index].quantity = value;
+                                  //call dbHelper update
+                                  DatabaseHelper.instance.updateQuantityFossil(fossilList[index].number, fossilList[index].quantity);
+                                });
+                              },
                             ),
-                            
+
                             // GradualStepper (
                             // buttonsColor: Colors.black,
                             // //backgroundColor: Colors.red,
@@ -147,7 +178,7 @@ class _FossilPageState extends State<FossilPage> {
                             // },
                             // )
                           )
-                          
+
                           // Counter(
                           //   key: Key(index.toString()),
                           //   initialValue: fossilList[index].quantity,
@@ -163,7 +194,7 @@ class _FossilPageState extends State<FossilPage> {
                           //   },
                           // )
                         ],)
-                        
+
                         // Text(fossils[index]['name'], style: TextStyle(fontWeight: FontWeight.bold)),
                         // SizedBox(height: 10,),
                         // Text('\$ ' + fossils[index]['price'], style: TextStyle(fontWeight: FontWeight.bold)),
@@ -178,7 +209,57 @@ class _FossilPageState extends State<FossilPage> {
         },
         itemCount: fossilList == null ? 0 : fossilList.length,
         )],
-      ) 
+
+      )
+
     );
   }
+
+
+  void _showDialog() {
+
+    slideDialog.showSlideDialog(
+
+      context: context,
+      child: Column (
+        children: <Widget>[
+          Text("Filter List",style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26),),
+          RaisedButton(
+            child: Text('Donated'),
+              onPressed: (){
+                filteredFossilList = unfilteredFossilList;
+                filteredFossilList.sort((a, b) => a.donated.compareTo(b.donated));
+                fossilList = filteredFossilList;
+                setState(() {
+
+
+                });
+          }),
+          RaisedButton(
+              child: Text('Value'),
+              onPressed: (){
+                setState(() {
+                  print('filter value');
+                });
+              }),
+          RaisedButton(
+              child: Text('Reset'),
+              onPressed: (){
+                setState(() {
+                  print('filter reset');
+                });
+              }),
+        ],
+      ),
+      barrierColor: Colors.black.withOpacity(0.7),
+      pillColor: Colors.black,
+      backgroundColor: Colors.lightGreen,
+    );
+  }
+
+  void _hideDialog() {
+    slideDialog.showSlideDialog(context: null, child: null);
+  }
+
+
 }
