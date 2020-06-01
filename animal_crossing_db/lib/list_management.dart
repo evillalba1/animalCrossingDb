@@ -53,6 +53,7 @@ List<Villager> mapVillagersList(List<Map<String, dynamic>> qVillagers) {
   List<Villager> villagers = new List<Villager>();
   qVillagers.forEach((val) {
     Villager villager = new Villager();
+    villager.number = val["number"];
     villager.name = val["name"];
     villager.personality = val["personality"];
     villager.species = val["species"];

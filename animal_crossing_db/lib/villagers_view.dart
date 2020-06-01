@@ -1,6 +1,8 @@
 import 'dart:convert';
 
 import 'package:animalcrossingdb/database_helper.dart';
+import 'package:animalcrossingdb/list_management.dart';
+import 'package:animalcrossingdb/object_class.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
 
@@ -12,6 +14,8 @@ class VillagersPage extends StatefulWidget {
 class _VillagersPageState extends State<VillagersPage> {
   // ignore: non_constant_identifier_names
   List<Map<String, dynamic>> villagers;
+  List<Villager> villagerList = new List<Villager>();
+  //List<Fossil> fossilList = new List<Fossil>();
 
   fetchVillagers() async {
     debugPrint("fetching Villagers");
@@ -27,10 +31,9 @@ class _VillagersPageState extends State<VillagersPage> {
       });
     } else {
       setState(() {
-        setState(() {
-          debugPrint(queryRows.length.toString());
-          villagers = queryRows;
-        }); // Here you can write your code for open new view
+        debugPrint(queryRows.length.toString());
+        villagers = queryRows;
+        villagerList = mapVillagersList(queryRows);
       });
     }
   }
@@ -41,10 +44,8 @@ class _VillagersPageState extends State<VillagersPage> {
 
   @override
   void initState() {
-    debugPrint('initState Villagers');
     fetchData();
     super.initState();
-    print(villagers);
   }
 
   @override
@@ -53,7 +54,7 @@ class _VillagersPageState extends State<VillagersPage> {
       appBar: AppBar(
         title: Text("Villagers"),
       ),
-      body: villagers == null ? Center(child: CircularProgressIndicator(),) : ListView.builder(itemBuilder: (context, index) {
+      body: villagerList == null ? Center(child: CircularProgressIndicator(),) : ListView.builder(itemBuilder: (context, index) {
         return Card (
           child: Container(
             height: 130,
@@ -61,24 +62,57 @@ class _VillagersPageState extends State<VillagersPage> {
             child: Row(
               children: <Widget>[
                 Container(
-                  width: 200,
+                  width: 180,
                   margin: EdgeInsets.symmetric(horizontal: 10),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-                      Text(villagers[index]['name'], style: TextStyle(fontWeight: FontWeight.bold)),
+                      Text(villagerList[index].name, style: TextStyle(fontWeight: FontWeight.bold)),
                       SizedBox(height: 10,),
-                      Image.network(villagers[index]['imageUrl'], height: 100, width: 100,fit: BoxFit.fill,),
+                      Image.network(villagerList[index].imageUrl, height: 100, width: 100,fit: BoxFit.fill,),
+                    ],
+                  ) ,
+                ),
+                //SizedBox(width: 40,),
+                Container(
+                  // color: Colors.purple,
+                  width: 150,
+                  height: 200,
+                  margin: EdgeInsets.symmetric(horizontal: 10),
+                  child: Column(
+                    // crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      Row(children: <Widget>[
+                        Text('Resident: ', style: TextStyle(fontWeight: FontWeight.bold)),
+                        Switch (
+                          value: villagerList[index].resident == 'N' ? false : true,
+                          onChanged: (value) {
+                            setState(() {
+                              villagerList[index].resident = value == false ? 'N' : 'Y';
+                              //call dbHelper update
+                              DatabaseHelper.instance.updateResidentVillager(villagerList[index].number, villagerList[index].resident);
+                            });
+                          },
+                          //activeColor: Colors.lightGreen,
+                          //inactiveThumbColor: Colors.redAccent,
+                        )
+
+                      ],),
+                      Row (children: <Widget>[
+                        Text('Birthday: ' , style: TextStyle(fontWeight: FontWeight.bold)),
+                        Text(villagerList[index].birthday),
+                      ],)
                     ],
                   ) ,
                 )
-              ]
-            )
+                ]
+            ),
           ),
         );
       },
-      itemCount: villagers == null ? 0 : villagers.length,
+      itemCount: villagerList == null ? 0 : villagerList.length,
       ),
     );
   }

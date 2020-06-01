@@ -30,11 +30,9 @@ class _FossilPageState extends State<FossilPage> {
       });
     } else {
       setState(() {
-        setState(() {
-          debugPrint(queryRows.length.toString());
-          fossils = queryRows;
-          fossilList = mapFossilsList(queryRows);
-        }); // Here you can write your code for open new view
+        debugPrint(queryRows.length.toString());
+        fossils = queryRows;
+        fossilList = mapFossilsList(queryRows); // Here you can write your code for open new view
       });
     }
   }
@@ -86,7 +84,6 @@ class _FossilPageState extends State<FossilPage> {
           return Card (
             child: Container(
               //color: Colors.red,
-
               height: 100,
               margin: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
               child: Row(
@@ -102,7 +99,7 @@ class _FossilPageState extends State<FossilPage> {
                       children: <Widget>[
                         Text(fossilList[index].name, style: TextStyle(fontWeight: FontWeight.bold, ),),
                         SizedBox(height: 25,),
-                        Text('Price: \$ ' + fossilList[index].price, style: TextStyle(fontWeight: FontWeight.bold)),
+                        Text('Value: \$ ' + fossilList[index].price, style: TextStyle(fontWeight: FontWeight.bold)),
                         //Image.network(villagers[index]['imageUrl'], height: 100, width: 100,fit: BoxFit.fill,),
                       ],
                     ) ,
@@ -160,55 +157,18 @@ class _FossilPageState extends State<FossilPage> {
                                 });
                               },
                             ),
-
-                            // GradualStepper (
-                            // buttonsColor: Colors.black,
-                            // //backgroundColor: Colors.red,
-                            // cornerRadius: 22,
-                            // counterTextStyle: TextStyle(fontSize: 14),
-                            // counterBackgroundColor: Colors.lightGreen,
-                            // initialValue: fossilList[index].quantity,
-                            // minimumValue: 0,
-                            // maximumValue: 10,
-                            // stepValue: 1,
-                            // onChanged: (value) {
-                            //   setState(() {
-                            //     fossilList[index].quantity = value;
-                            //   });
-                            // },
-                            // )
                           )
-
-                          // Counter(
-                          //   key: Key(index.toString()),
-                          //   initialValue: fossilList[index].quantity,
-                          //   minValue: 0,
-                          //   maxValue: 10,
-                          //   step: 1,
-                          //   decimalPlaces: 0,
-                          //   color: Colors.lightGreen,
-                          //   onChanged: (value) { // get the latest value from here
-                          //     setState(() {
-                          //       fossilList[index].quantity = value;
-                          //     });
-                          //   },
-                          // )
                         ],)
-
-                        // Text(fossils[index]['name'], style: TextStyle(fontWeight: FontWeight.bold)),
-                        // SizedBox(height: 10,),
-                        // Text('\$ ' + fossils[index]['price'], style: TextStyle(fontWeight: FontWeight.bold)),
-                        //Image.network(villagers[index]['imageUrl'], height: 100, width: 100,fit: BoxFit.fill,),
                       ],
                     ) ,
-                  )
+                  ),
                 ]
               )
             ),
           );
         },
         itemCount: fossilList == null ? 0 : fossilList.length,
-        )],
+        ),],
 
       )
 
