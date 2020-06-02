@@ -1,13 +1,13 @@
+import 'list_management.dart';
+import 'object_class.dart';
+import 'database_helper.dart';
 import 'dart:math';
-
-import 'package:animalcrossingdb/list_management.dart';
-import 'package:animalcrossingdb/object_class.dart';
 import 'package:flutter/material.dart';
 import 'package:stepper_counter_swipe/stepper_counter_swipe.dart';
 import 'package:slide_popup_dialog/slide_popup_dialog.dart' as slideDialog;
 import 'package:percent_indicator/percent_indicator.dart';
 
-import 'database_helper.dart';
+
 
 class FossilPage extends StatefulWidget {
   @override

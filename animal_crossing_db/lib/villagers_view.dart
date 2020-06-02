@@ -1,8 +1,6 @@
-import 'dart:convert';
-
-import 'package:animalcrossingdb/database_helper.dart';
-import 'package:animalcrossingdb/list_management.dart';
-import 'package:animalcrossingdb/object_class.dart';
+import 'database_helper.dart';
+import 'list_management.dart';
+import 'object_class.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
 
@@ -23,7 +21,6 @@ class _VillagersPageState extends State<VillagersPage> {
         await DatabaseHelper.instance.queryAll('villagers');
     // var query = await DatabaseHelper.instance.queryAll("villagers");
     if (queryRows.length == 0) {
-      debugPrint("lenght = o");
       DatabaseHelper.instance.insertAllVillagers();
       //fetchVillagers();
       Future.delayed(const Duration(milliseconds: 2000), () {

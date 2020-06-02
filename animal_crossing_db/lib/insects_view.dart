@@ -1,12 +1,12 @@
+import 'list_management.dart';
+import 'object_class.dart';
+import 'database_helper.dart';
 import 'dart:math';
-
-import 'package:animalcrossingdb/object_class.dart';
 import 'package:flutter/material.dart';
-import 'package:animalcrossingdb/list_management.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 import 'package:stepper_counter_swipe/stepper_counter_swipe.dart';
 
-import 'database_helper.dart';
+
 
 class InsectsPage extends StatefulWidget {
   @override

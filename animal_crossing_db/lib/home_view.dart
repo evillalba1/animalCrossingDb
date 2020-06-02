@@ -1,14 +1,12 @@
-import 'package:animalcrossingdb/fish_view.dart';
-import 'package:animalcrossingdb/insects_view.dart';
-import 'package:animalcrossingdb/villagers_view.dart';
-import 'package:flutter/material.dart';
-import 'package:animalcrossingdb/object_class.dart';
-import 'package:awesome_button/awesome_button.dart';
-import 'package:flutter/foundation.dart';
-
+import 'fish_view.dart';
+import 'insects_view.dart';
+import 'villagers_view.dart';
 import 'database_helper.dart';
 import 'flowers_view.dart';
 import 'fossils_view.dart';
+import 'package:flutter/material.dart';
+import 'package:awesome_button/awesome_button.dart';
+import 'package:flutter/foundation.dart';
 
 class HomePage extends StatefulWidget {
   @override
