@@ -1,6 +1,9 @@
+import 'dart:math';
+
 import 'package:animalcrossingdb/object_class.dart';
 import 'package:flutter/material.dart';
 import 'package:animalcrossingdb/list_management.dart';
+import 'package:percent_indicator/circular_percent_indicator.dart';
 import 'package:stepper_counter_swipe/stepper_counter_swipe.dart';
 
 import 'database_helper.dart';
@@ -13,6 +16,8 @@ class InsectsPage extends StatefulWidget {
 class _InsectsPageState extends State<InsectsPage> {
   List<Map<String, dynamic>> insects;
   List<Insect> insectList = new List<Insect>();
+  double completionPercent = 0;
+  var percentToDisplay = '';
 
   fetchInsects() async {
     List<Map<String, dynamic>> queryRows =
@@ -27,8 +32,22 @@ class _InsectsPageState extends State<InsectsPage> {
         debugPrint(queryRows.length.toString());
         insects = queryRows;
         insectList = mapInsectList(queryRows);
+        getCompletionPercent();
       });
     }
+  }
+
+  getCompletionPercent() {
+    var countAll = insectList.length;
+    var countDonated = insectList.where((c) => c.donated == "Y").toList().length;
+    completionPercent = roundDouble(countDonated / countAll, 2);
+    percentToDisplay = (completionPercent * 100).toStringAsFixed(0);
+    print(completionPercent);
+  }
+
+  double roundDouble(double value, int places){
+    double mod = pow(10.0, places);
+    return ((value * mod).round().toDouble() / mod);
   }
 
   Future fetchData() async {
@@ -47,6 +66,16 @@ class _InsectsPageState extends State<InsectsPage> {
         appBar: AppBar(
           title: Text("Insects"),
           actions: <Widget>[
+            Padding(
+              padding: EdgeInsets.only(right: 160.0),
+              child: CircularPercentIndicator(
+                radius: 50.0,
+                lineWidth: 5.0,
+                percent: completionPercent == 0 ? 0 : completionPercent,
+                center: new Text(percentToDisplay + '%'),
+                progressColor: Colors.black,
+              ),
+            ),
             Padding(
                 padding: EdgeInsets.only(right: 20.0),
                 child: GestureDetector(
@@ -114,6 +143,7 @@ class _InsectsPageState extends State<InsectsPage> {
                                         insectList[index].donated = value == false ? 'N' : 'Y';
                                         //call dbHelper update
                                         DatabaseHelper.instance.updateDonatedInsect(insectList[index].number, insectList[index].donated);
+                                        getCompletionPercent();
                                       });
                                     },
                                     //activeColor: Colors.lightGreen,

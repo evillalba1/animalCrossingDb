@@ -1,10 +1,11 @@
+import 'dart:math';
+
 import 'package:animalcrossingdb/list_management.dart';
 import 'package:animalcrossingdb/object_class.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_counter/flutter_counter.dart';
-import 'package:gradual_stepper/gradual_stepper.dart';
 import 'package:stepper_counter_swipe/stepper_counter_swipe.dart';
 import 'package:slide_popup_dialog/slide_popup_dialog.dart' as slideDialog;
+import 'package:percent_indicator/percent_indicator.dart';
 
 import 'database_helper.dart';
 
@@ -19,6 +20,8 @@ class _FossilPageState extends State<FossilPage> {
   List<Fossil> filteredFossilList = new List<Fossil>();
   List<Fossil> unfilteredFossilList = new List<Fossil>();
   Fossil fos = new Fossil();
+  double completionPercent = 0;
+  var percentToDisplay = '';
 
   fetchFossils() async {
     List<Map<String, dynamic>> queryRows =
@@ -32,9 +35,23 @@ class _FossilPageState extends State<FossilPage> {
       setState(() {
         debugPrint(queryRows.length.toString());
         fossils = queryRows;
-        fossilList = mapFossilsList(queryRows); // Here you can write your code for open new view
+        fossilList = mapFossilsList(queryRows);
+        getCompletionPercent();// Here you can write your code for open new view
       });
     }
+  }
+
+  getCompletionPercent() {
+    var countAll = fossilList.length;
+    var countDonated = fossilList.where((c) => c.donated == "Y").toList().length;
+    completionPercent = roundDouble(countDonated / countAll, 2);
+    percentToDisplay = (completionPercent * 100).toStringAsFixed(0);
+    print(completionPercent);
+  }
+
+  double roundDouble(double value, int places){
+    double mod = pow(10.0, places);
+    return ((value * mod).round().toDouble() / mod);
   }
 
   filterByDonated() {
@@ -43,6 +60,7 @@ class _FossilPageState extends State<FossilPage> {
 
   Future fetchData() async {
     fetchFossils();
+
   }
 
   @override
@@ -57,6 +75,16 @@ class _FossilPageState extends State<FossilPage> {
         appBar: AppBar(
           title: Text("Fossils"),
           actions: <Widget>[
+            Padding(
+                padding: EdgeInsets.only(right: 160.0),
+                child: CircularPercentIndicator(
+                  radius: 50.0,
+                  lineWidth: 5.0,
+                  percent: completionPercent == 0 ? 0 : completionPercent,
+                  center: new Text(percentToDisplay + '%'),
+                  progressColor: Colors.black,
+                ),
+            ),
             Padding(
                 padding: EdgeInsets.only(right: 20.0),
                 child: GestureDetector(
@@ -124,6 +152,7 @@ class _FossilPageState extends State<FossilPage> {
                                 fossilList[index].donated = value == false ? 'N' : 'Y';
                                 //call dbHelper update
                                 DatabaseHelper.instance.updateDonatedFossil(fossilList[index].number, fossilList[index].donated);
+                                getCompletionPercent();
                               });
                             },
                             //activeColor: Colors.lightGreen,

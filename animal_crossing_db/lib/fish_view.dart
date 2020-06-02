@@ -1,6 +1,9 @@
+import 'dart:math';
+
 import 'package:animalcrossingdb/list_management.dart';
 import 'package:animalcrossingdb/object_class.dart';
 import 'package:flutter/material.dart';
+import 'package:percent_indicator/circular_percent_indicator.dart';
 import 'package:stepper_counter_swipe/stepper_counter_swipe.dart';
 
 import 'database_helper.dart';
@@ -13,6 +16,8 @@ class FishesPage extends StatefulWidget {
 class _FishesPageState extends State<FishesPage> {
   List<Map<String, dynamic>> fishes;
   List<Fish> fishList = new  List<Fish>();
+  double completionPercent = 0;
+  var percentToDisplay = '';
 
   fetchFishes() async {
     List<Map<String, dynamic>> queryRows =
@@ -27,9 +32,22 @@ class _FishesPageState extends State<FishesPage> {
         debugPrint(queryRows.length.toString());
         fishes = queryRows;
         fishList = mapFishList(queryRows);
-        //insectList = mapInsectList(queryRows);
+        getCompletionPercent();
       });
     }
+  }
+
+  getCompletionPercent() {
+    var countAll = fishList.length;
+    var countDonated = fishList.where((c) => c.donated == "Y").toList().length;
+    completionPercent = roundDouble(countDonated / countAll, 2);
+    percentToDisplay = (completionPercent * 100).toStringAsFixed(0);
+    print(completionPercent);
+  }
+
+  double roundDouble(double value, int places){
+    double mod = pow(10.0, places);
+    return ((value * mod).round().toDouble() / mod);
   }
 
   Future fetchData() async {
@@ -48,6 +66,16 @@ class _FishesPageState extends State<FishesPage> {
         appBar: AppBar(
           title: Text("Fishes"),
           actions: <Widget>[
+            Padding(
+              padding: EdgeInsets.only(right: 160.0),
+              child: CircularPercentIndicator(
+                radius: 50.0,
+                lineWidth: 5.0,
+                percent: completionPercent == 0 ? 0 : completionPercent,
+                center: new Text(percentToDisplay + '%'),
+                progressColor: Colors.black,
+              ),
+            ),
             Padding(
                 padding: EdgeInsets.only(right: 20.0),
                 child: GestureDetector(
@@ -115,6 +143,7 @@ class _FishesPageState extends State<FishesPage> {
                                         fishList[index].donated = value == false ? 'N' : 'Y';
                                         //call dbHelper update
                                         DatabaseHelper.instance.updateDonatedFish(fishList[index].number, fishList[index].donated);
+                                        getCompletionPercent();
                                       });
                                     },
                                     //activeColor: Colors.lightGreen,

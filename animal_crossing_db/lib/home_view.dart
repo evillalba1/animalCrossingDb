@@ -7,6 +7,7 @@ import 'package:awesome_button/awesome_button.dart';
 import 'package:flutter/foundation.dart';
 
 import 'database_helper.dart';
+import 'flowers_view.dart';
 import 'fossils_view.dart';
 
 class HomePage extends StatefulWidget {
@@ -48,12 +49,14 @@ class _HomePageState extends State<HomePage> {
             //mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               Container(
+                //color: Colors.red,
                   height: height * .3,
                   padding: EdgeInsets.only(bottom: 30, top: 30),
                   child: MenuHeader(headerText: 'Welcome Villager', imageUrl: 'assets/Tom_Nook.png',)),
               Container(
-                height: height * .5,
-                padding: EdgeInsets.only(bottom: 30, top: 30),
+                //color: Colors.yellow,
+                height: height * .55,
+                padding: EdgeInsets.only(bottom: 10, top: 30),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
@@ -62,21 +65,30 @@ class _HomePageState extends State<HomePage> {
                         bntColor: Colors.brown[300],
                         btnIcon: Icons.account_balance,
                         btnText: 'Fossils'),
+                    SizedBox(height: 10,),
                     MenuButton(
                         page: FishesPage(),
                         bntColor: Colors.blue[300],
                         btnIcon: Icons.beach_access,
                         btnText: 'Fishes'),
+                    SizedBox(height: 10,),
                     MenuButton(
                         page: InsectsPage(),
                         bntColor: Colors.green[300],
                         btnIcon: Icons.bug_report,
                         btnText: 'Insects'),
+                    SizedBox(height: 10,),
                     MenuButton(
                         page: VillagersPage(),
                         bntColor: Colors.orange[300],
                         btnIcon: Icons.account_circle,
                         btnText: 'Villagers'),
+                    SizedBox(height: 10,),
+                    MenuButton(
+                        page: FlowerPage(),
+                        bntColor: Colors.pink[300],
+                        btnIcon: Icons.filter_vintage,
+                        btnText: 'Flowers'),
                   ],
                 ),
               )
