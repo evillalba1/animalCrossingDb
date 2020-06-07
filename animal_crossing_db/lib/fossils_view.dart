@@ -36,6 +36,8 @@ class _FossilPageState extends State<FossilPage> {
         debugPrint(queryRows.length.toString());
         fossils = queryRows;
         fossilList = mapFossilsList(queryRows);
+        unfilteredFossilList = fossilList;
+        filteredFossilList = fossilList;
         getCompletionPercent();// Here you can write your code for open new view
       });
     }
@@ -89,7 +91,7 @@ class _FossilPageState extends State<FossilPage> {
                 padding: EdgeInsets.only(right: 20.0),
                 child: GestureDetector(
                   onTap: () {
-                    //_showDialog();
+                    _showDialog();
                   },
                   child: Icon(
                     Icons.filter_list,
@@ -206,36 +208,33 @@ class _FossilPageState extends State<FossilPage> {
 
 
   void _showDialog() {
-
     slideDialog.showSlideDialog(
-
       context: context,
       child: Column (
         children: <Widget>[
-          Text("Filter List",style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26),),
+          Text("Sort List",style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26),),
           RaisedButton(
             child: Text('Donated'),
               onPressed: (){
-                filteredFossilList = unfilteredFossilList;
-                filteredFossilList.sort((a, b) => a.donated.compareTo(b.donated));
-                fossilList = filteredFossilList;
                 setState(() {
-
-
+                  filteredFossilList.sort((a, b) => b.donated.compareTo(a.donated));
+                  fossilList = filteredFossilList;
                 });
           }),
           RaisedButton(
               child: Text('Value'),
               onPressed: (){
                 setState(() {
-                  print('filter value');
+                  print('value');
+                  filteredFossilList.sort((a, b) => int.parse(b.price.replaceAll(',', '')).compareTo(int.parse(a.price.replaceAll(',', ''))));
+                  fossilList = filteredFossilList;
                 });
               }),
           RaisedButton(
               child: Text('Reset'),
               onPressed: (){
                 setState(() {
-                  print('filter reset');
+                  fetchFossils();
                 });
               }),
         ],

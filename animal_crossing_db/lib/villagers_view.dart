@@ -3,6 +3,7 @@ import 'list_management.dart';
 import 'object_class.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
+import 'package:slide_popup_dialog/slide_popup_dialog.dart' as slideDialog;
 
 class VillagersPage extends StatefulWidget {
   @override
@@ -13,7 +14,7 @@ class _VillagersPageState extends State<VillagersPage> {
   // ignore: non_constant_identifier_names
   List<Map<String, dynamic>> villagers;
   List<Villager> villagerList = new List<Villager>();
-  //List<Fossil> fossilList = new List<Fossil>();
+  List<Villager> filteredVillagerList = new List<Villager>();
 
   fetchVillagers() async {
     debugPrint("fetching Villagers");
@@ -31,6 +32,7 @@ class _VillagersPageState extends State<VillagersPage> {
         debugPrint(queryRows.length.toString());
         villagers = queryRows;
         villagerList = mapVillagersList(queryRows);
+        filteredVillagerList = villagerList;
       });
     }
   }
@@ -50,6 +52,30 @@ class _VillagersPageState extends State<VillagersPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Villagers"),
+        actions: <Widget>[
+//          Padding(
+//            padding: EdgeInsets.only(right: 160.0),
+//            child: CircularPercentIndicator(
+//              radius: 50.0,
+//              lineWidth: 5.0,
+//              percent: completionPercent == 0 ? 0 : completionPercent,
+//              center: new Text(percentToDisplay + '%'),
+//              progressColor: Colors.black,
+//            ),
+//          ),
+          Padding(
+              padding: EdgeInsets.only(right: 20.0),
+              child: GestureDetector(
+                onTap: () {
+                  _showDialog();
+                },
+                child: Icon(
+                  Icons.filter_list,
+                  size: 26.0,
+                ),
+              )
+          ),
+        ],
       ),
       body: villagerList == null ? Center(child: CircularProgressIndicator(),) : ListView.builder(itemBuilder: (context, index) {
         return Card (
@@ -67,7 +93,13 @@ class _VillagersPageState extends State<VillagersPage> {
                     children: <Widget>[
                       Text(villagerList[index].name, style: TextStyle(fontWeight: FontWeight.bold)),
                       SizedBox(height: 10,),
-                      Image.network(villagerList[index].imageUrl, height: 100, width: 100,fit: BoxFit.fill,),
+                      CircleAvatar(
+                        radius: 30.0,
+                        backgroundImage: NetworkImage(villagerList[index].imageUrl),
+                        backgroundColor: Colors.transparent,
+                      )
+
+                     // Image.network(villagerList[index].imageUrl, height: 100, width: 100,fit: BoxFit.fill,),
                     ],
                   ) ,
                 ),
@@ -111,6 +143,36 @@ class _VillagersPageState extends State<VillagersPage> {
       },
       itemCount: villagerList == null ? 0 : villagerList.length,
       ),
+    );
+  }
+  void _showDialog() {
+    slideDialog.showSlideDialog(
+      context: context,
+      child: Column(
+        children: <Widget>[
+          Text("Sort List",
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26),),
+          RaisedButton(
+              child: Text('Resident'),
+              onPressed: () {
+                setState(() {
+                  filteredVillagerList.sort((a, b) =>
+                      b.resident.compareTo(a.resident));
+                  villagerList = filteredVillagerList;
+                });
+              }),
+          RaisedButton(
+              child: Text('Reset'),
+              onPressed: () {
+                setState(() {
+                  fetchVillagers();
+                });
+              }),
+        ],
+      ),
+      barrierColor: Colors.black.withOpacity(0.7),
+      pillColor: Colors.black,
+      backgroundColor: Colors.lightGreen,
     );
   }
 }

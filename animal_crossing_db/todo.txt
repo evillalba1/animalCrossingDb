@@ -18,3 +18,15 @@ https://pub.dev/packages/lite_rolling_switch
 https://pub.dev/packages/toggle_switch
 
 https://medium.com/swlh/flutter-get-data-from-a-rest-api-and-save-locally-in-a-sqlite-database-9a9de5867939
+
+Alert
+https://pub.dev/packages/rflutter_alert#-installing-tab-
+
+
+
+-----------------TODO------------------------
+Add Flower section
+Add Images to Insect and Fish
+Expand Card for Insect, Fish and Villagers
+Filter/Sort of Insect, Fish, Villager and Fossil
+Alert if a villager birthday is today that is resident
