@@ -123,7 +123,11 @@ class _FishesPageState extends State<FishesPage> {
                               children: <Widget>[
                                 CircleAvatar(
                                   radius: 50,
-                                  backgroundImage: AssetImage('assets/fish.png'),
+                                  //backgroundImage: AssetImage('assets/fish.png'),
+                                  backgroundImage: NetworkImage(fishList[index].imageUrl),
+                                  backgroundColor: Colors.transparent,
+
+                                  //https://img.game8.jp/4175032/2a5cdb43c0280c5943633c235ab83618.jpeg/show
                                 )
                                 //Image.network(villagers[index]['imageUrl'], height: 100, width: 100,fit: BoxFit.fill,),
                               ],

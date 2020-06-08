@@ -27,6 +27,7 @@ List<Fish> mapFishList(List<Map<String, dynamic>> qFishes) {
     fish.month = val["month"];
     fish.donated = val["donated"];
     fish.quantity = val["quantity"];
+    fish.imageUrl = val["imageUrl"];
     fishes.add(fish);
   });
   return fishes;
@@ -44,6 +45,7 @@ List<Insect> mapInsectList(List<Map<String, dynamic>> qInsects) {
     insect.month = val["month"];
     insect.donated = val["donated"];
     insect.quantity = val["quantity"];
+    insect.imageUrl = val["imageUrl"];
     insects.add(insect);
   });
   return insects;

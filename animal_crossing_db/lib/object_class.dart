@@ -27,6 +27,7 @@ class Fish {
   String month;
   String donated;
   int quantity;
+  String imageUrl;
 
   Map<String, dynamic> toMap() {
   return {
@@ -38,7 +39,8 @@ class Fish {
     'time': time,
     'month': month,
     'donated': donated,
-    'quantity': quantity
+    'quantity': quantity,
+    'imageUrl': imageUrl,
     };
   }
 
@@ -53,6 +55,7 @@ class Insect {
   String month;
   String donated;
   int quantity;
+  String imageUrl;
 
   Map<String, dynamic> toMap() {
   return {
@@ -63,7 +66,8 @@ class Insect {
     'time': time,
     'month': month,
     'donated': donated,
-    'quantity': quantity
+    'quantity': quantity,
+    'imageUrl': imageUrl,
     };
   }
 }
@@ -126,6 +130,7 @@ class FishTbl {
   String month = "month";
   String donated = "donated";
   String quantity = "quantity";
+  String imageUrl = "imageUrl";
 }
 
 class InsectTbl {
@@ -138,4 +143,5 @@ class InsectTbl {
   String month = "month";
   String donated = "donated";
   String quantity = "quantity";
+  String imageUrl = "imageUrl";
 }

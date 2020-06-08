@@ -49,7 +49,8 @@ class DatabaseHelper {
       ${_fishTbl.time} TEXT NOT NULL,
       ${_fishTbl.month} TEXT NOT NULL,
       ${_fishTbl.donated} INTEGER NOT NULL,
-      ${_fishTbl.quantity} INTEGER NOT NULL
+      ${_fishTbl.quantity} INTEGER NOT NULL,
+      ${_fishTbl.imageUrl} TEXT NOT NULL
       ) 
       ''');
 
@@ -63,7 +64,8 @@ class DatabaseHelper {
       ${_insectTbl.time} TEXT NOT NULL,
       ${_insectTbl.month} TEXT NOT NULL,
       ${_insectTbl.donated} INTEGER NOT NULL,
-      ${_insectTbl.quantity} INTEGER NOT NULL
+      ${_insectTbl.quantity} INTEGER NOT NULL,
+      ${_insectTbl.imageUrl} TEXT NOT NULL
       )
       ''');
 
@@ -146,6 +148,7 @@ class DatabaseHelper {
         fish.month = val["month"];
         fish.donated = val["donated"];
         fish.quantity = val["quantity"];
+        fish.imageUrl = val["imageUrl"];
         batch.insert(_fishTbl.table, fish.toMap());
       });
       batch.commit();
@@ -167,6 +170,7 @@ class DatabaseHelper {
         insect.month = val["month"];
         insect.donated = val["donated"];
         insect.quantity = val["quantity"];
+        insect.imageUrl = val["imageUrl"];
         batch.insert(_insectTbl.table, insect.toMap());
       });
       batch.commit();

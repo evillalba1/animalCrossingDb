@@ -123,7 +123,9 @@ class _InsectsPageState extends State<InsectsPage> {
                               children: <Widget>[
                                 CircleAvatar(
                                   radius: 50,
-                                  backgroundImage: AssetImage('assets/insect.png'),
+                                  //backgroundImage: AssetImage('assets/insect.png'),
+                                  backgroundImage: NetworkImage(insectList[index].imageUrl),
+                                  backgroundColor: Colors.transparent,
                                 )
                                 //Image.network(villagers[index]['imageUrl'], height: 100, width: 100,fit: BoxFit.fill,),
                               ],
