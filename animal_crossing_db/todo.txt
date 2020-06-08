@@ -22,6 +22,9 @@ https://medium.com/swlh/flutter-get-data-from-a-rest-api-and-save-locally-in-a-s
 Alert
 https://pub.dev/packages/rflutter_alert#-installing-tab-
 
+Flowers
+https://gamewith.net/animal-crossing-new-horizons/article/show/17321
+
 
 
 -----------------TODO------------------------

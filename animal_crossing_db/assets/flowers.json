@@ -1,3 +1,155 @@
-{
-
-}
+[
+  {
+    "name": "Lillies",
+    "imageUrl": "lilies.png",
+    "combinations": [
+      {
+        "combination": "Red + Red = Black"
+      },
+      {
+        "combination": "Yellow + Red = Orange"
+      },
+      {
+        "combination": "Red + White = Pink"
+      }
+    ]
+  },
+  {
+    "name": "Roses",
+    "imageUrl": "",
+    "combinations": [
+      {
+        "combination": "Red + Red = Black"
+      },
+      {
+        "combination": "Red + White = Pink"
+      },
+      {
+        "combination": "Yellow + Red = Orange"
+      },
+      {
+        "combination": "White + White = Purple"
+      },
+      {
+        "combination": "Purple + Red = Hybrid Pink (Looks identical to the Pink you’d get from other combinations but needed for Hybrid Blue roses)"
+      },
+      {
+        "combination": "Hybrid Pink + Yellow = Hybrid Red (Looks identical to Red but needed for Hybrid Blue roses)"
+      },
+      {
+        "combination": "Hybrid Red + Hybrid Red = Blue"
+      },
+      {
+        "combination": "Black Roses watered with Golden Watering Can = Gold"
+      }
+    ]
+  },
+  {
+    "name": "Mums",
+    "imageUrl": "mums.png",
+    "combinations": [
+      {
+        "combination": "White + Red = Pink"
+      },
+      {
+        "combination": "White + White = Purple"
+      },
+      {
+        "combination": "Red + Yellow = Hybrid Yellow (Looks identical to Yellow but needed for Hybrid Purple mums)"
+      },
+      {
+        "combination": "Hybrid Yellow + Hybrid Yellow = Hybrid Purple (Looks identical to Purple but needed for Green mums)"
+      },
+      {
+        "combination": "Hybrid Purple + Hybrid Purple = Green"
+      }
+    ]
+  },
+  {
+    "name": "Pansies",
+    "imageUrl": "pansies.png",
+    "combinations": [
+      {
+        "combination": "White + White = Blue"
+      },
+      {
+        "combination": "Yellow + Red = Orange"
+      },
+      {
+        "combination": "Red + Blue = Hybrid Red (Looks identical to Red but needed for Purple pansies)"
+      },
+      {
+        "combination": "Hybrid Red + Hybrid Red = Hybrid Purple"
+      }
+    ]
+  },
+  {
+    "name": "Windflowers",
+    "imageUrl": "",
+    "combinations": [
+      {
+        "combination": "Orange + Red = Pink"
+      },
+      {
+        "combination": "White + White = Blue"
+      },
+      {
+        "combination": "Pink + Blue = Hybrid Red (Looks the same as Red but needed for Purple windflowers)"
+      },
+      {
+        "combination": "Hybrid Red + Hybrid Red = Purple"
+      }
+    ]
+  },
+  {
+    "name": "Hyacinths",
+    "imageUrl": "hyacinths.png",
+    "combinations": [
+      {
+        "combination": "Red + White = Pink"
+      },
+      {
+        "combination": "White + White = Blue"
+      },
+      {
+        "combination": "Red + Yellow = Orange"
+      },
+      {
+        "combination": "Orange + Orange = Purple"
+      }
+    ]
+  },
+  {
+    "name": "Cosmos",
+    "imageUrl" : "cosmos.png",
+    "combinations": [
+      {
+        "combination": "Yellow + Red = Orange"
+      },
+      {
+        "combination": "Red + White = Pink"
+      },
+      {
+        "combination": "Orange + Orange = Black"
+      }
+    ]
+  },
+  {
+    "name": "Tulips",
+    "imageUrl": "tulips.png",
+    "combinations": [
+      {
+        "combination": "Red + Red = Black"
+      },
+      {
+        "combination": "Red + Yellow = Orange"
+      },
+      {
+        "combination": "Red + White = Pink"
+      },
+      {
+        "combination": "Orange + Orange = Purple"
+      }
+    ]
+  }
+]

@@ -96,6 +96,16 @@ class Villager {
   }
 }
 
+class Flower {
+  String name;
+  String imageUrl;
+  List<Combination> combinations;
+}
+
+class Combination {
+  String combination;
+}
+
 class VillagerTbl {
   String table = "villagers";
   String number = "number";

@@ -1,4 +1,5 @@
 import 'package:animalcrossingdb/object_class.dart';
+import 'dart:convert';
 
 List<Fossil> mapFossilsList(List<Map<String, dynamic>> qFossils) {
   List<Fossil> fossils = new List<Fossil>();
@@ -66,4 +67,23 @@ List<Villager> mapVillagersList(List<Map<String, dynamic>> qVillagers) {
     villagers.add(villager);
   });
   return villagers;
+}
+
+List<Flower> mapFlowersList(String jsonFlowers) {
+  List<Flower> flowers = new List<Flower>();
+  List flowerRawList = json.decode(jsonFlowers);
+  flowerRawList.forEach((val) {
+    Flower flower = new Flower();
+    flower.name = val["name"];
+    flower.imageUrl = val["imageUrl"];
+    flower.combinations = new List<Combination>();
+    List flowerCombinations =  val["combinations"];
+    flowerCombinations.forEach((comb) {
+      Combination combination = new Combination();
+      combination.combination = comb["combination"];
+      flower.combinations.add(combination);
+    });
+    flowers.add(flower);
+  });
+  return flowers;
 }
