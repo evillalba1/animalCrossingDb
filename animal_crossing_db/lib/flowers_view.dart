@@ -41,8 +41,8 @@ class _FlowerPageState extends State<FlowerPage> {
         body: flowerList == null ? Center(child: CircularProgressIndicator(),) :ListView.builder(
             itemCount: flowerList.length,
             itemBuilder: (context, index){
-              return ExpansionTile(title: Text(flowerList[index].name, style: TextStyle(fontWeight: FontWeight.bold),),
-                children: flowerList[index].imageUrl == "" ? buildTextChild(flowerList[index].combinations) : buildImageChild(flowerList[index].imageUrl),
+              return ExpansionTile(title: Text(flowerList[index].name, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),),
+                children: flowerList[index].name == "Legend" ? buildLegendChild(flowerList[index].combinations) : buildTextChild(flowerList[index].combinations),
               );
             }
         )
@@ -52,10 +52,46 @@ class _FlowerPageState extends State<FlowerPage> {
   List<Widget> buildTextChild(List<Combination> combinations) {
     List<Widget> widgets = new List<Widget>();
     combinations.forEach((val){
+      print(val.imageUrl1);
       widgets.add(
         Padding(
           padding: const EdgeInsets.all(8.0),
-          child: Text(val.combination),
+          child: Column(
+            children: <Widget>[
+              Row(
+                children: <Widget>[
+                  Text(val.combination, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),
+                ],
+              ),
+              SizedBox(height: 10,),
+              Row(
+                children: <Widget>[
+                  SizedBox(width: 20,),
+                  CircleAvatar(
+                    radius: 30.0,
+                    backgroundImage: AssetImage(val.imageUrl1),
+                    backgroundColor: Colors.transparent,
+                  ),
+                  SizedBox(width: 20,),
+                  Text("+", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),
+                  SizedBox(width: 20,),
+                  CircleAvatar(
+                    radius: 30.0,
+                    backgroundImage: AssetImage(val.imageUrl2),
+                    backgroundColor: Colors.transparent,
+                  ),
+                  SizedBox(width: 20,),
+                  Text("=", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),
+                  SizedBox(width: 20,),
+                  CircleAvatar(
+                    radius: 30.0,
+                    backgroundImage: AssetImage(val.imageUrl3),
+                    backgroundColor: Colors.transparent,
+                  )
+                ],
+              )
+            ],
+          ),
         )
       );
     });
@@ -70,6 +106,20 @@ class _FlowerPageState extends State<FlowerPage> {
             child: Image(image: AssetImage("assets/$Url"),),
           )
       );
+
+    return widgets;
+  }
+
+  List<Widget> buildLegendChild(List<Combination> combinations) {
+    List<Widget> widgets = new List<Widget>();
+    combinations.forEach((val) {
+      widgets.add(
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(val.combination),
+          )
+      );
+    });
 
     return widgets;
   }

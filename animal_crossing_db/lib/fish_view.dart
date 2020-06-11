@@ -95,7 +95,7 @@ class _FishesPageState extends State<FishesPage> {
             ),
           ],
         ),
-        body: fishList == null ? Center(child: CircularProgressIndicator(),) :
+        body:
         Stack(
           children: <Widget>[
             Container(
@@ -104,6 +104,7 @@ class _FishesPageState extends State<FishesPage> {
                         image: AssetImage("assets/AnimalCrossingGrass.png"),
                         fit: BoxFit.cover))
             ),
+            fishList == null ? Center(child: CircularProgressIndicator(),) :
             ListView.builder(itemBuilder: (context, index) {
               return Card (
                 child: Container(

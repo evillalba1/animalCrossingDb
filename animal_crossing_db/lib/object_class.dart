@@ -104,6 +104,9 @@ class Flower {
 
 class Combination {
   String combination;
+  String imageUrl1;
+  String imageUrl2;
+  String imageUrl3;
 }
 
 class VillagerTbl {

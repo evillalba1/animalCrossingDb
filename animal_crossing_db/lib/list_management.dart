@@ -81,6 +81,9 @@ List<Flower> mapFlowersList(String jsonFlowers) {
     flowerCombinations.forEach((comb) {
       Combination combination = new Combination();
       combination.combination = comb["combination"];
+      combination.imageUrl1 = comb["imageUrl1"];
+      combination.imageUrl2 = comb["imageUrl2"];
+      combination.imageUrl3 = comb["imageUrl3"];
       flower.combinations.add(combination);
     });
     flowers.add(flower);

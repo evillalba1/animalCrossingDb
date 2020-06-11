@@ -60,6 +60,14 @@ flutter:
 
   assets:
     - assets/
+    - assets/flowers/cosmos/
+    - assets/flowers/hyacinths/
+    - assets/flowers/lilies/
+    - assets/flowers/mums/
+    - assets/flowers/pansies/
+    - assets/flowers/roses/
+    - assets/flowers/tulips/
+    - assets/flowers/windflowers/
   # To add assets to your application, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg

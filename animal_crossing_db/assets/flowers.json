@@ -1,16 +1,26 @@
 [
   {
-    "name": "Lillies",
+    "name": "Lilies",
     "imageUrl": "lilies.png",
     "combinations": [
       {
-        "combination": "Red + Red = Black"
+        "combination": "Red + Red = Black",
+        "imageUrl1": "assets/flowers/lilies/li_red.jpg",
+        "imageUrl2": "assets/flowers/lilies/li_red.jpg",
+        "imageUrl3": "assets/flowers/lilies/li_black.jpg"
+
       },
       {
-        "combination": "Yellow + Red = Orange"
+        "combination": "Yellow + Red = Orange",
+        "imageUrl1": "assets/flowers/lilies/li_yellow.jpg",
+        "imageUrl2": "assets/flowers/lilies/li_red.jpg",
+        "imageUrl3": "assets/flowers/lilies/li_orange.jpg"
       },
       {
-        "combination": "Red + White = Pink"
+        "combination": "Red + White = Pink",
+        "imageUrl1": "assets/flowers/lilies/li_red.jpg",
+        "imageUrl2": "assets/flowers/lilies/li_white.jpg",
+        "imageUrl3": "assets/flowers/lilies/li_pink.jpg"
       }
     ]
   },
@@ -19,28 +29,52 @@
     "imageUrl": "",
     "combinations": [
       {
-        "combination": "Red + Red = Black"
+        "combination": "Red + Red = Black",
+        "imageUrl1": "assets/flowers/roses/ro_red.jpg",
+        "imageUrl2": "assets/flowers/roses/ro_red.jpg",
+        "imageUrl3": "assets/flowers/roses/ro_black.jpg"
       },
       {
-        "combination": "Red + White = Pink"
+        "combination": "Red + White = Pink",
+        "imageUrl1": "assets/flowers/roses/ro_red.jpg",
+        "imageUrl2": "assets/flowers/roses/ro_white.jpg",
+        "imageUrl3": "assets/flowers/roses/ro_pink.jpg"
       },
       {
-        "combination": "Yellow + Red = Orange"
+        "combination": "Yellow + Red = Orange",
+        "imageUrl1": "assets/flowers/roses/ro_yellow.jpg",
+        "imageUrl2": "assets/flowers/roses/ro_red.jpg",
+        "imageUrl3": "assets/flowers/roses/ro_orange.jpg"
       },
       {
-        "combination": "White + White = Purple"
+        "combination": "White + White = Purple",
+        "imageUrl1": "assets/flowers/roses/ro_white.jpg",
+        "imageUrl2": "assets/flowers/roses/ro_white.jpg",
+        "imageUrl3": "assets/flowers/roses/ro_purple.jpg"
       },
       {
-        "combination": "Purple + Red = Hybrid Pink (Looks identical to the Pink you’d get from other combinations but needed for Hybrid Blue roses)"
+        "combination": "Purple + Red = Hybrid Pink",
+        "imageUrl1": "assets/flowers/roses/ro_purple.jpg",
+        "imageUrl2": "assets/flowers/roses/ro_red.jpg",
+        "imageUrl3": "assets/flowers/roses/ro_pink.jpg"
       },
       {
-        "combination": "Hybrid Pink + Yellow = Hybrid Red (Looks identical to Red but needed for Hybrid Blue roses)"
+        "combination": "Hybrid Pink + Yellow = Hybrid Red",
+        "imageUrl1": "assets/flowers/roses/ro_pink.jpg",
+        "imageUrl2": "assets/flowers/roses/ro_yellow.jpg",
+        "imageUrl3": "assets/flowers/roses/ro_red.jpg"
       },
       {
-        "combination": "Hybrid Red + Hybrid Red = Blue"
+        "combination": "Hybrid Red + Hybrid Red = Blue",
+        "imageUrl1": "assets/flowers/roses/ro_red.jpg",
+        "imageUrl2": "assets/flowers/roses/ro_red.jpg",
+        "imageUrl3": "assets/flowers/roses/ro_blue.jpg"
       },
       {
-        "combination": "Black Roses watered with Golden Watering Can = Gold"
+        "combination": "Black + Golden Watering Can = Gold",
+        "imageUrl1": "assets/flowers/roses/ro_black.jpg",
+        "imageUrl2": "assets/flowers/roses/ro_can.jpg",
+        "imageUrl3": "assets/flowers/roses/ro_gold.jpg"
       }
     ]
   },
@@ -49,19 +83,34 @@
     "imageUrl": "mums.png",
     "combinations": [
       {
-        "combination": "White + Red = Pink"
+        "combination": "White + Red = Pink",
+        "imageUrl1": "assets/flowers/mums/mu_white.jpg",
+        "imageUrl2": "assets/flowers/mums/mu_red.jpg",
+        "imageUrl3": "assets/flowers/mums/mu_pink.jpg"
       },
       {
-        "combination": "White + White = Purple"
+        "combination": "White + White = Purple",
+        "imageUrl1": "assets/flowers/mums/mu_white.jpg",
+        "imageUrl2": "assets/flowers/mums/mu_white.jpg",
+        "imageUrl3": "assets/flowers/mums/mu_purple.jpg"
       },
       {
-        "combination": "Red + Yellow = Hybrid Yellow (Looks identical to Yellow but needed for Hybrid Purple mums)"
+        "combination": "Red + Yellow = Hybrid Yellow",
+        "imageUrl1": "assets/flowers/mums/mu_red.jpg",
+        "imageUrl2": "assets/flowers/mums/mu_yellow.jpg",
+        "imageUrl3": "assets/flowers/mums/mu_yellow.jpg"
       },
       {
-        "combination": "Hybrid Yellow + Hybrid Yellow = Hybrid Purple (Looks identical to Purple but needed for Green mums)"
+        "combination": "Hybrid Yellow + Hybrid Yellow = Hybrid Purple",
+        "imageUrl1": "assets/flowers/mums/mu_yellow.jpg",
+        "imageUrl2": "assets/flowers/mums/mu_yellow.jpg",
+        "imageUrl3": "assets/flowers/mums/mu_purple.jpg"
       },
       {
-        "combination": "Hybrid Purple + Hybrid Purple = Green"
+        "combination": "Hybrid Purple + Hybrid Purple = Green",
+        "imageUrl1": "assets/flowers/mums/mu_purple.jpg",
+        "imageUrl2": "assets/flowers/mums/mu_purple.jpg",
+        "imageUrl3": "assets/flowers/mums/mu_green.jpg"
       }
     ]
   },
@@ -70,16 +119,28 @@
     "imageUrl": "pansies.png",
     "combinations": [
       {
-        "combination": "White + White = Blue"
+        "combination": "White + White = Blue",
+        "imageUrl1": "assets/flowers/pansies/pa_white.jpg",
+        "imageUrl2": "assets/flowers/pansies/pa_white.jpg",
+        "imageUrl3": "assets/flowers/pansies/pa_blue.jpg"
       },
       {
-        "combination": "Yellow + Red = Orange"
+        "combination": "Yellow + Red = Orange",
+        "imageUrl1": "assets/flowers/pansies/pa_yellow.jpg",
+        "imageUrl2": "assets/flowers/pansies/pa_red.jpg",
+        "imageUrl3": "assets/flowers/pansies/pa_orange.jpg"
       },
       {
-        "combination": "Red + Blue = Hybrid Red (Looks identical to Red but needed for Purple pansies)"
+        "combination": "Red + Blue = Hybrid Red",
+        "imageUrl1": "assets/flowers/pansies/pa_red.jpg",
+        "imageUrl2": "assets/flowers/pansies/pa_blue.jpg",
+        "imageUrl3": "assets/flowers/pansies/pa_red.jpg"
       },
       {
-        "combination": "Hybrid Red + Hybrid Red = Hybrid Purple"
+        "combination": "Hybrid Red + Hybrid Red = Hybrid Purple",
+        "imageUrl1": "assets/flowers/pansies/pa_red.jpg",
+        "imageUrl2": "assets/flowers/pansies/pa_red.jpg",
+        "imageUrl3": "assets/flowers/pansies/pa_purple.jpg"
       }
     ]
   },
@@ -88,16 +149,28 @@
     "imageUrl": "",
     "combinations": [
       {
-        "combination": "Orange + Red = Pink"
+        "combination": "Orange + Red = Pink",
+        "imageUrl1": "assets/flowers/windflowers/wi_orange.jpg",
+        "imageUrl2": "assets/flowers/windflowers/wi_red.jpg",
+        "imageUrl3": "assets/flowers/windflowers/wi_pink.jpg"
       },
       {
-        "combination": "White + White = Blue"
+        "combination": "White + White = Blue",
+        "imageUrl1": "assets/flowers/windflowers/wi_white.jpg",
+        "imageUrl2": "assets/flowers/windflowers/wi_white.jpg",
+        "imageUrl3": "assets/flowers/windflowers/wi_blue.jpg"
       },
       {
-        "combination": "Pink + Blue = Hybrid Red (Looks the same as Red but needed for Purple windflowers)"
+        "combination": "Pink + Blue = Hybrid Red",
+        "imageUrl1": "assets/flowers/windflowers/wi_pink.jpg",
+        "imageUrl2": "assets/flowers/windflowers/wi_blue.jpg",
+        "imageUrl3": "assets/flowers/windflowers/wi_red.jpg"
       },
       {
-        "combination": "Hybrid Red + Hybrid Red = Purple"
+        "combination": "Hybrid Red + Hybrid Red = Purple",
+        "imageUrl1": "assets/flowers/windflowers/wi_red.jpg",
+        "imageUrl2": "assets/flowers/windflowers/wi_red.jpg",
+        "imageUrl3": "assets/flowers/windflowers/wi_purple.jpg"
       }
     ]
   },
@@ -106,16 +179,28 @@
     "imageUrl": "hyacinths.png",
     "combinations": [
       {
-        "combination": "Red + White = Pink"
+        "combination": "Red + White = Pink",
+        "imageUrl1": "assets/flowers/hyacinths/hy_red.jpg",
+        "imageUrl2": "assets/flowers/hyacinths/hy_white.jpg",
+        "imageUrl3": "assets/flowers/hyacinths/hy_pink.jpg"
       },
       {
-        "combination": "White + White = Blue"
+        "combination": "White + White = Blue",
+        "imageUrl1": "assets/flowers/hyacinths/hy_white.jpg",
+        "imageUrl2": "assets/flowers/hyacinths/hy_white.jpg",
+        "imageUrl3": "assets/flowers/hyacinths/hy_blue.jpg"
       },
       {
-        "combination": "Red + Yellow = Orange"
+        "combination": "Red + Yellow = Orange",
+        "imageUrl1": "assets/flowers/hyacinths/hy_red.jpg",
+        "imageUrl2": "assets/flowers/hyacinths/hy_yellow.jpg",
+        "imageUrl3": "assets/flowers/hyacinths/hy_orange.jpg"
       },
       {
-        "combination": "Orange + Orange = Purple"
+        "combination": "Orange + Orange = Purple",
+        "imageUrl1": "assets/flowers/hyacinths/hy_orange.jpg",
+        "imageUrl2": "assets/flowers/hyacinths/hy_orange.jpg",
+        "imageUrl3": "assets/flowers/hyacinths/hy_purple.jpg"
       }
     ]
   },
@@ -124,13 +209,22 @@
     "imageUrl" : "cosmos.png",
     "combinations": [
       {
-        "combination": "Yellow + Red = Orange"
+        "combination": "Yellow + Red = Orange",
+        "imageUrl1": "assets/flowers/cosmos/co_yellow.jpg",
+        "imageUrl2": "assets/flowers/cosmos/co_red.jpg",
+        "imageUrl3": "assets/flowers/cosmos/co_orange.jpg"
       },
       {
-        "combination": "Red + White = Pink"
+        "combination": "Red + White = Pink",
+        "imageUrl1": "assets/flowers/cosmos/co_red.jpg",
+        "imageUrl2": "assets/flowers/cosmos/co_white.jpg",
+        "imageUrl3": "assets/flowers/cosmos/co_pink.jpg"
       },
       {
-        "combination": "Orange + Orange = Black"
+        "combination": "Orange + Orange = Black",
+        "imageUrl1": "assets/flowers/cosmos/co_orange.jpg",
+        "imageUrl2": "assets/flowers/cosmos/co_orange.jpg",
+        "imageUrl3": "assets/flowers/cosmos/co_black.jpg"
       }
     ]
   },
@@ -139,17 +233,42 @@
     "imageUrl": "tulips.png",
     "combinations": [
       {
-        "combination": "Red + Red = Black"
+        "combination": "Red + Red = Black",
+        "imageUrl1": "assets/flowers/tulips/tu_red.jpg",
+        "imageUrl2": "assets/flowers/tulips/tu_red.jpg",
+        "imageUrl3": "assets/flowers/tulips/tu_black.jpg"
       },
       {
-        "combination": "Red + Yellow = Orange"
+        "combination": "Red + Yellow = Orange",
+        "imageUrl1": "assets/flowers/tulips/tu_red.jpg",
+        "imageUrl2": "assets/flowers/tulips/tu_yellow.jpg",
+        "imageUrl3": "assets/flowers/tulips/tu_orange.jpg"
       },
       {
-        "combination": "Red + White = Pink"
+        "combination": "Red + White = Pink",
+        "imageUrl1": "assets/flowers/tulips/tu_red.jpg",
+        "imageUrl2": "assets/flowers/tulips/tu_white.jpg",
+        "imageUrl3": "assets/flowers/tulips/tu_pink.jpg"
       },
       {
-        "combination": "Orange + Orange = Purple"
+        "combination": "Orange + Orange = Purple",
+        "imageUrl1": "assets/flowers/tulips/tu_orange.jpg",
+        "imageUrl2": "assets/flowers/tulips/tu_orange.jpg",
+        "imageUrl3": "assets/flowers/tulips/tu_purple.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Legend",
+    "imageUrl": "",
+    "combinations": [
+      {
+        "combination": "Hybrid flowers looks identical to their normal counterpart",
+        "imageUrl1": "",
+        "imageUrl2": "",
+        "imageUrl3": ""
       }
     ]
   }
+
 ]
