@@ -131,9 +131,9 @@ class _InsectsPageState extends State<InsectsPage> {
                               ],
                             ) ,
                           ),
-                          Container(
+                          Expanded(
                             // color: Colors.blue,
-                            width: 150,
+                            //width: 150,
                             //margin: EdgeInsets.symmetric(horizontal: 10),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
@@ -147,10 +147,10 @@ class _InsectsPageState extends State<InsectsPage> {
                             ) ,
                           ),
                           //SizedBox(width: 10,),
-                          Container(
+                          Expanded(
                             // color: Colors.purple,
-                            width: 120,
-                            height: 200,
+                            //width: 120,
+                            //height: 200,
                             //margin: EdgeInsets.symmetric(horizontal: 10),
                             child: Column(
                               // crossAxisAlignment: CrossAxisAlignment.start,

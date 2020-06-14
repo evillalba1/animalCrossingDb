@@ -80,12 +80,12 @@ class _VillagersPageState extends State<VillagersPage> {
       body: villagerList == null ? Center(child: CircularProgressIndicator(),) :
       Stack(
           children: <Widget>[
-      Container(
-        decoration: BoxDecoration(
-        image: DecorationImage(
-        image: AssetImage("assets/AnimalCrossingGrass.png"),
-        fit: BoxFit.cover))
-      ),
+      // Container(
+      //   decoration: BoxDecoration(
+      //   image: DecorationImage(
+      //   image: AssetImage("assets/AnimalCrossingGrass.png"),
+      //   fit: BoxFit.cover))
+      // ),
       ListView.builder(itemBuilder: (context, index) {
           return Card (
             child: Container(
@@ -113,11 +113,11 @@ class _VillagersPageState extends State<VillagersPage> {
                     ) ,
                   ),
                   //SizedBox(width: 40,),
-                  Container(
+                  Expanded(
                     // color: Colors.purple,
-                    width: 150,
-                    height: 200,
-                    margin: EdgeInsets.symmetric(horizontal: 10),
+                    // width: 150,
+                    // height: 200,
+                    // margin: EdgeInsets.symmetric(horizontal: 10),
                     child: Column(
                       // crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.center,

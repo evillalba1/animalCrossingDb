@@ -60,7 +60,8 @@ class _FlowerPageState extends State<FlowerPage> {
             children: <Widget>[
               Row(
                 children: <Widget>[
-                  Text(val.combination, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),
+                  Expanded(child: Text(val.combination, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),)
+                  
                 ],
               ),
               SizedBox(height: 10,),
