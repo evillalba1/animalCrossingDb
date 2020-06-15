@@ -22,6 +22,7 @@ class _FossilPageState extends State<FossilPage> {
   Fossil fos = new Fossil();
   double completionPercent = 0;
   var percentToDisplay = '';
+  bool isSorted;
 
   fetchFossils() async {
     List<Map<String, dynamic>> queryRows =
@@ -33,6 +34,7 @@ class _FossilPageState extends State<FossilPage> {
       });
     } else {
       setState(() {
+        isSorted = false;
         debugPrint(queryRows.length.toString());
         fossils = queryRows;
         fossilList = mapFossilsList(queryRows);
@@ -96,6 +98,7 @@ class _FossilPageState extends State<FossilPage> {
                   child: Icon(
                     Icons.filter_list,
                     size: 26.0,
+                    color: isSorted == true ? Colors.red : Colors.black,
                   ),
                 )
             ),
@@ -217,6 +220,7 @@ class _FossilPageState extends State<FossilPage> {
             child: Text('Donated'),
               onPressed: (){
                 setState(() {
+                  isSorted = true;
                   filteredFossilList.sort((a, b) => b.donated.compareTo(a.donated));
                   fossilList = filteredFossilList;
                 });
@@ -225,7 +229,7 @@ class _FossilPageState extends State<FossilPage> {
               child: Text('Value'),
               onPressed: (){
                 setState(() {
-                  print('value');
+                  isSorted = true;
                   filteredFossilList.sort((a, b) => int.parse(b.price.replaceAll(',', '')).compareTo(int.parse(a.price.replaceAll(',', ''))));
                   fossilList = filteredFossilList;
                 });

@@ -21,6 +21,7 @@ class _FishesPageState extends State<FishesPage> {
   List<Fish> unfilteredFishList = new  List<Fish>();
   double completionPercent = 0;
   var percentToDisplay = '';
+  bool isSorted;
 
   fetchFishes() async {
     List<Map<String, dynamic>> queryRows =
@@ -32,7 +33,7 @@ class _FishesPageState extends State<FishesPage> {
       });
     } else {
       setState(() {
-        debugPrint(queryRows.length.toString());
+        isSorted = false;
         fishes = queryRows;
         fishList = mapFishList(queryRows);
         unfilteredFishList = fishList;
@@ -90,6 +91,7 @@ class _FishesPageState extends State<FishesPage> {
                   child: Icon(
                     Icons.filter_list,
                     size: 26.0,
+                    color: isSorted == true ? Colors.red : Colors.black,
                   ),
                 )
             ),
@@ -231,6 +233,7 @@ class _FishesPageState extends State<FishesPage> {
               child: Text('Donated'),
               onPressed: () {
                 setState(() {
+                  isSorted = true;
                   filteredFishList.sort((a, b) =>
                       b.donated.compareTo(a.donated));
                   fishList = filteredFishList;
@@ -240,7 +243,7 @@ class _FishesPageState extends State<FishesPage> {
               child: Text('Value'),
               onPressed: () {
                 setState(() {
-                  print('value');
+                  isSorted = true;
                   filteredFishList.sort((a, b) =>
                       int.parse(b.value.replaceAll(',', '')).compareTo(
                           int.parse(a.value.replaceAll(',', ''))));

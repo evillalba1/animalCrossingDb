@@ -21,6 +21,7 @@ class _InsectsPageState extends State<InsectsPage> {
   List<Insect> unfilteredInsectList = new List<Insect>();
   double completionPercent = 0;
   var percentToDisplay = '';
+  bool isSorted;
 
   fetchInsects() async {
     List<Map<String, dynamic>> queryRows =
@@ -32,7 +33,7 @@ class _InsectsPageState extends State<InsectsPage> {
       });
     } else {
       setState(() {
-        debugPrint(queryRows.length.toString());
+        isSorted = false;
         insects = queryRows;
         insectList = mapInsectList(queryRows);
         unfilteredInsectList = insectList;
@@ -90,6 +91,7 @@ class _InsectsPageState extends State<InsectsPage> {
                   child: Icon(
                     Icons.filter_list,
                     size: 26.0,
+                    color: isSorted == true ? Colors.red : Colors.black,
                   ),
                 )
             ),
@@ -228,6 +230,7 @@ class _InsectsPageState extends State<InsectsPage> {
               child: Text('Donated'),
               onPressed: () {
                 setState(() {
+                  isSorted = true;
                   filteredInsectList.sort((a, b) =>
                       b.donated.compareTo(a.donated));
                   insectList = filteredInsectList;
@@ -237,7 +240,7 @@ class _InsectsPageState extends State<InsectsPage> {
               child: Text('Value'),
               onPressed: () {
                 setState(() {
-                  print('value');
+                  isSorted = true;
                   filteredInsectList.sort((a, b) =>
                       int.parse(b.value.replaceAll(',', '')).compareTo(
                           int.parse(a.value.replaceAll(',', ''))));
