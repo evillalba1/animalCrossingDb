@@ -50,7 +50,31 @@ class DatabaseHelper {
       ${_fishTbl.month} TEXT NOT NULL,
       ${_fishTbl.donated} INTEGER NOT NULL,
       ${_fishTbl.quantity} INTEGER NOT NULL,
-      ${_fishTbl.imageUrl} TEXT NOT NULL
+      ${_fishTbl.imageUrl} TEXT NOT NULL,
+      ${_fishTbl.january} TEXT NOT NULL,
+      ${_fishTbl.february} TEXT NOT NULL,
+      ${_fishTbl.march} TEXT NOT NULL,
+      ${_fishTbl.april} TEXT NOT NULL,
+      ${_fishTbl.may} TEXT NOT NULL,
+      ${_fishTbl.june} TEXT NOT NULL,
+      ${_fishTbl.july} TEXT NOT NULL,
+      ${_fishTbl.august} TEXT NOT NULL,
+      ${_fishTbl.september} TEXT NOT NULL,
+      ${_fishTbl.october} TEXT NOT NULL,
+      ${_fishTbl.november} TEXT NOT NULL,
+      ${_fishTbl.december} TEXT NOT NULL,
+      ${_fishTbl.januaryS} TEXT NOT NULL,
+      ${_fishTbl.februaryS} TEXT NOT NULL,
+      ${_fishTbl.marchS} TEXT NOT NULL,
+      ${_fishTbl.aprilS} TEXT NOT NULL,
+      ${_fishTbl.mayS} TEXT NOT NULL,
+      ${_fishTbl.juneS} TEXT NOT NULL,
+      ${_fishTbl.julyS} TEXT NOT NULL,
+      ${_fishTbl.augustS} TEXT NOT NULL,
+      ${_fishTbl.septemberS} TEXT NOT NULL,
+      ${_fishTbl.octoberS} TEXT NOT NULL,
+      ${_fishTbl.novemberS} TEXT NOT NULL,
+      ${_fishTbl.decemberS} TEXT NOT NULL
       ) 
       ''');
 
@@ -65,7 +89,31 @@ class DatabaseHelper {
       ${_insectTbl.month} TEXT NOT NULL,
       ${_insectTbl.donated} INTEGER NOT NULL,
       ${_insectTbl.quantity} INTEGER NOT NULL,
-      ${_insectTbl.imageUrl} TEXT NOT NULL
+      ${_insectTbl.imageUrl} TEXT NOT NULL,
+      ${_insectTbl.january} TEXT NOT NULL,
+      ${_insectTbl.february} TEXT NOT NULL,
+      ${_insectTbl.march} TEXT NOT NULL,
+      ${_insectTbl.april} TEXT NOT NULL,
+      ${_insectTbl.may} TEXT NOT NULL,
+      ${_insectTbl.june} TEXT NOT NULL,
+      ${_insectTbl.july} TEXT NOT NULL,
+      ${_insectTbl.august} TEXT NOT NULL,
+      ${_insectTbl.september} TEXT NOT NULL,
+      ${_insectTbl.october} TEXT NOT NULL,
+      ${_insectTbl.november} TEXT NOT NULL,
+      ${_insectTbl.december} TEXT NOT NULL,
+      ${_insectTbl.januaryS} TEXT NOT NULL,
+      ${_insectTbl.februaryS} TEXT NOT NULL,
+      ${_insectTbl.marchS} TEXT NOT NULL,
+      ${_insectTbl.aprilS} TEXT NOT NULL,
+      ${_insectTbl.mayS} TEXT NOT NULL,
+      ${_insectTbl.juneS} TEXT NOT NULL,
+      ${_insectTbl.julyS} TEXT NOT NULL,
+      ${_insectTbl.augustS} TEXT NOT NULL,
+      ${_insectTbl.septemberS} TEXT NOT NULL,
+      ${_insectTbl.octoberS} TEXT NOT NULL,
+      ${_insectTbl.novemberS} TEXT NOT NULL,
+      ${_insectTbl.decemberS} TEXT NOT NULL
       )
       ''');
 
@@ -149,6 +197,30 @@ class DatabaseHelper {
         fish.donated = val["donated"];
         fish.quantity = val["quantity"];
         fish.imageUrl = val["imageUrl"];
+        fish.january = val["january"];
+        fish.february = val["february"];
+        fish.march = val["march"];
+        fish.april = val["april"];
+        fish.may = val["may"];
+        fish.june = val["june"];
+        fish.july = val["july"];
+        fish.august = val["august"];
+        fish.september = val["september"];
+        fish.october = val["october"];
+        fish.november = val["november"];
+        fish.december = val["december"];
+        fish.januaryS = val["januaryS"];
+        fish.februaryS = val["februaryS"];
+        fish.marchS = val["marchS"];
+        fish.aprilS = val["aprilS"];
+        fish.mayS = val["mayS"];
+        fish.juneS = val["juneS"];
+        fish.julyS = val["julyS"];
+        fish.augustS = val["augustS"];
+        fish.septemberS = val["septemberS"];
+        fish.octoberS = val["octoberS"];
+        fish.novemberS = val["novemberS"];
+        fish.decemberS = val["decemberS"];
         batch.insert(_fishTbl.table, fish.toMap());
       });
       batch.commit();
@@ -171,6 +243,30 @@ class DatabaseHelper {
         insect.donated = val["donated"];
         insect.quantity = val["quantity"];
         insect.imageUrl = val["imageUrl"];
+        insect.january = val["january"];
+        insect.february = val["february"];
+        insect.march = val["march"];
+        insect.april = val["april"];
+        insect.may = val["may"];
+        insect.june = val["june"];
+        insect.july = val["july"];
+        insect.august = val["august"];
+        insect.september = val["september"];
+        insect.october = val["october"];
+        insect.november = val["november"];
+        insect.december = val["december"];
+        insect.januaryS = val["januaryS"];
+        insect.februaryS = val["februaryS"];
+        insect.marchS = val["marchS"];
+        insect.aprilS = val["aprilS"];
+        insect.mayS = val["mayS"];
+        insect.juneS = val["juneS"];
+        insect.julyS = val["julyS"];
+        insect.augustS = val["augustS"];
+        insect.septemberS = val["septemberS"];
+        insect.octoberS = val["octoberS"];
+        insect.novemberS = val["novemberS"];
+        insect.decemberS = val["decemberS"];
         batch.insert(_insectTbl.table, insect.toMap());
       });
       batch.commit();

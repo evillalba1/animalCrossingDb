@@ -4,7 +4,7 @@ import 'database_helper.dart';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
-import 'package:stepper_counter_swipe/stepper_counter_swipe.dart';
+import 'package:intl/intl.dart';
 import 'package:slide_popup_dialog/slide_popup_dialog.dart' as slideDialog;
 
 
@@ -18,6 +18,7 @@ class _InsectsPageState extends State<InsectsPage> {
   List<Map<String, dynamic>> insects;
   List<Insect> insectList = new List<Insect>();
   List<Insect> filteredInsectList = new List<Insect>();
+  List<Insect> sortedInsectList = new List<Insect>();
   List<Insect> unfilteredInsectList = new List<Insect>();
   double completionPercent = 0;
   var percentToDisplay = '';
@@ -38,6 +39,7 @@ class _InsectsPageState extends State<InsectsPage> {
         insectList = mapInsectList(queryRows);
         unfilteredInsectList = insectList;
         filteredInsectList = insectList;
+        sortedInsectList = insectList;
         getCompletionPercent();
       });
     }
@@ -100,12 +102,12 @@ class _InsectsPageState extends State<InsectsPage> {
         body: insectList == null ? Center(child: CircularProgressIndicator(),) :
         Stack(
           children: <Widget>[
-            Container(
-                decoration: BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage("assets/AnimalCrossingGrass.png"),
-                        fit: BoxFit.cover))
-            ),
+            // Container(
+            //     decoration: BoxDecoration(
+            //         image: DecorationImage(
+            //             image: AssetImage("assets/AnimalCrossingGrass.png"),
+            //             fit: BoxFit.cover))
+            // ),
             ListView.builder(itemBuilder: (context, index) {
               return Card (
                 child: Container(
@@ -219,6 +221,8 @@ class _InsectsPageState extends State<InsectsPage> {
 
     );
   }
+
+
   void _showDialog() {
     slideDialog.showSlideDialog(
       context: context,
@@ -231,9 +235,9 @@ class _InsectsPageState extends State<InsectsPage> {
               onPressed: () {
                 setState(() {
                   isSorted = true;
-                  filteredInsectList.sort((a, b) =>
+                  sortedInsectList.sort((a, b) =>
                       b.donated.compareTo(a.donated));
-                  insectList = filteredInsectList;
+                  insectList = sortedInsectList;
                 });
               }),
           RaisedButton(
@@ -241,10 +245,29 @@ class _InsectsPageState extends State<InsectsPage> {
               onPressed: () {
                 setState(() {
                   isSorted = true;
-                  filteredInsectList.sort((a, b) =>
-                      int.parse(b.value.replaceAll(',', '')).compareTo(
-                          int.parse(a.value.replaceAll(',', ''))));
-                  insectList = filteredInsectList;
+                  sortedInsectList.sort((a, b) => int.parse(b.value.replaceAll(',', '')).compareTo(int.parse(a.value.replaceAll(',', ''))));
+                  insectList = sortedInsectList;
+                  //print(insectList.length);
+                });
+              }),
+          RaisedButton(
+              child: Text('Active North'),
+              onPressed: () {
+                setState(() {
+                    var now = new DateTime.now();
+                    var formatter = new DateFormat('MMMM');
+                    String month = formatter.format(now);
+                    month = 'december';
+                    filteredInsectList = getActiveListNorth(unfilteredInsectList, month.toLowerCase());
+                    insectList = filteredInsectList;
+                    print(insectList.length);
+                });
+              }),
+          RaisedButton(
+              child: Text('Active South'),
+              onPressed: () {
+                setState(() {
+                  
                 });
               }),
           RaisedButton(
@@ -261,4 +284,48 @@ class _InsectsPageState extends State<InsectsPage> {
       backgroundColor: Colors.lightGreen,
     );
   }
+
+
+List<Insect> getActiveListNorth(List<Insect> list, String month) {
+  switch(month) { 
+    case 'january': return List<Insect>.from(list.where((element) => element.january == "Y")); 
+    case 'february': return List<Insect>.from(list.where((element) => element.february == "Y")); 
+    case 'march': return List<Insect>.from(list.where((element) => element.march == "Y")); 
+    case 'april': return List<Insect>.from(list.where((element) => element.april == "Y")); 
+    case 'may': return List<Insect>.from(list.where((element) => element.may == "Y")); 
+    case 'june': return List<Insect>.from(list.where((element) => element.june == "Y")); 
+    case 'july': return List<Insect>.from(list.where((element) => element.july == "Y")); 
+    case 'august': return List<Insect>.from(list.where((element) => element.august == "Y")); 
+    case 'september': return List<Insect>.from(list.where((element) => element.september == "Y")); 
+    case 'october': return List<Insect>.from(list.where((element) => element.october == "Y")); 
+    case 'november': return List<Insect>.from(list.where((element) => element.november == "Y")); 
+    case 'december': return List<Insect>.from(list.where((element) => element.december == "Y")); 
+    default: return unfilteredInsectList;
+  } 
+}
+
+List<Insect> getActiveListSouth(List<Insect> list, String month) {
+  switch(month) { 
+    case 'january': return unfilteredInsectList.where((element) => element.januaryS == "Y"); 
+    case 'february': return unfilteredInsectList.where((element) => element.februaryS == "Y"); 
+    case 'march': return unfilteredInsectList.where((element) => element.marchS == "Y"); 
+    case 'april': return unfilteredInsectList.where((element) => element.aprilS == "Y"); 
+    case 'may': return unfilteredInsectList.where((element) => element.mayS == "Y"); 
+    case 'june': return unfilteredInsectList.where((element) => element.juneS == "Y"); 
+    case 'july': return unfilteredInsectList.where((element) => element.julyS == "Y"); 
+    case 'august': return unfilteredInsectList.where((element) => element.augustS == "Y"); 
+    case 'september': return unfilteredInsectList.where((element) => element.septemberS == "Y"); 
+    case 'october': return unfilteredInsectList.where((element) => element.octoberS == "Y"); 
+    case 'november': return unfilteredInsectList.where((element) => element.novemberS == "Y"); 
+    case 'december': return unfilteredInsectList.where((element) => element.decemberS == "Y"); 
+    default: return unfilteredInsectList;
+  } 
+}
+
+
+
+
+
+
+
 }

@@ -28,6 +28,31 @@ class Fish {
   String donated;
   int quantity;
   String imageUrl;
+  String january;
+  String february;
+  String march;
+  String april;
+  String may;
+  String june;
+  String july;
+  String august;
+  String september;
+  String october;
+  String november;
+  String december;
+  String januaryS;
+  String februaryS;
+  String marchS;
+  String aprilS;
+  String mayS;
+  String juneS;
+  String julyS;
+  String augustS;
+  String septemberS;
+  String octoberS;
+  String novemberS;
+  String decemberS;
+  
 
   Map<String, dynamic> toMap() {
   return {
@@ -41,6 +66,30 @@ class Fish {
     'donated': donated,
     'quantity': quantity,
     'imageUrl': imageUrl,
+    'january': january,
+    'february': february,
+    'march': march,
+    'april': april,
+    'may': may,
+    'june': june,
+    'july': july,
+    'august': august,
+    'september': september,
+    'october': october,
+    'november': november,
+    'december': december,
+    'januaryS': januaryS,
+    'februaryS': februaryS,
+    'marchS': marchS,
+    'aprilS': aprilS,
+    'mayS': mayS,
+    'juneS': juneS,
+    'julyS': julyS,
+    'augustS': augustS,
+    'septemberS': septemberS,
+    'octoberS': octoberS,
+    'novemberS': novemberS,
+    'decemberS': decemberS,
     };
   }
 
@@ -56,6 +105,30 @@ class Insect {
   String donated;
   int quantity;
   String imageUrl;
+  String january;
+  String february;
+  String march;
+  String april;
+  String may;
+  String june;
+  String july;
+  String august;
+  String september;
+  String october;
+  String november;
+  String december;
+  String januaryS;
+  String februaryS;
+  String marchS;
+  String aprilS;
+  String mayS;
+  String juneS;
+  String julyS;
+  String augustS;
+  String septemberS;
+  String octoberS;
+  String novemberS;
+  String decemberS;
 
   Map<String, dynamic> toMap() {
   return {
@@ -68,6 +141,30 @@ class Insect {
     'donated': donated,
     'quantity': quantity,
     'imageUrl': imageUrl,
+    'january': january,
+    'february': february,
+    'march': march,
+    'april': april,
+    'may': may,
+    'june': june,
+    'july': july,
+    'august': august,
+    'september': september,
+    'october': october,
+    'november': november,
+    'december': december,
+    'januaryS': januaryS,
+    'februaryS': februaryS,
+    'marchS': marchS,
+    'aprilS': aprilS,
+    'mayS': mayS,
+    'juneS': juneS,
+    'julyS': julyS,
+    'augustS': augustS,
+    'septemberS': septemberS,
+    'octoberS': octoberS,
+    'novemberS': novemberS,
+    'decemberS': decemberS,
     };
   }
 }
@@ -144,6 +241,30 @@ class FishTbl {
   String donated = "donated";
   String quantity = "quantity";
   String imageUrl = "imageUrl";
+  String january = "january";
+  String february = "february";
+  String march = "march";
+  String april = "april";
+  String may = "may";
+  String june = "june";
+  String july = "july";
+  String august = "august";
+  String september = "september";
+  String october = "october";
+  String november = "november";
+  String december = "december";
+  String januaryS = "januaryS";
+  String februaryS = "februaryS";
+  String marchS = "marchS";
+  String aprilS = "aprilS";
+  String mayS = "mayS";
+  String juneS = "juneS";
+  String julyS = "julyS";
+  String augustS = "augustS";
+  String septemberS = "septemberS";
+  String octoberS = "octoberS";
+  String novemberS = "novemberS";
+  String decemberS = "decemberS";
 }
 
 class InsectTbl {
@@ -157,4 +278,28 @@ class InsectTbl {
   String donated = "donated";
   String quantity = "quantity";
   String imageUrl = "imageUrl";
+  String january = "january";
+  String february = "february";
+  String march = "march";
+  String april = "april";
+  String may = "may";
+  String june = "june";
+  String july = "july";
+  String august = "august";
+  String september = "september";
+  String october = "october";
+  String november = "november";
+  String december = "december";
+  String januaryS = "januaryS";
+  String februaryS = "februaryS";
+  String marchS = "marchS";
+  String aprilS = "aprilS";
+  String mayS = "mayS";
+  String juneS = "juneS";
+  String julyS = "julyS";
+  String augustS = "augustS";
+  String septemberS = "septemberS";
+  String octoberS = "octoberS";
+  String novemberS = "novemberS";
+  String decemberS = "decemberS";
 }
