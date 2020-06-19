@@ -37,7 +37,6 @@ class DatabaseHelper {
   }
 
   Future _onCreate(Database db, int version) async {
-    debugPrint("Creating DB");
     await db.execute(''' 
       
         CREATE TABLE ${_fishTbl.table} (
@@ -144,7 +143,6 @@ class DatabaseHelper {
 
 
   Future<void> insertAllFossil() async {
-    debugPrint("insertAllFossil");
     final Database db = await instance.database;
     Batch batch = db.batch();
     String fossilsJson = await rootBundle.loadString('assets/fossils.json');
@@ -161,7 +159,6 @@ class DatabaseHelper {
   }
 
   Future<void> insertAllVillagers() async {
-    debugPrint("insertAllVillagers");
     final Database db = await instance.database;
     String villalgersJson = await rootBundle.loadString('assets/villagers.json');
     List villagersList = json.decode(villalgersJson);
@@ -180,7 +177,6 @@ class DatabaseHelper {
   }
 
   Future<void> insertAllFishes() async {
-    debugPrint("insertAllFishes");
     final Database db = await instance.database;
     Batch batch = db.batch();
     String fishesJson = await rootBundle.loadString('assets/fish.json');
@@ -227,7 +223,6 @@ class DatabaseHelper {
   }
 
   Future<void> insertAllInsects() async {
-    debugPrint("insertAllInsects");
     final Database db = await instance.database;
     Batch batch = db.batch();
     String insectsJson = await rootBundle.loadString('assets/insects.json');
@@ -273,7 +268,7 @@ class DatabaseHelper {
   }
 
   Future<void> createDB() async {
-    Database db = await instance.database;
+    await instance.database;
   }
 
   Future<int> insert(Map<String, dynamic> row, String tableName) async {

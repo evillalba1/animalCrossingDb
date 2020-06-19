@@ -1,3 +1,5 @@
+import 'package:awesome_button/awesome_button.dart';
+
 import 'list_management.dart';
 import 'object_class.dart';
 import 'database_helper.dart';
@@ -35,7 +37,6 @@ class _FossilPageState extends State<FossilPage> {
     } else {
       setState(() {
         isSorted = false;
-        debugPrint(queryRows.length.toString());
         fossils = queryRows;
         fossilList = mapFossilsList(queryRows);
         unfilteredFossilList = fossilList;
@@ -50,7 +51,6 @@ class _FossilPageState extends State<FossilPage> {
     var countDonated = fossilList.where((c) => c.donated == "Y").toList().length;
     completionPercent = roundDouble(countDonated / countAll, 2);
     percentToDisplay = (completionPercent * 100).toStringAsFixed(0);
-    print(completionPercent);
   }
 
   double roundDouble(double value, int places){
@@ -153,7 +153,6 @@ class _FossilPageState extends State<FossilPage> {
                             value: fossilList[index].donated == 'N' ? false : true,
                             onChanged: (value) {
                               setState(() {
-                                print(index.toString() + ' ' + fossilList[index].number.toString() );
                                 fossilList[index].donated = value == false ? 'N' : 'Y';
                                 //call dbHelper update
                                 DatabaseHelper.instance.updateDonatedFossil(fossilList[index].number, fossilList[index].donated);
@@ -184,7 +183,6 @@ class _FossilPageState extends State<FossilPage> {
                               withBackground: false,
                               onChanged: (int value){
                                 setState(() {
-                                  print(value);
                                   fossilList[index].quantity = value;
                                   //call dbHelper update
                                   DatabaseHelper.instance.updateQuantityFossil(fossilList[index].number, fossilList[index].quantity);
@@ -216,31 +214,47 @@ class _FossilPageState extends State<FossilPage> {
       child: Column (
         children: <Widget>[
           Text("Sort List",style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26),),
-          RaisedButton(
+          SizedBox(height: 50,),
+          MaterialButton(
+            height: 40.0, 
+            minWidth: 150.0, 
+            color: Colors.black, 
+            textColor: Colors.white, 
+            splashColor: Theme.of(context).primaryColor,
             child: Text('Donated'),
-              onPressed: (){
-                setState(() {
-                  isSorted = true;
-                  filteredFossilList.sort((a, b) => b.donated.compareTo(a.donated));
-                  fossilList = filteredFossilList;
-                });
-          }),
-          RaisedButton(
-              child: Text('Value'),
-              onPressed: (){
-                setState(() {
-                  isSorted = true;
-                  filteredFossilList.sort((a, b) => int.parse(b.price.replaceAll(',', '')).compareTo(int.parse(a.price.replaceAll(',', ''))));
-                  fossilList = filteredFossilList;
-                });
-              }),
-          RaisedButton(
-              child: Text('Reset'),
-              onPressed: (){
-                setState(() {
-                  fetchFossils();
-                });
-              }),
+            onPressed: (){
+              setState(() {
+                isSorted = true;
+                filteredFossilList.sort((a, b) => b.donated.compareTo(a.donated));
+                fossilList = filteredFossilList;
+              });
+            }),
+          MaterialButton(
+            height: 40.0, 
+            minWidth: 150.0, 
+            color: Colors.black, 
+            textColor: Colors.white, 
+            splashColor: Theme.of(context).primaryColor,
+            child: Text('Value'),
+            onPressed: (){
+              setState(() {
+                isSorted = true;
+                filteredFossilList.sort((a, b) => int.parse(b.price.replaceAll(',', '')).compareTo(int.parse(a.price.replaceAll(',', ''))));
+                fossilList = filteredFossilList;
+              });
+            }),
+          MaterialButton(
+            height: 40.0, 
+            minWidth: 150.0, 
+            color: Colors.black, 
+            textColor: Colors.white, 
+            splashColor: Theme.of(context).primaryColor,
+            child: Text('Reset'),
+            onPressed: (){
+              setState(() {
+                fetchFossils();
+              });
+            }),
         ],
       ),
       barrierColor: Colors.black.withOpacity(0.7),
@@ -248,10 +262,5 @@ class _FossilPageState extends State<FossilPage> {
       backgroundColor: Colors.lightGreen,
     );
   }
-
-  void _hideDialog() {
-    slideDialog.showSlideDialog(context: null, child: null);
-  }
-
 
 }

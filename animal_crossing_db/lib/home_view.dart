@@ -15,7 +15,6 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   createDB() async {
-    print('Creating DB');
     await DatabaseHelper.instance.createDB();
   }
 

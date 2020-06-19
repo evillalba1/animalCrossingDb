@@ -17,7 +17,6 @@ class _VillagersPageState extends State<VillagersPage> {
   List<Villager> filteredVillagerList = new List<Villager>();
 
   fetchVillagers() async {
-    debugPrint("fetching Villagers");
     List<Map<String, dynamic>> queryRows =
         await DatabaseHelper.instance.queryAll('villagers');
     // var query = await DatabaseHelper.instance.queryAll("villagers");
@@ -29,7 +28,6 @@ class _VillagersPageState extends State<VillagersPage> {
       });
     } else {
       setState(() {
-        debugPrint(queryRows.length.toString());
         villagers = queryRows;
         villagerList = mapVillagersList(queryRows);
         filteredVillagerList = villagerList;
@@ -103,7 +101,7 @@ class _VillagersPageState extends State<VillagersPage> {
                         Text(villagerList[index].name, style: TextStyle(fontWeight: FontWeight.bold)),
                         SizedBox(height: 10,),
                         CircleAvatar(
-                          radius: 30.0,
+                          radius: 50.0,
                           backgroundImage: NetworkImage(villagerList[index].imageUrl),
                           backgroundColor: Colors.transparent,
                         )
@@ -141,6 +139,11 @@ class _VillagersPageState extends State<VillagersPage> {
                         Row (children: <Widget>[
                           Text('Birthday: ' , style: TextStyle(fontWeight: FontWeight.bold)),
                           Text(villagerList[index].birthday),
+                        ],),
+                        SizedBox(height: 15,),
+                        Row (children: <Widget>[
+                          Text('Species: ' , style: TextStyle(fontWeight: FontWeight.bold)),
+                          Text(villagerList[index].species),
                         ],)
                       ],
                     ) ,
@@ -160,9 +163,14 @@ class _VillagersPageState extends State<VillagersPage> {
       context: context,
       child: Column(
         children: <Widget>[
-          Text("Sort List",
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26),),
-          RaisedButton(
+          Text("Sort List", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26),),
+          SizedBox(height: 50,),
+          MaterialButton(
+            height: 40.0, 
+            minWidth: 150.0, 
+            color: Colors.black, 
+            textColor: Colors.white, 
+            splashColor: Theme.of(context).primaryColor,
               child: Text('Resident'),
               onPressed: () {
                 setState(() {
@@ -171,7 +179,12 @@ class _VillagersPageState extends State<VillagersPage> {
                   villagerList = filteredVillagerList;
                 });
               }),
-          RaisedButton(
+          MaterialButton(
+            height: 40.0, 
+            minWidth: 150.0, 
+            color: Colors.black, 
+            textColor: Colors.white, 
+            splashColor: Theme.of(context).primaryColor,
               child: Text('Reset'),
               onPressed: () {
                 setState(() {

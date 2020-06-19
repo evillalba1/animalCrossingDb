@@ -50,7 +50,6 @@ class _InsectsPageState extends State<InsectsPage> {
     var countDonated = insectList.where((c) => c.donated == "Y").toList().length;
     completionPercent = roundDouble(countDonated / countAll, 2);
     percentToDisplay = (completionPercent * 100).toStringAsFixed(0);
-    print(completionPercent);
   }
 
   double roundDouble(double value, int places){
@@ -166,7 +165,6 @@ class _InsectsPageState extends State<InsectsPage> {
                                     value: insectList[index].donated == 'N' ? false : true,
                                     onChanged: (value) {
                                       setState(() {
-                                        print(index.toString() + ' ' + insectList[index].number.toString() );
                                         insectList[index].donated = value == false ? 'N' : 'Y';
                                         //call dbHelper update
                                         DatabaseHelper.instance.updateDonatedInsect(insectList[index].number, insectList[index].donated);
@@ -178,34 +176,6 @@ class _InsectsPageState extends State<InsectsPage> {
                                   )
 
                                 ],),
-//                                Row (children: <Widget>[
-//                                  Text('Quantity: ', style: TextStyle(fontWeight: FontWeight.bold)),
-//                                  Expanded(
-//                                    child:
-//                                    StepperSwipe(
-//                                      iconsColor: Colors.black,
-//                                      counterTextColor: Colors.black,
-//                                      withPlusMinus: true,
-//                                      initialValue:fishList[index].quantity,
-//                                      speedTransitionLimitCount: 3,
-//                                      firstIncrementDuration: Duration(milliseconds: 250),
-//                                      secondIncrementDuration: Duration(milliseconds: 100),
-//                                      direction: Axis.horizontal,
-//                                      dragButtonColor: Colors.lightGreen,
-//                                      withSpring: true,
-//                                      withNaturalNumbers: true,
-//                                      withBackground: false,
-//                                      onChanged: (int value){
-//                                        setState(() {
-//                                          print(value);
-//                                          fishList[index].quantity = value;
-//                                          //call dbHelper update
-//                                          DatabaseHelper.instance.updateQuantityFish(fishList[index].number, fishList[index].quantity);
-//                                        });
-//                                      },
-//                                    ),
-//                                  )
-//                                ],)
                               ],
                             ) ,
                           ),
@@ -228,55 +198,83 @@ class _InsectsPageState extends State<InsectsPage> {
       context: context,
       child: Column(
         children: <Widget>[
-          Text("Sort List",
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26),),
-          RaisedButton(
-              child: Text('Donated'),
-              onPressed: () {
-                setState(() {
-                  isSorted = true;
-                  sortedInsectList.sort((a, b) =>
-                      b.donated.compareTo(a.donated));
-                  insectList = sortedInsectList;
-                });
-              }),
-          RaisedButton(
-              child: Text('Value'),
-              onPressed: () {
-                setState(() {
-                  isSorted = true;
-                  sortedInsectList.sort((a, b) => int.parse(b.value.replaceAll(',', '')).compareTo(int.parse(a.value.replaceAll(',', ''))));
-                  insectList = sortedInsectList;
-                  //print(insectList.length);
-                });
-              }),
-          RaisedButton(
-              child: Text('Active North'),
-              onPressed: () {
-                setState(() {
-                    var now = new DateTime.now();
-                    var formatter = new DateFormat('MMMM');
-                    String month = formatter.format(now);
-                    month = 'december';
-                    filteredInsectList = getActiveListNorth(unfilteredInsectList, month.toLowerCase());
-                    insectList = filteredInsectList;
-                    print(insectList.length);
-                });
-              }),
-          RaisedButton(
-              child: Text('Active South'),
-              onPressed: () {
-                setState(() {
-                  
-                });
-              }),
-          RaisedButton(
-              child: Text('Reset'),
-              onPressed: () {
+          Text("Sort List",style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26),),
+          SizedBox(height: 50,),
+          MaterialButton(
+            height: 40.0, 
+            minWidth: 150.0, 
+            color: Colors.black, 
+            textColor: Colors.white, 
+            splashColor: Theme.of(context).primaryColor,
+            child: Text('Donated'),
+            onPressed: () {
+              setState(() {
+                isSorted = true;
+                sortedInsectList.sort((a, b) => b.donated.compareTo(a.donated));
+                insectList = sortedInsectList;
+              });
+            }),
+          MaterialButton(
+            height: 40.0, 
+            minWidth: 150.0, 
+            color: Colors.black, 
+            textColor: Colors.white, 
+            splashColor: Theme.of(context).primaryColor,
+            child: Text('Value'),
+            onPressed: () {
+              setState(() {
+                isSorted = true;
+                sortedInsectList.sort((a, b) => int.parse(b.value.replaceAll(',', '')).compareTo(int.parse(a.value.replaceAll(',', ''))));
+                insectList = sortedInsectList;
+              });
+            }),
+          MaterialButton(
+            height: 40.0, 
+            minWidth: 150.0, 
+            color: Colors.black, 
+            textColor: Colors.white, 
+            splashColor: Theme.of(context).primaryColor,
+            child: Text('Active North'),
+            onPressed: () {
+              setState(() {
+                  var now = new DateTime.now();
+                  var formatter = new DateFormat('MMMM');
+                  String month = formatter.format(now);
+                  month = 'december';
+                  filteredInsectList = getActiveListNorth(unfilteredInsectList, month.toLowerCase());
+                  insectList = filteredInsectList;
+              });
+            }),
+          MaterialButton(
+            height: 40.0, 
+            minWidth: 150.0, 
+            color: Colors.black, 
+            textColor: Colors.white, 
+            splashColor: Theme.of(context).primaryColor,
+            child: Text('Active South'),
+            onPressed: () {
+              setState(() {
+                var now = new DateTime.now();
+                  var formatter = new DateFormat('MMMM');
+                  String month = formatter.format(now);
+                  month = 'december';
+                  filteredInsectList = getActiveListSouth(unfilteredInsectList, month.toLowerCase());
+                  insectList = filteredInsectList;
+              });
+            }),
+            MaterialButton( 
+              height: 40.0, 
+              minWidth: 150.0, 
+              color: Colors.black, 
+              textColor: Colors.white, 
+              splashColor: Theme.of(context).primaryColor,
+              child: Text("Reset"), 
+              onPressed: () => {
                 setState(() {
                   fetchInsects();
-                });
-              }),
+                })
+              }, 
+            )
         ],
       ),
       barrierColor: Colors.black.withOpacity(0.7),
@@ -286,46 +284,39 @@ class _InsectsPageState extends State<InsectsPage> {
   }
 
 
-List<Insect> getActiveListNorth(List<Insect> list, String month) {
-  switch(month) { 
-    case 'january': return List<Insect>.from(list.where((element) => element.january == "Y")); 
-    case 'february': return List<Insect>.from(list.where((element) => element.february == "Y")); 
-    case 'march': return List<Insect>.from(list.where((element) => element.march == "Y")); 
-    case 'april': return List<Insect>.from(list.where((element) => element.april == "Y")); 
-    case 'may': return List<Insect>.from(list.where((element) => element.may == "Y")); 
-    case 'june': return List<Insect>.from(list.where((element) => element.june == "Y")); 
-    case 'july': return List<Insect>.from(list.where((element) => element.july == "Y")); 
-    case 'august': return List<Insect>.from(list.where((element) => element.august == "Y")); 
-    case 'september': return List<Insect>.from(list.where((element) => element.september == "Y")); 
-    case 'october': return List<Insect>.from(list.where((element) => element.october == "Y")); 
-    case 'november': return List<Insect>.from(list.where((element) => element.november == "Y")); 
-    case 'december': return List<Insect>.from(list.where((element) => element.december == "Y")); 
-    default: return unfilteredInsectList;
-  } 
-}
+  List<Insect> getActiveListNorth(List<Insect> list, String month) {
+    switch(month) { 
+      case 'january': return List<Insect>.from(list.where((element) => element.january == "Y")); 
+      case 'february': return List<Insect>.from(list.where((element) => element.february == "Y")); 
+      case 'march': return List<Insect>.from(list.where((element) => element.march == "Y")); 
+      case 'april': return List<Insect>.from(list.where((element) => element.april == "Y")); 
+      case 'may': return List<Insect>.from(list.where((element) => element.may == "Y")); 
+      case 'june': return List<Insect>.from(list.where((element) => element.june == "Y")); 
+      case 'july': return List<Insect>.from(list.where((element) => element.july == "Y")); 
+      case 'august': return List<Insect>.from(list.where((element) => element.august == "Y")); 
+      case 'september': return List<Insect>.from(list.where((element) => element.september == "Y")); 
+      case 'october': return List<Insect>.from(list.where((element) => element.october == "Y")); 
+      case 'november': return List<Insect>.from(list.where((element) => element.november == "Y")); 
+      case 'december': return List<Insect>.from(list.where((element) => element.december == "Y")); 
+      default: return List<Insect>.from(list);
+    } 
+  }
 
-List<Insect> getActiveListSouth(List<Insect> list, String month) {
-  switch(month) { 
-    case 'january': return unfilteredInsectList.where((element) => element.januaryS == "Y"); 
-    case 'february': return unfilteredInsectList.where((element) => element.februaryS == "Y"); 
-    case 'march': return unfilteredInsectList.where((element) => element.marchS == "Y"); 
-    case 'april': return unfilteredInsectList.where((element) => element.aprilS == "Y"); 
-    case 'may': return unfilteredInsectList.where((element) => element.mayS == "Y"); 
-    case 'june': return unfilteredInsectList.where((element) => element.juneS == "Y"); 
-    case 'july': return unfilteredInsectList.where((element) => element.julyS == "Y"); 
-    case 'august': return unfilteredInsectList.where((element) => element.augustS == "Y"); 
-    case 'september': return unfilteredInsectList.where((element) => element.septemberS == "Y"); 
-    case 'october': return unfilteredInsectList.where((element) => element.octoberS == "Y"); 
-    case 'november': return unfilteredInsectList.where((element) => element.novemberS == "Y"); 
-    case 'december': return unfilteredInsectList.where((element) => element.decemberS == "Y"); 
-    default: return unfilteredInsectList;
-  } 
-}
-
-
-
-
-
-
-
+  List<Insect> getActiveListSouth(List<Insect> list, String month) {
+    switch(month) { 
+      case 'january': return List<Insect>.from(list.where((element) => element.januaryS == "Y")); 
+      case 'february': return List<Insect>.from(list.where((element) => element.februaryS == "Y")); 
+      case 'march': return List<Insect>.from(list.where((element) => element.marchS == "Y")); 
+      case 'april': return List<Insect>.from(list.where((element) => element.aprilS == "Y")); 
+      case 'may': return List<Insect>.from(list.where((element) => element.mayS == "Y")); 
+      case 'june': return List<Insect>.from(list.where((element) => element.juneS == "Y")); 
+      case 'july': return List<Insect>.from(list.where((element) => element.julyS == "Y")); 
+      case 'august': return List<Insect>.from(list.where((element) => element.augustS == "Y")); 
+      case 'september': return List<Insect>.from(list.where((element) => element.septemberS == "Y")); 
+      case 'october': return List<Insect>.from(list.where((element) => element.octoberS == "Y")); 
+      case 'november': return List<Insect>.from(list.where((element) => element.novemberS == "Y")); 
+      case 'december': return List<Insect>.from(list.where((element) => element.decemberS == "Y")); 
+      default: return List<Insect>.from(list);
+    } 
+  }
 }

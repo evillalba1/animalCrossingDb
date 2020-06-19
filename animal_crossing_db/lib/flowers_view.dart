@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import 'package:animalcrossingdb/list_management.dart';
 import 'package:animalcrossingdb/object_class.dart';
 import 'package:flutter/material.dart';
@@ -52,7 +50,6 @@ class _FlowerPageState extends State<FlowerPage> {
   List<Widget> buildTextChild(List<Combination> combinations) {
     List<Widget> widgets = new List<Widget>();
     combinations.forEach((val){
-      print(val.imageUrl1);
       widgets.add(
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -98,13 +95,13 @@ class _FlowerPageState extends State<FlowerPage> {
     });
     return widgets;
   }
-  List<Widget> buildImageChild(String Url) {
+  List<Widget> buildImageChild(String url) {
     List<Widget> widgets = new List<Widget>();
 
       widgets.add(
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Image(image: AssetImage("assets/$Url"),),
+            child: Image(image: AssetImage("assets/$url"),),
           )
       );
 

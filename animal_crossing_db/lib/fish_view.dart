@@ -1,10 +1,11 @@
+import 'package:intl/intl.dart';
+
 import 'list_management.dart';
 import 'object_class.dart';
 import 'database_helper.dart';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
-import 'package:stepper_counter_swipe/stepper_counter_swipe.dart';
 import 'package:slide_popup_dialog/slide_popup_dialog.dart' as slideDialog;
 
 
@@ -48,7 +49,6 @@ class _FishesPageState extends State<FishesPage> {
     var countDonated = fishList.where((c) => c.donated == "Y").toList().length;
     completionPercent = roundDouble(countDonated / countAll, 2);
     percentToDisplay = (completionPercent * 100).toStringAsFixed(0);
-    print(completionPercent);
   }
 
   double roundDouble(double value, int places){
@@ -167,7 +167,6 @@ class _FishesPageState extends State<FishesPage> {
                                     value: fishList[index].donated == 'N' ? false : true,
                                     onChanged: (value) {
                                       setState(() {
-                                        print(index.toString() + ' ' + fishList[index].number.toString() );
                                         fishList[index].donated = value == false ? 'N' : 'Y';
                                         //call dbHelper update
                                         DatabaseHelper.instance.updateDonatedFish(fishList[index].number, fishList[index].donated);
@@ -179,34 +178,7 @@ class _FishesPageState extends State<FishesPage> {
                                   )
 
                                 ],),
-//                                Row (children: <Widget>[
-//                                  Text('Quantity: ', style: TextStyle(fontWeight: FontWeight.bold)),
-//                                  Expanded(
-//                                    child:
-//                                    StepperSwipe(
-//                                      iconsColor: Colors.black,
-//                                      counterTextColor: Colors.black,
-//                                      withPlusMinus: true,
-//                                      initialValue:fishList[index].quantity,
-//                                      speedTransitionLimitCount: 3,
-//                                      firstIncrementDuration: Duration(milliseconds: 250),
-//                                      secondIncrementDuration: Duration(milliseconds: 100),
-//                                      direction: Axis.horizontal,
-//                                      dragButtonColor: Colors.lightGreen,
-//                                      withSpring: true,
-//                                      withNaturalNumbers: true,
-//                                      withBackground: false,
-//                                      onChanged: (int value){
-//                                        setState(() {
-//                                          print(value);
-//                                          fishList[index].quantity = value;
-//                                          //call dbHelper update
-//                                          DatabaseHelper.instance.updateQuantityFish(fishList[index].number, fishList[index].quantity);
-//                                        });
-//                                      },
-//                                    ),
-//                                  )
-//                                ],)
+
                               ],
                             ) ,
                           ),
@@ -227,9 +199,14 @@ class _FishesPageState extends State<FishesPage> {
       context: context,
       child: Column(
         children: <Widget>[
-          Text("Sort List",
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26),),
-          RaisedButton(
+          Text("Sort List", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26),),
+          SizedBox(height: 50,),
+          MaterialButton(
+              height: 40.0, 
+              minWidth: 150.0, 
+              color: Colors.black, 
+              textColor: Colors.white, 
+              splashColor: Theme.of(context).primaryColor,
               child: Text('Donated'),
               onPressed: () {
                 setState(() {
@@ -239,7 +216,12 @@ class _FishesPageState extends State<FishesPage> {
                   fishList = filteredFishList;
                 });
               }),
-          RaisedButton(
+          MaterialButton(
+              height: 40.0, 
+              minWidth: 150.0, 
+              color: Colors.black, 
+              textColor: Colors.white, 
+              splashColor: Theme.of(context).primaryColor,
               child: Text('Value'),
               onPressed: () {
                 setState(() {
@@ -250,13 +232,53 @@ class _FishesPageState extends State<FishesPage> {
                   fishList = filteredFishList;
                 });
               }),
-          RaisedButton(
-              child: Text('Reset'),
-              onPressed: () {
+          MaterialButton(
+            height: 40.0, 
+            minWidth: 150.0, 
+            color: Colors.black, 
+            textColor: Colors.white, 
+            splashColor: Theme.of(context).primaryColor,
+            child: Text('Active North'),
+            onPressed: () {
+              setState(() {
+                  var now = new DateTime.now();
+                  var formatter = new DateFormat('MMMM');
+                  String month = formatter.format(now);
+                  month = 'december';
+                  filteredFishList = getActiveListNorth(unfilteredFishList, month.toLowerCase());
+                  fishList = filteredFishList;
+              });
+            }),
+          MaterialButton(
+            height: 40.0, 
+            minWidth: 150.0, 
+            color: Colors.black, 
+            textColor: Colors.white, 
+            splashColor: Theme.of(context).primaryColor,
+            child: Text('Active South'),
+            onPressed: () {
+              setState(() {
+                var now = new DateTime.now();
+                  var formatter = new DateFormat('MMMM');
+                  String month = formatter.format(now);
+                  month = 'december';
+                  filteredFishList = getActiveListSouth(unfilteredFishList, month.toLowerCase());
+                  fishList = filteredFishList;
+              });
+            }),
+            MaterialButton( 
+              height: 40.0, 
+              minWidth: 150.0, 
+              color: Colors.black, 
+              textColor: Colors.white, 
+              splashColor: Theme.of(context).primaryColor,
+              child: Text("Reset"), 
+              onPressed: () => {
                 setState(() {
                   fetchFishes();
-                });
-              }),
+                })
+              }, 
+            )
         ],
       ),
       barrierColor: Colors.black.withOpacity(0.7),
@@ -264,4 +286,49 @@ class _FishesPageState extends State<FishesPage> {
       backgroundColor: Colors.lightGreen,
     );
   }
+
+
+  List<Fish> getActiveListNorth(List<Fish> list, String month) {
+  switch(month) { 
+    case 'january': return List<Fish>.from(list.where((element) => element.january == "Y")); 
+    case 'february': return List<Fish>.from(list.where((element) => element.february == "Y")); 
+    case 'march': return List<Fish>.from(list.where((element) => element.march == "Y")); 
+    case 'april': return List<Fish>.from(list.where((element) => element.april == "Y")); 
+    case 'may': return List<Fish>.from(list.where((element) => element.may == "Y")); 
+    case 'june': return List<Fish>.from(list.where((element) => element.june == "Y")); 
+    case 'july': return List<Fish>.from(list.where((element) => element.july == "Y")); 
+    case 'august': return List<Fish>.from(list.where((element) => element.august == "Y")); 
+    case 'september': return List<Fish>.from(list.where((element) => element.september == "Y")); 
+    case 'october': return List<Fish>.from(list.where((element) => element.october == "Y")); 
+    case 'november': return List<Fish>.from(list.where((element) => element.november == "Y")); 
+    case 'december': return List<Fish>.from(list.where((element) => element.december == "Y")); 
+    default: return List<Fish>.from(list);
+  } 
+}
+
+List<Fish> getActiveListSouth(List<Fish> list, String month) {
+  switch(month) { 
+    case 'january': return List<Fish>.from(list.where((element) => element.januaryS == "Y")); 
+    case 'february': return List<Fish>.from(list.where((element) => element.februaryS == "Y")); 
+    case 'march': return List<Fish>.from(list.where((element) => element.marchS == "Y")); 
+    case 'april': return List<Fish>.from(list.where((element) => element.aprilS == "Y")); 
+    case 'may': return List<Fish>.from(list.where((element) => element.mayS == "Y")); 
+    case 'june': return List<Fish>.from(list.where((element) => element.juneS == "Y")); 
+    case 'july': return List<Fish>.from(list.where((element) => element.julyS == "Y")); 
+    case 'august': return List<Fish>.from(list.where((element) => element.augustS == "Y")); 
+    case 'september': return List<Fish>.from(list.where((element) => element.septemberS == "Y")); 
+    case 'october': return List<Fish>.from(list.where((element) => element.octoberS == "Y")); 
+    case 'november': return List<Fish>.from(list.where((element) => element.novemberS == "Y")); 
+    case 'december': return List<Fish>.from(list.where((element) => element.decemberS == "Y")); 
+    default: return List<Fish>.from(list);
+  } 
+}
+
+
+
+
+
+
+
+
 }
