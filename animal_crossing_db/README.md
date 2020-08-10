@@ -1,6 +1,10 @@
 # animalcrossingdb
 
-A new Flutter application.
+First Flutter Application where I wanted to implement everything that I thought is needed for any appication. This application contails sqlite, reading from json files, getting data from interent urls, importing controllers. Etc...
+
+This project is about having an application to manage your inventory and know what do you have and the Insects and Fishes that are available in the current Month for the game Animal Crossing: New Horizons.
+
+This is certainly is not using the best practices for Flutter/Dart it is a learning process.
 
 ## Getting Started
 
